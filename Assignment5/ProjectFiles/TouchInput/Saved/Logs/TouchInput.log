@@ -1,9 +1,9 @@
-﻿Log file open, 02/22/17 11:57:54
+﻿Log file open, 02/23/17 15:30:53
 LogInit:Display: Running engine for game: TouchInput
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(146138544) SRandInit(146138544).
+LogInit:Display: RandInit(928850030) SRandInit(928850030).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.068045
+LogStats: Stats thread started at 0.098264
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -133,455 +133,228 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.13/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.02.22-00.57.55:049][  0]LogInit: Selected Device Profile: [Windows]
-[2017.02.22-00.57.55:049][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.02.22-00.57.55:056][  0]LogInit: Computer: BL2TF42
-[2017.02.22-00.57.55:056][  0]LogInit: User: v201624468
-[2017.02.22-00.57.55:056][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.02.22-00.57.55:056][  0]LogInit: High frequency timer resolution =3.515640 MHz
-[2017.02.22-00.57.55:056][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.02.22-00.57.55:056][  0]LogMemory: Platform Memory Stats for Windows
-[2017.02.22-00.57.55:056][  0]LogMemory: Process Physical Memory: 256.20 MB used, 256.20 MB peak
-[2017.02.22-00.57.55:056][  0]LogMemory: Process Virtual Memory: 259.94 MB used, 259.94 MB peak
-[2017.02.22-00.57.55:056][  0]LogMemory: Physical Memory: 3762.49 MB used, 16298.88 MB total
-[2017.02.22-00.57.55:056][  0]LogMemory: Virtual Memory: 622.95 MB used, 134217728.00 MB total
-[2017.02.22-00.57.55:078][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
-[2017.02.22-00.57.55:549][  0]LogD3D11RHI: D3D11 adapters:
-[2017.02.22-00.57.55:559][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R9 270' (Feature Level 11_0)
-[2017.02.22-00.57.55:559][  0]LogD3D11RHI:       2030/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2017.02.22-00.57.55:564][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.02.22-00.57.55:564][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.02.22-00.57.55:565][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.02.22-00.57.55:565][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.02.22-00.57.55:565][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.02.22-00.57.55:569][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.02.22-00.57.55:569][  0]LogD3D11RHI:     GPU DeviceId: 0x6811 (for the marketing name, search the web for "GPU Device Id")
-[2017.02.22-00.57.55:569][  0]LogWindows: EnumDisplayDevices:
-[2017.02.22-00.57.55:569][  0]LogWindows:    0. 'AMD Radeon(TM) R9 270' (P:1 D:1)
-[2017.02.22-00.57.55:569][  0]LogWindows:    1. 'AMD Radeon(TM) R9 270' (P:0 D:0)
-[2017.02.22-00.57.55:569][  0]LogWindows:    2. 'AMD Radeon(TM) R9 270' (P:0 D:0)
-[2017.02.22-00.57.55:570][  0]LogWindows:    3. 'AMD Radeon(TM) R9 270' (P:0 D:0)
-[2017.02.22-00.57.55:570][  0]LogWindows:    4. 'AMD Radeon(TM) R9 270' (P:0 D:0)
-[2017.02.22-00.57.55:570][  0]LogWindows:    5. 'AMD Radeon(TM) R9 270' (P:0 D:0)
-[2017.02.22-00.57.55:570][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.02.22-00.57.55:570][  0]LogWindows:    7. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.02.22-00.57.55:570][  0]LogWindows:    8. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.02.22-00.57.55:570][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
-[2017.02.22-00.57.55:570][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R9 270
-[2017.02.22-00.57.55:570][  0]LogD3D11RHI:   Driver Version: Crimson 15.11 (internal:15.301.1701.0, unified:15.301.1701.0)
-[2017.02.22-00.57.55:570][  0]LogD3D11RHI:      Driver Date: 1-13-2016
-[2017.02.22-00.57.55:570][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.02.22-00.57.55:576][  0]LogD3D11RHI: Async texture creation enabled
-[2017.02.22-00.57.55:588][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.02.22-00.57.55:588][  0]LogShaderCompilers: Guid format shader working directory is -57 characters bigger than the processId version (../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Intermediate/Shaders/WorkingDirectory/10064/).
-[2017.02.22-00.57.55:589][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/V20162~1/AppData/Local/Temp/UnrealShaderWorkingDir/5833D5FE46A9987B422EE48D756E7D7F/'.
-[2017.02.22-00.57.55:589][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.02.22-00.57.56:410][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.02.22-00.57.56:417][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.02.22-00.57.56:423][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.02.22-00.57.56:430][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.02.22-00.57.56:436][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.02.22-00.57.56:443][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.02.22-00.57.56:449][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.02.22-00.57.56:454][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.02.22-00.57.56:460][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.02.22-00.57.56:465][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.02.22-00.57.56:471][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.02.22-00.57.56:482][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.02.22-00.57.56:482][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.02.22-00.57.56:483][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.02.22-00.57.56:502][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.02.22-00.57.56:507][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.02.22-00.57.56:512][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.02.22-00.57.56:518][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.02.22-00.57.56:523][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.02.22-00.57.56:529][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.02.22-00.57.56:529][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.02.22-00.57.56:588][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.02.22-00.57.56:639][  0]LogDerivedDataCache: Loaded boot cache 0.05s 62MB C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.02.22-00.57.56:639][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2017.02.22-00.57.56:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.02.22-00.57.56:639][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.02.22-00.57.56:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.02.22-00.57.56:639][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.02.22-00.57.56:659][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.02.22-00.57.56:672][  0]LogDerivedDataCache: Using Local data cache path C:/Users/v201624468/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.02.22-00.57.56:852][  0]LogInit: Selected Device Profile: [Windows]
-[2017.02.22-00.57.56:854][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.02.22-00.57.56:928][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2017.02.22-00.57.56:928][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.02.22-00.57.56:928][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.02.22-00.57.56:981][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.02.22-00.57.57:253][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: touchinput, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 938096206
-[2017.02.22-00.57.57:287][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
-[2017.02.22-00.57.57:314][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.024925 seconds
-[2017.02.22-00.57.57:318][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
-[2017.02.22-00.57.57:318][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
-[2017.02.22-00.57.57:318][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.02.22-00.57.57:323][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.02.22-00.57.57:486][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.02.22-00.57.57:486][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.02.22-00.57.57:995][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.02.22-00.57.58:013][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.02.22-00.57.58:245][  0]SourceControl: Info Source control is disabled
-[2017.02.22-00.57.58:293][  0]SourceControl: Info Source control is disabled
-[2017.02.22-00.57.58:301][  0]SourceControl: Info Source control is disabled
-[2017.02.22-00.57.58:309][  0]SourceControl: Info Source control is disabled
-[2017.02.22-00.57.58:572][  0]LogEngine: Initializing Engine...
-[2017.02.22-00.57.58:573][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.02.22-00.57.58:676][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.02.22-00.57.58:684][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.02.22-00.57.58:915][  0]LogInit: FAudioDevice initialized.
-[2017.02.22-00.57.58:967][  0]LogDerivedDataCache: Saved boot cache 0.05s 62MB C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.02.22-00.57.58:973][  0]LogInit: Texture streaming: Enabled
-[2017.02.22-00.57.58:992][  0]LogInit: Transaction tracking system initialized
-[2017.02.22-00.57.59:010][  0]BlueprintLog: New page: Editor Load
-[2017.02.22-00.57.59:064][  0]LocalizationService: Info Localization service is disabled
-[2017.02.22-00.57.59:127][  0]LogConsoleResponse:Display: 
-[2017.02.22-00.57.59:214][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.02.22-00.57.59:214][  0]LogCook:Display: Mobile HDR setting 0
-[2017.02.22-00.57.59:350][  0]LogFileCache: Scanning file cache for directory 'C:/Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/' took 0.01s
-[2017.02.22-00.57.59:350][  0]SourceControl: Info Source control is disabled
-[2017.02.22-00.57.59:350][  0]LightingResults: New page: Lighting Build
-[2017.02.22-00.57.59:352][  0]MapCheck: New page: Map Check
-[2017.02.22-00.57.59:352][  0]LightingResults: New page: Lighting Build
-[2017.02.22-00.57.59:530][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2017.02.22-00.57.59:535][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.02.22-00.57.59:536][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.02.22-00.57.59:592][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.169ms to complete.
-[2017.02.22-00.57.59:592][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.242
-[2017.02.22-00.57.59:705][  0]LogCollectionManager: Loaded 0 collections in 0.001444 seconds
-[2017.02.22-00.57.59:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Collections/' took 0.01s
-[2017.02.22-00.57.59:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/Developers/v201624468/Collections/' took 0.01s
-[2017.02.22-00.57.59:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/Collections/' took 0.01s
-[2017.02.22-00.57.59:759][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
-[2017.02.22-00.57.59:778][  0]LogContentBrowser: Native class hierarchy populated in 0.0184 seconds. Added 2141 classes and 415 folders.
-[2017.02.22-00.57.59:782][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.02.22-00.57.59:782][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.02.22-00.57.59:783][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
-[2017.02.22-00.57.59:790][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.02.22-00.57.59:832][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.02.22-00.57.59:836][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.02.22-00.57.59:847][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.02.22-00.57.59:850][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.02.22-00.57.59:876][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.02.22-00.57.59:876][  0]LogLoad: (Engine Initialization) Total time: 5.66 seconds
-[2017.02.22-00.57.59:876][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
-[2017.02.22-00.57.59:876][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.02.22-00.57.59:885][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.02.22-00.57.59:885][  0]LogOcInput: OculusInput pre-init called
-[2017.02.22-00.57.59:906][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.02.22-00.58.00:073][  0]LogRenderer: Reallocating scene render targets to support 916x456 (Frame:2).
-[2017.02.22-00.58.00:263][  2]LogAssetRegistry: Asset discovery search completed in 2.9971 seconds
-[2017.02.22-00.58.00:263][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.02.22-00.58.00:263][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
-[2017.02.22-01.06.43:739][277]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
-[2017.02.22-01.10.42:327][273]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.022
-[2017.02.22-01.10.42:329][273]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter] ([1] browsable assets)...
-[2017.02.22-01.10.42:329][273]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter]
-[2017.02.22-01.10.42:369][273]LogSavePackage: Save=35.00ms
-[2017.02.22-01.10.42:369][273]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/2DSideScrollerCharacter_Auto1A172BCB148F0EAE8E14CE88C14793123.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto1.uasset'
-[2017.02.22-01.10.42:371][273]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto1.uasset
-[2017.02.22-01.10.42:371][273]LogFileHelpers: Auto-saving content packages took 0.043
-[2017.02.22-01.10.45:356][622]BlueprintLog: New page: Compile 2DSideScrollerCharacter
-[2017.02.22-01.11.07:432][955]LogSavePackage: Save=36.62ms
-[2017.02.22-01.11.07:432][955]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/2DSideScrollerCharacter5CD1F11E43C00ADC4ECF62A727418F30.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
-[2017.02.22-01.11.07:435][955]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
-[2017.02.22-01.11.07:532][955]LogSavePackage: Save=69.75ms
-[2017.02.22-01.11.07:532][955]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/UEDPC2DSideScrollerExampleMap54599310409BE289DC64B6902A36D820.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap'
-[2017.02.22-01.11.07:534][955]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap
-[2017.02.22-01.11.07:537][955]LogEditorTransaction: Undo Spawn Play From Here Start
-[2017.02.22-01.17.50:739][876]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.02.22-01.21.23:722][701]LogSavePackage: Save=75.71ms
-[2017.02.22-01.21.23:722][701]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/2DSideScrollerExampleMap_Auto2F588641B49DE9A3D7F51CC98D1AB3330.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto2.umap'
-[2017.02.22-01.21.23:724][701]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto2.umap
-[2017.02.22-01.21.23:725][701]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.104
-[2017.02.22-01.21.23:725][701]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.104
-[2017.02.22-01.21.23:727][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerUI] ([1] browsable assets)...
-[2017.02.22-01.21.23:727][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerUI]
-[2017.02.22-01.21.23:732][701]LogSavePackage: Save=3.78ms
-[2017.02.22-01.21.23:732][701]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/2DSideScrollerUI_Auto20769710141F17C5F3EE6F2A0FFFAC635.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerUI_Auto2.uasset'
-[2017.02.22-01.21.23:733][701]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerUI_Auto2.uasset
-[2017.02.22-01.21.23:734][701]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MobileHUDButtonFire] ([1] browsable assets)...
-[2017.02.22-01.21.23:735][701]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MobileHUDButtonFire.MobileHUDButtonFire]
-[2017.02.22-01.21.23:735][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/MobileHUDButtonFire]
-[2017.02.22-01.21.23:738][701]LogSavePackage: Save=1.83ms
-[2017.02.22-01.21.23:738][701]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/MobileHUDButtonFire_Auto2C0F4F3EE45000B5466D3489A457E4BB8.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/MobileHUDButtonFire_Auto2.uasset'
-[2017.02.22-01.21.23:740][701]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/MobileHUDButtonFire_Auto2.uasset
-[2017.02.22-01.21.23:740][701]LogFileHelpers: Auto-saving content packages took 0.014
-[2017.02.22-01.25.36:986][361]BlueprintLog: New page: Compile 2DSideScrollerCharacter
-[2017.02.22-01.25.48:441][520]LogSavePackage: Save=36.09ms
-[2017.02.22-01.25.48:441][520]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/2DSideScrollerCharacterAC6521904AF7C9184C4D398B1B6A4A04.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
-[2017.02.22-01.25.48:444][520]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
-[2017.02.22-01.25.48:453][520]LogSavePackage: Save=4.04ms
-[2017.02.22-01.25.48:453][520]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/2DSideScrollerUI64BF6C8141295919B32297BB3C968D16.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerUI.uasset'
-[2017.02.22-01.25.48:455][520]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerUI.uasset
-[2017.02.22-01.25.48:463][520]LogSavePackage: Save=1.82ms
-[2017.02.22-01.25.48:463][520]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/MobileHUDButtonFire1F652595414A79D0B810DB95265F47AA.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/MobileHUDButtonFire.uasset'
-[2017.02.22-01.25.48:465][520]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/MobileHUDButtonFire.uasset
-[2017.02.22-01.25.48:560][520]LogSavePackage: Save=70.33ms
-[2017.02.22-01.25.48:560][520]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/UEDPC2DSideScrollerExampleMap8D6BF02746354B6A672C8BB298FCD75D.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap'
-[2017.02.22-01.25.48:562][520]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap
-[2017.02.22-01.25.48:566][520]LogEditorTransaction: Undo Spawn Play From Here Start
-[2017.02.22-01.28.40:730][451]LogSavePackage: Save=74.22ms
-[2017.02.22-01.28.40:730][451]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/2DSideScrollerExampleMap3D7622784353E9CAEF89229EAD7BA61E.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
-[2017.02.22-01.28.40:732][451]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
-[2017.02.22-01.28.40:746][451]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.154
-[2017.02.22-01.28.42:370][627]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.02.22-01.28.42:547][628]Cmd: QUIT_EDITOR
-[2017.02.22-01.28.42:622][628]LogExit: Preparing to exit.
-[2017.02.22-01.28.43:800][628]LogDirectoryWatcher: A directory notification for 'C:/Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/' was aborted.
-[2017.02.22-01.28.43:835][628]LogExit: Editor shut down
-[2017.02.22-01.28.43:835][628]LogExit: Transaction tracking system shut down
-[2017.02.22-01.28.43:985][628]LogObj: Freed 0b from 0 cluster array pools.
-[2017.02.22-01.28.43:985][628]LogExit: Object subsystem successfully closed.
-[2017.02.22-01.28.44:004][628]LogD3D11RHI: Shutdown
-[2017.02.22-01.28.44:004][628]LogD3D11RHI: CleanupD3DDevice
-[2017.02.22-01.28.44:086][628]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.02.22-01.28.44:108][628]LogModuleManager: Shutting down and abandoning module SequencerWidgets (237)
-[2017.02.22-01.28.44:108][628]LogModuleManager: Shutting down and abandoning module TextureEditor (236)
-[2017.02.22-01.28.44:108][628]LogModuleManager: Shutting down and abandoning module BlueprintGraph (235)
-[2017.02.22-01.28.44:108][628]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (234)
-[2017.02.22-01.28.44:108][628]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
-[2017.02.22-01.28.44:108][628]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
-[2017.02.22-01.28.44:108][628]LogModuleManager: Shutting down and abandoning module SceneOutliner (231)
-[2017.02.22-01.28.44:108][628]LogModuleManager: Shutting down and abandoning module WidgetCarousel (230)
-[2017.02.22-01.28.44:108][628]LogModuleManager: Shutting down and abandoning module AddContentDialog (229)
-[2017.02.22-01.28.44:108][628]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.13/FeaturePacks/' was aborted.
-[2017.02.22-01.28.44:109][628]LogModuleManager: Shutting down and abandoning module GameplayTags (228)
-[2017.02.22-01.28.44:109][628]LogModuleManager: Shutting down and abandoning module EditorWidgets (227)
-[2017.02.22-01.28.44:109][628]LogModuleManager: Shutting down and abandoning module CollectionManager (226)
-[2017.02.22-01.28.44:109][628]LogDirectoryWatcher: A directory notification for 'C:/Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/Collections/' was aborted.
-[2017.02.22-01.28.44:109][628]LogDirectoryWatcher: A directory notification for 'C:/Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/Developers/v201624468/Collections/' was aborted.
-[2017.02.22-01.28.44:109][628]LogDirectoryWatcher: A directory notification for 'C:/Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Collections/' was aborted.
-[2017.02.22-01.28.44:109][628]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
-[2017.02.22-01.28.44:109][628]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
-[2017.02.22-01.28.44:109][628]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
-[2017.02.22-01.28.44:109][628]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
-[2017.02.22-01.28.44:109][628]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
-[2017.02.22-01.28.44:109][628]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
-[2017.02.22-01.28.44:109][628]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
-[2017.02.22-01.28.44:109][628]LogModuleManager: Shutting down and abandoning module BspMode (218)
-[2017.02.22-01.28.44:109][628]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
-[2017.02.22-01.28.44:109][628]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
-[2017.02.22-01.28.44:109][628]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module Media (206)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module SessionServices (201)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
-[2017.02.22-01.28.44:110][628]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module MergeActors (187)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module SizeMap (186)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module TreeMap (185)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
-[2017.02.22-01.28.44:800][628]LogModuleManager: Shutting down and abandoning module XmlParser (177)
-[2017.02.22-01.28.44:801][628]LogModuleManager: Shutting down and abandoning module Blutility (176)
-[2017.02.22-01.28.44:801][628]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
-[2017.02.22-01.28.44:801][628]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
-[2017.02.22-01.28.44:801][628]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
-[2017.02.22-01.28.44:801][628]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
-[2017.02.22-01.28.44:802][628]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
-[2017.02.22-01.28.44:802][628]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
-[2017.02.22-01.28.44:802][628]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
-[2017.02.22-01.28.44:802][628]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
-[2017.02.22-01.28.44:802][628]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
-[2017.02.22-01.28.44:802][628]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
-[2017.02.22-01.28.44:857][628]LogModuleManager: Shutting down and abandoning module AutomationController (165)
-[2017.02.22-01.28.44:857][628]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
-[2017.02.22-01.28.44:857][628]LogModuleManager: Shutting down and abandoning module Layers (163)
-[2017.02.22-01.28.44:857][628]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
-[2017.02.22-01.28.44:857][628]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
-[2017.02.22-01.28.44:857][628]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
-[2017.02.22-01.28.44:858][628]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
-[2017.02.22-01.28.44:858][628]LogModuleManager: Shutting down and abandoning module Persona (158)
-[2017.02.22-01.28.44:858][628]LogModuleManager: Shutting down and abandoning module Kismet (157)
-[2017.02.22-01.28.44:873][628]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
-[2017.02.22-01.28.44:873][628]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
-[2017.02.22-01.28.44:877][628]LogModuleManager: Shutting down and abandoning module Toolbox (154)
-[2017.02.22-01.28.44:877][628]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
-[2017.02.22-01.28.44:877][628]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
-[2017.02.22-01.28.44:877][628]LogModuleManager: Shutting down and abandoning module OutputLog (151)
-[2017.02.22-01.28.44:877][628]LogModuleManager: Shutting down and abandoning module GammaUI (150)
-[2017.02.22-01.28.44:877][628]LogModuleManager: Shutting down and abandoning module Documentation (149)
-[2017.02.22-01.28.44:877][628]LogModuleManager: Shutting down and abandoning module Niagara (148)
-[2017.02.22-01.28.44:877][628]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
-[2017.02.22-01.28.44:877][628]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
-[2017.02.22-01.28.44:877][628]LogModuleManager: Shutting down and abandoning module PortalServices (145)
-[2017.02.22-01.28.44:877][628]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
-[2017.02.22-01.28.44:877][628]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
-[2017.02.22-01.28.44:877][628]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
-[2017.02.22-01.28.44:878][628]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
-[2017.02.22-01.28.44:878][628]LogModuleManager: Shutting down and abandoning module AIModule (140)
-[2017.02.22-01.28.44:878][628]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module SteamVR (135)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module OculusInput (131)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module CableComponent (129)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
-[2017.02.22-01.28.45:075][628]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module SourceControl (109)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
-[2017.02.22-01.28.45:076][628]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
-[2017.02.22-01.28.45:077][628]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
-[2017.02.22-01.28.45:077][628]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
-[2017.02.22-01.28.45:077][628]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
-[2017.02.22-01.28.45:077][628]LogModuleManager: Shutting down and abandoning module HotReload (101)
-[2017.02.22-01.28.45:078][628]LogModuleManager: Shutting down and abandoning module MainFrame (100)
-[2017.02.22-01.28.45:078][628]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
-[2017.02.22-01.28.45:080][628]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
-[2017.02.22-01.28.45:082][628]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
-[2017.02.22-01.28.45:082][628]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
-[2017.02.22-01.28.45:183][628]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
-[2017.02.22-01.28.45:284][628]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
-[2017.02.22-01.28.45:284][628]LogModuleManager: Shutting down and abandoning module Paper2D (93)
-[2017.02.22-01.28.45:284][628]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
-[2017.02.22-01.28.45:284][628]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
-[2017.02.22-01.28.45:284][628]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
-[2017.02.22-01.28.45:284][628]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
-[2017.02.22-01.28.45:285][628]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
-[2017.02.22-01.28.45:285][628]LogModuleManager: Shutting down and abandoning module VREditor (87)
-[2017.02.22-01.28.45:285][628]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
-[2017.02.22-01.28.45:285][628]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
-[2017.02.22-01.28.45:296][628]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
-[2017.02.22-01.28.45:297][628]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
-[2017.02.22-01.28.45:297][628]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
-[2017.02.22-01.28.45:297][628]LogModuleManager: Shutting down and abandoning module Sequencer (81)
-[2017.02.22-01.28.45:297][628]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
-[2017.02.22-01.28.45:297][628]LogModuleManager: Shutting down and abandoning module MessageLog (79)
-[2017.02.22-01.28.45:297][628]LogModuleManager: Shutting down and abandoning module AssetTools (78)
-[2017.02.22-01.28.45:297][628]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
-[2017.02.22-01.28.45:297][628]LogModuleManager: Shutting down and abandoning module UMG (76)
-[2017.02.22-01.28.45:297][628]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
-[2017.02.22-01.28.45:297][628]LogModuleManager: Shutting down and abandoning module Slate (74)
-[2017.02.22-01.28.45:297][628]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
-[2017.02.22-01.28.45:306][628]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
-[2017.02.22-01.28.45:306][628]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
-[2017.02.22-01.28.45:306][628]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
-[2017.02.22-01.28.45:306][628]LogModuleManager: Shutting down and abandoning module Networking (68)
-[2017.02.22-01.28.45:306][628]LogModuleManager: Shutting down and abandoning module Core (67)
-[2017.02.22-01.28.45:306][628]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
-[2017.02.22-01.28.45:306][628]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.02.22-01.28.45:307][628]LogDirectoryWatcher: A directory notification for '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/' was aborted.
-[2017.02.22-01.28.45:307][628]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.02.22-01.28.45:309][628]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
-[2017.02.22-01.28.45:505][628]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
-[2017.02.22-01.28.45:505][628]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
-[2017.02.22-01.28.45:505][628]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
-[2017.02.22-01.28.45:505][628]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
-[2017.02.22-01.28.45:551][628]LogDerivedDataCache: Shutdown
-[2017.02.22-01.28.45:551][628]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
-[2017.02.22-01.28.45:551][628]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
-[2017.02.22-01.28.45:551][628]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
-[2017.02.22-01.28.45:551][628]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
-[2017.02.22-01.28.45:551][628]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
-[2017.02.22-01.28.45:551][628]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
-[2017.02.22-01.28.45:551][628]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
-[2017.02.22-01.28.45:551][628]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
-[2017.02.22-01.28.45:551][628]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
-[2017.02.22-01.28.45:551][628]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
-[2017.02.22-01.28.45:551][628]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module Messaging (41)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2017.02.22-01.28.45:552][628]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2017.02.22-01.28.45:553][628]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2017.02.22-01.28.45:553][628]LogModuleManager: Shutting down and abandoning module GearVR (21)
-[2017.02.22-01.28.45:553][628]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
-[2017.02.22-01.28.45:553][628]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
-[2017.02.22-01.28.45:553][628]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
-[2017.02.22-01.28.45:553][628]LogOnline:Display: Unloading online subsystem: NULL
-[2017.02.22-01.28.45:553][628]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.02.22-01.28.45:553][628]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.02.22-01.28.45:553][628]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A52F02-4ACE-E4EC-EA5F-18B8DF784AD0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=26e91fbd4eeec560bd82839e3fe19b30%7Cf990d63dc7d94edf9e58a18dd6ad3ebc%7Cafb3fe20-b555-4c9e-a7fb-c2a7117f5c28&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.02.22-01.28.45:578][628]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.02.22-01.28.45:578][628]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.02.22-01.28.45:579][628]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.02.22-01.28.45:579][628]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.02.22-01.28.45:579][628]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.02.22-01.28.45:586][628]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.02.22-01.28.45:586][628]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.02.22-01.28.45:586][628]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.02.22-01.28.45:586][628]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.02.22-01.28.45:586][628]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.02.22-01.28.45:586][628]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.02.22-01.28.45:586][628]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.02.22-01.28.45:586][628]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.02.22-01.28.45:587][628]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.02.22-01.28.45:587][628]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.02.22-01.28.45:591][628]LogExit: Exiting.
-[2017.02.22-01.28.45:620][628]Log file closed, 02/22/17 12:28:45
+[2017.02.23-04.30.53:695][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.23-04.30.53:695][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.23-04.30.53:709][  0]LogInit: Computer: 7P5PF42
+[2017.02.23-04.30.53:709][  0]LogInit: User: V201624468
+[2017.02.23-04.30.53:709][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.23-04.30.53:709][  0]LogInit: High frequency timer resolution =3.515638 MHz
+[2017.02.23-04.30.53:709][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.02.23-04.30.53:709][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.23-04.30.53:709][  0]LogMemory: Process Physical Memory: 256.18 MB used, 256.18 MB peak
+[2017.02.23-04.30.53:709][  0]LogMemory: Process Virtual Memory: 259.96 MB used, 259.96 MB peak
+[2017.02.23-04.30.53:709][  0]LogMemory: Physical Memory: 4337.95 MB used, 16298.84 MB total
+[2017.02.23-04.30.53:709][  0]LogMemory: Virtual Memory: 622.95 MB used, 134217728.00 MB total
+[2017.02.23-04.30.54:039][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2017.02.23-04.30.55:578][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.23-04.30.55:588][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R9 270' (Feature Level 11_0)
+[2017.02.23-04.30.55:588][  0]LogD3D11RHI:       2030/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.02.23-04.30.55:594][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.02.23-04.30.55:594][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.02.23-04.30.55:595][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.23-04.30.55:595][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.23-04.30.55:595][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.23-04.30.55:599][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.23-04.30.55:599][  0]LogD3D11RHI:     GPU DeviceId: 0x6811 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.23-04.30.55:599][  0]LogWindows: EnumDisplayDevices:
+[2017.02.23-04.30.55:599][  0]LogWindows:    0. 'AMD Radeon(TM) R9 270' (P:1 D:1)
+[2017.02.23-04.30.55:600][  0]LogWindows:    1. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.02.23-04.30.55:600][  0]LogWindows:    2. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.02.23-04.30.55:600][  0]LogWindows:    3. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.02.23-04.30.55:600][  0]LogWindows:    4. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.02.23-04.30.55:600][  0]LogWindows:    5. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.02.23-04.30.55:601][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.02.23-04.30.55:601][  0]LogWindows:    7. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.02.23-04.30.55:601][  0]LogWindows:    8. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.02.23-04.30.55:601][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.02.23-04.30.55:601][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R9 270
+[2017.02.23-04.30.55:601][  0]LogD3D11RHI:   Driver Version: Crimson 15.11 (internal:15.301.1701.0, unified:15.301.1701.0)
+[2017.02.23-04.30.55:601][  0]LogD3D11RHI:      Driver Date: 1-13-2016
+[2017.02.23-04.30.55:601][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.23-04.30.55:608][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.23-04.30.55:621][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.02.23-04.30.55:624][  0]LogShaderCompilers: Guid format shader working directory is -57 characters bigger than the processId version (../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Intermediate/Shaders/WorkingDirectory/12256/).
+[2017.02.23-04.30.55:624][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/V20162~1/AppData/Local/Temp/UnrealShaderWorkingDir/BD5183E3449B0F690676058F46683EA4/'.
+[2017.02.23-04.30.55:624][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.23-04.30.57:331][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.23-04.30.57:343][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.23-04.30.57:354][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.23-04.30.57:361][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.23-04.30.57:367][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.23-04.30.57:386][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.23-04.30.57:391][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.23-04.30.57:397][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.23-04.30.57:402][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.23-04.30.57:408][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.23-04.30.57:413][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.23-04.30.57:424][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.23-04.30.57:424][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.23-04.30.57:424][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.23-04.30.57:497][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.23-04.30.57:502][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.23-04.30.57:524][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.23-04.30.57:540][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.23-04.30.57:551][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.23-04.30.57:565][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.23-04.30.57:565][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.23-04.30.57:954][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.23-04.30.58:575][  0]LogDerivedDataCache: Loaded boot cache 0.62s 62MB C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.02.23-04.30.58:575][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.02.23-04.30.58:575][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.23-04.30.58:575][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.23-04.30.58:575][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.23-04.30.58:576][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.23-04.30.58:655][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.23-04.30.58:667][  0]LogDerivedDataCache: Using Local data cache path C:/Users/v201624468/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.23-04.31.01:618][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.23-04.31.01:622][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.23-04.31.01:711][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.02.23-04.31.01:711][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.23-04.31.01:711][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.02.23-04.31.01:793][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.23-04.31.02:499][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: touchinput, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 938096206
+[2017.02.23-04.31.02:542][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2017.02.23-04.31.02:566][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.021753 seconds
+[2017.02.23-04.31.02:572][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.02.23-04.31.02:572][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2017.02.23-04.31.02:572][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.23-04.31.02:578][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.23-04.31.03:204][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.23-04.31.03:204][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.23-04.31.30:159][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.23-04.31.30:181][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.23-04.31.30:735][  0]SourceControl: Info Source control is disabled
+[2017.02.23-04.31.30:782][  0]SourceControl: Info Source control is disabled
+[2017.02.23-04.31.30:791][  0]SourceControl: Info Source control is disabled
+[2017.02.23-04.31.30:799][  0]SourceControl: Info Source control is disabled
+[2017.02.23-04.31.31:324][  0]LogEngine: Initializing Engine...
+[2017.02.23-04.31.31:325][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.02.23-04.31.31:482][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.23-04.31.31:503][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.23-04.31.31:565][  0]LogInit: FAudioDevice initialized.
+[2017.02.23-04.31.31:591][  0]LogDerivedDataCache: Saved boot cache 0.03s 62MB C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.02.23-04.31.31:596][  0]LogInit: Texture streaming: Enabled
+[2017.02.23-04.31.31:618][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.23-04.31.31:666][  0]LogInit: Transaction tracking system initialized
+[2017.02.23-04.31.31:707][  0]BlueprintLog: New page: Editor Load
+[2017.02.23-04.31.33:906][  0]LocalizationService: Info Localization service is disabled
+[2017.02.23-04.31.34:317][  0]LogConsoleResponse:Display: 
+[2017.02.23-04.31.34:693][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.23-04.31.34:693][  0]LogCook:Display: Mobile HDR setting 0
+[2017.02.23-04.31.34:945][  0]LogFileCache: Scanning file cache for directory 'C:/Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/' took 0.01s
+[2017.02.23-04.31.35:359][  0]SourceControl: Info Source control is disabled
+[2017.02.23-04.31.35:360][  0]LightingResults: New page: Lighting Build
+[2017.02.23-04.31.35:363][  0]MapCheck: New page: Map Check
+[2017.02.23-04.31.35:363][  0]LightingResults: New page: Lighting Build
+[2017.02.23-04.31.36:237][  0]LogTexture:Display: Building textures: MobileHUDButtonFire (AutoDXT)
+[2017.02.23-04.31.36:245][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.02.23-04.31.36:251][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.23-04.31.36:251][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.23-04.31.36:295][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.758ms to complete.
+[2017.02.23-04.31.36:295][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.936
+[2017.02.23-04.31.36:434][  0]LogCollectionManager: Loaded 0 collections in 0.001693 seconds
+[2017.02.23-04.31.36:473][  0]LogFileCache: Scanning file cache for directory 'C:/Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Collections/' took 0.01s
+[2017.02.23-04.31.36:473][  0]LogFileCache: Scanning file cache for directory 'C:/Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/Developers/V201624468/Collections/' took 0.01s
+[2017.02.23-04.31.36:473][  0]LogFileCache: Scanning file cache for directory 'C:/Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/Collections/' took 0.01s
+[2017.02.23-04.31.36:473][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.02.23-04.31.36:481][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2141 classes and 415 folders.
+[2017.02.23-04.31.36:484][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.23-04.31.36:484][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.23-04.31.36:485][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2017.02.23-04.31.36:489][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.02.23-04.31.37:063][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.02.23-04.31.37:068][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.02.23-04.31.37:120][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.23-04.31.37:124][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.23-04.31.37:150][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.02.23-04.31.37:150][  0]LogLoad: (Engine Initialization) Total time: 46.52 seconds
+[2017.02.23-04.31.37:150][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.28 seconds
+[2017.02.23-04.31.37:150][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.02.23-04.31.37:159][  0]LogOcInput: OculusInput pre-init called
+[2017.02.23-04.31.37:177][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.23-04.31.37:391][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2017.02.23-04.31.37:530][  1]LogAssetRegistry: Asset discovery search completed in 35.0100 seconds
+[2017.02.23-04.31.37:530][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.02.23-04.31.37:530][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2017.02.23-04.31.53:138][838]LogSavePackage: Save=59.56ms
+[2017.02.23-04.31.53:138][838]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/UEDPC2DSideScrollerExampleMap8C98B2514709A724B3F6FD87A5102729.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap'
+[2017.02.23-04.31.53:140][838]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap
+[2017.02.23-04.31.53:145][838]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.02.23-04.32.41:697][381]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.02.23-04.37.54:387][774]BlueprintLog: New page: Compile 2DSideScrollerUI
+[2017.02.23-04.39.29:711][283]BlueprintLog: New page: Compile 2DSideScrollerUI
+[2017.02.23-04.42.43:845][901]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.02.23-04.42.43:872][901]LogBlueprint:Error: [Compiler 2DSideScrollerCharacter] Error Spawn node  K2Node_SpawnActorFromClass_0  must have a  Class  specified.
+[2017.02.23-04.42.44:073][901]BlueprintEditorCompileResults:Error: Error Spawn node  K2Node_SpawnActorFromClass_0  must have a  Class  specified.
+[2017.02.23-04.42.44:073][901]LogBlueprint:Warning: [Compiler 2DSideScrollerCharacter] Warning [0713.44] Compile of 2DSideScrollerCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 228 ms] (/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter)
+[2017.02.23-04.43.31:866][326]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:46002).
+[2017.02.23-04.44.21:253][333]LogEditorTransaction: Undo Modify Component(s)
+[2017.02.23-04.44.21:475][354]LogEditorTransaction: Undo Modify Component(s)
+[2017.02.23-04.44.22:125][402]LogEditorTransaction: Undo Modify Component(s)
+[2017.02.23-04.44.23:653][543]LogEditorTransaction: Redo Modify Component(s)
+[2017.02.23-04.44.26:829][830]LogEditorTransaction: Undo Modify Component(s)
+[2017.02.23-04.45.59:462][430]BlueprintLog: New page: Compile Projectile
+[2017.02.23-04.46.07:421][182]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.02.23-04.46.15:860][983]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.02.23-04.47.08:600][ 86]BlueprintLog: New page: Compile Projectile
+[2017.02.23-04.47.30:668][329]BlueprintLog: New page: Compile Projectile
+[2017.02.23-04.47.42:838][674]BlueprintLog: New page: Compile 2DSideScrollerUI
+[2017.02.23-04.47.45:368][947]LogSavePackage: Save=72.79ms
+[2017.02.23-04.47.45:368][947]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/2DSideScrollerExampleMap7CC36E214117009E3BEBE69CE857CD5D.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2017.02.23-04.47.45:371][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2017.02.23-04.47.45:392][947]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.159
+[2017.02.23-04.47.45:438][947]LogSavePackage: Save=38.50ms
+[2017.02.23-04.47.45:438][947]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/2DSideScrollerCharacter0DC360D34C5237B3B96933A42FA7EE68.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2017.02.23-04.47.45:441][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2017.02.23-04.47.45:455][947]LogSavePackage: Save=6.07ms
+[2017.02.23-04.47.45:455][947]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/2DSideScrollerUI340F46D1435864EAC009638538CEB0F2.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerUI.uasset'
+[2017.02.23-04.47.45:457][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerUI.uasset
+[2017.02.23-04.47.45:469][947]LogSavePackage: Save=7.63ms
+[2017.02.23-04.47.45:469][947]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Projectile424E0B7149E09FA7D8A459AE7D91C528.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/Projectile.uasset'
+[2017.02.23-04.47.45:471][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/Projectile.uasset
+[2017.02.23-04.47.46:474][ 48]LogSavePackage: Save=74.20ms
+[2017.02.23-04.47.46:474][ 48]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/UEDPC2DSideScrollerExampleMap99F083DC4868CD2909C7B185BFC607E6.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap'
+[2017.02.23-04.47.46:475][ 48]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap
+[2017.02.23-04.47.46:478][ 48]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.02.23-04.48.42:534][521]BlueprintLog: New page: Compile Projectile
+[2017.02.23-04.48.52:222][535]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.02.23-04.48.56:472][792]LogSavePackage: Save=37.94ms
+[2017.02.23-04.48.56:472][792]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/2DSideScrollerCharacterDB70DB2041284A98B3E79895480CAA27.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2017.02.23-04.48.56:474][792]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2017.02.23-04.48.56:488][792]LogSavePackage: Save=6.45ms
+[2017.02.23-04.48.56:488][792]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Projectile36B5FD654459CA61F0D6AEB26C8C1449.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/Projectile.uasset'
+[2017.02.23-04.48.56:491][792]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/Projectile.uasset
+[2017.02.23-04.48.56:589][792]LogSavePackage: Save=72.70ms
+[2017.02.23-04.48.56:589][792]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/UEDPC2DSideScrollerExampleMapB2C751A140E05BB50853CBA6CD4BCFF2.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap'
+[2017.02.23-04.48.56:591][792]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap
+[2017.02.23-04.48.56:594][792]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.02.23-04.49.46:487][808]BlueprintLog: New page: Compile Projectile
+[2017.02.23-04.49.51:171][217]LogSavePackage: Save=6.73ms
+[2017.02.23-04.49.51:171][217]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/ProjectileCE7EA0C844A886D3B9763C89B0EE8B2A.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/Projectile.uasset'
+[2017.02.23-04.49.51:174][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/Projectile.uasset
+[2017.02.23-04.49.51:273][217]LogSavePackage: Save=73.32ms
+[2017.02.23-04.49.51:273][217]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/UEDPC2DSideScrollerExampleMapD43692AC413036525248288FD9A7761F.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap'
+[2017.02.23-04.49.51:274][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap
+[2017.02.23-04.49.51:278][217]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.02.23-04.50.34:259][715]LogSavePackage: Save=73.68ms
+[2017.02.23-04.50.34:259][715]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/2DSideScrollerExampleMap9453292743D2AEB45DB35F8473353E61.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2017.02.23-04.50.34:262][715]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2017.02.23-04.50.34:276][715]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.150
+[2017.02.23-04.50.49:960][319]BlueprintLog: New page: Compile Projectile
+[2017.02.23-04.50.54:420][697]LogSavePackage: Save=6.69ms
+[2017.02.23-04.50.54:420][697]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Projectile07B8E2474C941CED7A0A579F53B44836.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/Projectile.uasset'
+[2017.02.23-04.50.54:423][697]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/Projectile.uasset
+[2017.02.23-04.50.54:521][697]LogSavePackage: Save=72.73ms
+[2017.02.23-04.50.54:521][697]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/UEDPC2DSideScrollerExampleMap7210B63B40504A4287411A88D70FB801.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap'
+[2017.02.23-04.50.54:523][697]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.umap
+[2017.02.23-04.50.54:526][697]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.02.23-04.51.39:830][541]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.02.23-04.52.32:090][695]BlueprintLog: New page: Compile Projectile
+[2017.02.23-04.53.36:869][458]BlueprintLog: New page: Compile Projectile
+[2017.02.23-04.53.52:389][ 47]BlueprintLog: New page: Compile Projectile
+[2017.02.23-04.53.56:137][307]LogSavePackage: Save=39.86ms
+[2017.02.23-04.53.56:137][307]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/2DSideScrollerCharacter33EDDDB943F5FD7CFC547292160CFA16.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2017.02.23-04.53.56:140][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2017.02.23-04.53.56:154][307]LogSavePackage: Save=7.04ms
+[2017.02.23-04.53.56:154][307]LogSavePackage: Moving '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Saved/ProjectileA3E84E4D49003AAD5ABE5DBFD2ECF602.tmp' to '../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/2DSideScrollerBP/Blueprints/Projectile.uasset'
+[2017.02.23-04.53.56:156][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/v201624468/Docume
