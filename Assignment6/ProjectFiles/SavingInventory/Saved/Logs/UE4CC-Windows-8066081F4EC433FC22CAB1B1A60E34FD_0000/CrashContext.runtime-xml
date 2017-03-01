@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-8066081F4EC433FC22CAB1B1A60E34FD_0000</CrashGUID>
+<ProcessId>10040</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>true</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<SecondsSinceStart>449</SecondsSinceStart>
+<GameName>UE4-SavingInventory</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.13.2-3172292+++UE4+Release-4.13</EngineVersion>
+<CommandLine>&quot;C:\Users\v201624468\Documents\Unreal Projects\SavingInventory\SavingInventory.uproject&quot;</CommandLine>
+<LanguageLCID>3081</LanguageLCID>
+<AppDefaultLocale>en_AU</AppDefaultLocale>
+<IsUE4Release>true</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Program Files/Epic Games/UE_4.13/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files/Epic Games/UE_4.13/</RootDir>
+<MachineId>D60160B8441092E255A0A0957AD3E674</MachineId>
+<EpicAccountId>f990d63dc7d94edf9e58a18dd6ad3ebc</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Ensure condition failed: !BPGC-&gt;InheritableComponentHandler [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 1509] &nl;&nl;</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>AMD Radeon(TM) R9 270</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>17090568192</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>11201212416</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140734074507264</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>1574760448</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>1620226048</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>2427617280</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>2695159808</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+</FGenericCrashContext>
