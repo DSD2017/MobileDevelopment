@@ -1,0 +1,773 @@
+<<<<<<< HEAD
+﻿Log file open, 03/07/17 08:40:37
+LogInit:Display: Running engine for game: TouchInput
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1926700443) SRandInit(-1926700443).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.070090
+=======
+﻿Log file open, 03/01/17 11:49:46
+LogInit:Display: Running engine for game: TouchInput
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1256183480) SRandInit(-1256183480).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.077814
+>>>>>>> origin/VONG,-Nathan-Shane
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -windowed -messaging -SessionName="Play in Standalone Game" -featureleveles2 -faketouches 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+<<<<<<< HEAD
+[2017.03.06-21.40.37:254][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.06-21.40.37:254][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.06-21.40.37:259][  0]LogInit: Computer: 7P5PF42
+[2017.03.06-21.40.37:259][  0]LogInit: User: V201624468
+[2017.03.06-21.40.37:259][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.06-21.40.37:259][  0]LogInit: High frequency timer resolution =3.515642 MHz
+[2017.03.06-21.40.37:259][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.06-21.40.37:259][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.06-21.40.37:259][  0]LogMemory: Process Physical Memory: 255.78 MB used, 255.78 MB peak
+[2017.03.06-21.40.37:259][  0]LogMemory: Process Virtual Memory: 260.09 MB used, 260.09 MB peak
+[2017.03.06-21.40.37:259][  0]LogMemory: Physical Memory: 7694.69 MB used, 16298.84 MB total
+[2017.03.06-21.40.37:259][  0]LogMemory: Virtual Memory: 623.22 MB used, 134217728.00 MB total
+[2017.03.06-21.40.37:281][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2017.03.06-21.40.37:628][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.06-21.40.37:639][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R9 270' (Feature Level 11_0)
+[2017.03.06-21.40.37:639][  0]LogD3D11RHI:       2030/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.03.06-21.40.37:645][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.03.06-21.40.37:645][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.06-21.40.37:646][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.06-21.40.37:646][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.06-21.40.37:646][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.06-21.40.37:652][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.06-21.40.37:652][  0]LogD3D11RHI:     GPU DeviceId: 0x6811 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.06-21.40.37:652][  0]LogWindows: EnumDisplayDevices:
+[2017.03.06-21.40.37:652][  0]LogWindows:    0. 'AMD Radeon(TM) R9 270' (P:1 D:1)
+[2017.03.06-21.40.37:652][  0]LogWindows:    1. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.06-21.40.37:653][  0]LogWindows:    2. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.06-21.40.37:653][  0]LogWindows:    3. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.06-21.40.37:653][  0]LogWindows:    4. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.06-21.40.37:653][  0]LogWindows:    5. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.06-21.40.37:654][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.06-21.40.37:654][  0]LogWindows:    7. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.06-21.40.37:654][  0]LogWindows:    8. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.06-21.40.37:654][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.03.06-21.40.37:654][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R9 270
+[2017.03.06-21.40.37:654][  0]LogD3D11RHI:   Driver Version: Crimson 15.11 (internal:15.301.1701.0, unified:15.301.1701.0)
+[2017.03.06-21.40.37:654][  0]LogD3D11RHI:      Driver Date: 1-13-2016
+[2017.03.06-21.40.37:654][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.06-21.40.37:660][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.06-21.40.37:671][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.03.06-21.40.37:672][  0]LogShaderCompilers: Guid format shader working directory is -56 characters bigger than the processId version (../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Intermediate/Shaders/WorkingDirectory/8704/).
+[2017.03.06-21.40.37:672][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/V20162~1/AppData/Local/Temp/UnrealShaderWorkingDir/5A12FABB46A3CB7D5AA562A077593BC4/'.
+[2017.03.06-21.40.37:672][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.06-21.40.38:475][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.06-21.40.38:482][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.06-21.40.38:489][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.06-21.40.38:496][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.06-21.40.38:496][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.06-21.40.38:559][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.06-21.40.38:615][  0]LogDerivedDataCache: Loaded boot cache 0.06s 62MB C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.03.06-21.40.38:615][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.03.06-21.40.38:616][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.06-21.40.38:616][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.06-21.40.38:616][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.06-21.40.38:616][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.06-21.40.38:631][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.06-21.40.38:643][  0]LogDerivedDataCache: Using Local data cache path C:/Users/v201624468/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.06-21.40.38:878][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.03.06-21.40.38:881][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.003471 seconds
+[2017.03.06-21.40.38:895][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.06-21.40.38:896][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.03.06-21.40.39:463][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.03.06-21.40.39:463][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.06-21.40.39:463][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.03.06-21.40.39:661][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.06-21.40.40:295][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: touchinput, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 938096206
+[2017.03.06-21.40.40:389][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.06-21.40.40:679][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.06-21.40.40:679][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.06-21.40.40:734][  0]LogMoviePlayer: Initializing movie player
+[2017.03.06-21.40.40:894][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/Movies/Default_Startup.mp4
+[2017.03.06-21.40.41:064][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.06-21.40.41:084][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.06-21.40.41:151][  0]SourceControl: Info Source control is disabled
+[2017.03.06-21.40.41:151][  0]SourceControl: Info Source control is disabled
+[2017.03.06-21.40.41:159][  0]SourceControl: Info Source control is disabled
+[2017.03.06-21.40.41:287][  0]LogUObjectArray: 32656 objects as part of root set at end of initial load.
+[2017.03.06-21.40.41:287][  0]LogUObjectAllocator: 7245024 out of 0 bytes used by permanent object pool.
+[2017.03.06-21.40.41:287][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.06-21.40.41:444][  0]LogEngine: Initializing Engine...
+[2017.03.06-21.40.41:445][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.06-21.40.42:477][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.06-21.40.42:499][  0]LogInit: FAudioDevice initialized.
+[2017.03.06-21.40.42:507][  0]LogInit: Texture streaming: Enabled
+[2017.03.06-21.40.42:510][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2017.03.06-21.40.42:570][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/BaseColor.BaseColor for platform PCD3D_ES2, Default Material will be used in game.
+[2017.03.06-21.40.42:570][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
+[2017.03.06-21.40.42:852][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2017.03.06-21.40.42:852][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Specular.Specular for platform PCD3D_ES2, Default Material will be used in game.
+[2017.03.06-21.40.42:852][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
+[2017.03.06-21.40.43:237][  0]LogInit:Display: Game Engine Initialized.
+[2017.03.06-21.40.43:333][  0]LogInit:Display: Starting Game.
+[2017.03.06-21.40.43:333][  0]LogNet: Browse: /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap?Name=Player
+[2017.03.06-21.40.43:333][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap?Name=Player
+[2017.03.06-21.40.43:409][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.06-21.40.43:409][  0]LogMemory: Process Physical Memory: 632.64 MB used, 662.45 MB peak
+[2017.03.06-21.40.43:409][  0]LogMemory: Process Virtual Memory: 705.73 MB used, 705.74 MB peak
+[2017.03.06-21.40.43:409][  0]LogMemory: Physical Memory: 7920.02 MB used, 16298.84 MB total
+[2017.03.06-21.40.43:409][  0]LogMemory: Virtual Memory: 1330.31 MB used, 134217728.00 MB total
+[2017.03.06-21.40.43:409][  0]LogMemory: 
+[2017.03.06-21.40.43:409][  0]Allocator Stats for TBB: (not implemented)
+[2017.03.06-21.40.43:541][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.03.06-21.40.43:542][  0]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2017.03.06-21.40.43:546][  0]LogWorld: Bringing World /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.03.07-08.40.43
+[2017.03.06-21.40.43:551][  0]LogWorld: Bringing up level for play took: 0.008232
+[2017.03.06-21.40.43:629][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.06-21.40.43:629][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.06-21.40.43:629][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.06-21.40.43:691][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.06-21.40.43:691][  0]LogLoad: Took 0.358059 seconds to LoadMap(/Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap)
+[2017.03.06-21.40.43:934][  0]LogLoad: (Engine Initialization) Total time: 7.53 seconds
+[2017.03.06-21.40.43:934][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.03.06-21.40.43:934][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.06-21.40.43:934][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.06-21.40.43:951][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.06-21.40.43:951][  0]LogOcInput: OculusInput pre-init called
+[2017.03.06-21.40.43:973][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2017.03.06-21.40.44:071][  1]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2017.03.06-21.40.44:650][ 35]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:660][ 36]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:676][ 37]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:692][ 38]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:708][ 39]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:725][ 40]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:741][ 41]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:757][ 42]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:773][ 43]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:789][ 44]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:805][ 45]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:821][ 46]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:838][ 47]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:854][ 48]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:870][ 49]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:886][ 50]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:902][ 51]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.44:918][ 52]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:532][ 90]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:548][ 91]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:563][ 92]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:580][ 93]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:596][ 94]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:612][ 95]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:628][ 96]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:645][ 97]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:660][ 98]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:676][ 99]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:692][100]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:708][101]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:725][102]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:741][103]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:757][104]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:773][105]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:789][106]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:805][107]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:821][108]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:837][109]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:853][110]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:870][111]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:886][112]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:902][113]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:918][114]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:934][115]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:951][116]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:967][117]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:983][118]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.45:999][119]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.46:290][137]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:305][138]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:321][139]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:338][140]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:354][141]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:370][142]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:386][143]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:402][144]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:418][145]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:434][146]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:450][147]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:467][148]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:483][149]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:499][150]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:515][151]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:531][152]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:547][153]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:563][154]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:580][155]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:596][156]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:612][157]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:628][158]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:644][159]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:660][160]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:677][161]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:693][162]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:709][163]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:725][164]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:741][165]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:757][166]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:773][167]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:789][168]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:805][169]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:822][170]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:838][171]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:854][172]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:870][173]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:886][174]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.46:902][175]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.47:080][186]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.47:096][187]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.47:111][188]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.47:128][189]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.47:144][190]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.47:160][191]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.47:176][192]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.47:192][193]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.47:209][194]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.47:225][195]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.47:241][196]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.47:257][197]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.47:273][198]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.47:290][199]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.48:855][296]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.48:870][297]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.48:886][298]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.48:902][299]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.48:918][300]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.48:934][301]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.48:950][302]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.48:967][303]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.48:983][304]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.48:999][305]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.49:015][306]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.49:031][307]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.49:047][308]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.49:063][309]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.49:079][310]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.49:096][311]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.49:112][312]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.49:128][313]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.49:144][314]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.49:160][315]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.49:176][316]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.06-21.40.50:483][397]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:499][398]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:516][399]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:532][400]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:548][401]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:564][402]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:580][403]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:596][404]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:612][405]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:628][406]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:644][407]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:661][408]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:677][409]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:693][410]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:709][411]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:726][412]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:741][413]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:758][414]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:774][415]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:790][416]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:806][417]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:822][418]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:838][419]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:854][420]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:870][421]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:886][422]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:903][423]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:919][424]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:935][425]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:951][426]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:967][427]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.50:983][428]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.51:000][429]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.51:016][430]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.06-21.40.56:601][774]Closing by request
+[2017.03.06-21.40.56:601][774]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.03.06-21.40.56:603][775]LogMoviePlayer: Shutting down movie player
+[2017.03.06-21.40.57:486][775]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.06-21.40.57:539][775]LogExit: Preparing to exit.
+[2017.03.06-21.40.58:301][775]LogExit: Game engine shut down
+[2017.03.06-21.40.58:542][775]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.06-21.40.58:542][775]LogExit: Object subsystem successfully closed.
+[2017.03.06-21.40.58:683][775]LogD3D11RHI: Shutdown
+[2017.03.06-21.40.58:683][775]LogD3D11RHI: CleanupD3DDevice
+[2017.03.06-21.40.58:706][775]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (119)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module SequenceRecorder (118)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module AutomationController (117)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module AutomationWorker (116)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module AITestSuite (114)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module AIModule (113)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (112)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (111)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module Media (110)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (109)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module CharacterAI (108)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module SessionServices (107)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (106)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module Niagara (105)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (104)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module PortalServices (103)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module PortalRpc (102)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module MessagingRpc (101)
+[2017.03.06-21.40.58:849][775]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2017.03.06-21.40.59:066][775]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module SteamVRController (97)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module SteamVR (96)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (95)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module OculusLibrary (94)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module OculusInput (93)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (92)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module CableComponent (91)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (90)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module HTML5Networking (88)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module DesktopPlatform (87)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (84)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module UObjectPlugin (83)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (82)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module SourceControl (81)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (80)
+[2017.03.06-21.40.59:080][775]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2017.03.06-21.40.59:181][775]LogModuleManager: Shutting down and abandoning module TcpMessaging (78)
+[2017.03.06-21.40.59:282][775]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (77)
+[2017.03.06-21.40.59:282][775]LogModuleManager: Shutting down and abandoning module Paper2D (76)
+[2017.03.06-21.40.59:282][775]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (75)
+[2017.03.06-21.40.59:282][775]LogModuleManager: Shutting down and abandoning module WmfMedia (74)
+[2017.03.06-21.40.59:298][775]LogModuleManager: Shutting down and abandoning module MediaAssets (73)
+[2017.03.06-21.40.59:298][775]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (72)
+[2017.03.06-21.40.59:298][775]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (71)
+[2017.03.06-21.40.59:298][775]LogModuleManager: Shutting down and abandoning module VREditor (70)
+[2017.03.06-21.40.59:298][775]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (69)
+[2017.03.06-21.40.59:298][775]LogModuleManager: Shutting down and abandoning module PropertyEditor (68)
+[2017.03.06-21.40.59:298][775]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (67)
+[2017.03.06-21.40.59:307][775]LogModuleManager: Shutting down and abandoning module FunctionalTesting (66)
+[2017.03.06-21.40.59:307][775]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (65)
+[2017.03.06-21.40.59:308][775]LogModuleManager: Shutting down and abandoning module Sequencer (64)
+[2017.03.06-21.40.59:314][775]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (63)
+[2017.03.06-21.40.59:314][775]LogModuleManager: Shutting down and abandoning module MessageLog (62)
+[2017.03.06-21.40.59:314][775]LogModuleManager: Shutting down and abandoning module AssetTools (61)
+[2017.03.06-21.40.59:325][775]LogModuleManager: Shutting down and abandoning module UMGEditor (60)
+[2017.03.06-21.40.59:332][775]LogModuleManager: Shutting down and abandoning module UMG (59)
+[2017.03.06-21.40.59:332][775]LogModuleManager: Shutting down and abandoning module SlateReflector (58)
+[2017.03.06-21.40.59:341][775]LogModuleManager: Shutting down and abandoning module Slate (57)
+[2017.03.06-21.40.59:341][775]LogModuleManager: Shutting down and abandoning module EditorStyle (56)
+[2017.03.06-21.40.59:343][775]LogModuleManager: Shutting down and abandoning module Messaging (55)
+[2017.03.06-21.40.59:343][775]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (54)
+[2017.03.06-21.40.59:343][775]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (53)
+[2017.03.06-21.40.59:343][775]LogModuleManager: Shutting down and abandoning module XAudio2 (52)
+[2017.03.06-21.40.59:343][775]LogModuleManager: Shutting down and abandoning module Networking (50)
+[2017.03.06-21.40.59:343][775]LogModuleManager: Shutting down and abandoning module Core (49)
+[2017.03.06-21.40.59:343][775]LogModuleManager: Shutting down and abandoning module KismetCompiler (48)
+[2017.03.06-21.40.59:343][775]LogModuleManager: Shutting down and abandoning module PhysXFormats (47)
+[2017.03.06-21.40.59:343][775]LogModuleManager: Shutting down and abandoning module MeshUtilities (46)
+[2017.03.06-21.40.59:343][775]LogModuleManager: Shutting down and abandoning module AssetRegistry (45)
+[2017.03.06-21.40.59:343][775]LogModuleManager: Shutting down and abandoning module DerivedDataCache (44)
+[2017.03.06-21.40.59:651][775]LogDerivedDataCache: Shutdown
+[2017.03.06-21.40.59:651][775]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (43)
+[2017.03.06-21.40.59:651][775]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2017.03.06-21.40.59:651][775]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2017.03.06-21.40.59:651][775]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2017.03.06-21.40.59:651][775]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2017.03.06-21.40.59:651][775]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2017.03.06-21.40.59:651][775]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2017.03.06-21.40.59:651][775]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (36)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module ImageWrapper (35)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (34)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (33)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (32)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (31)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (30)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.03.06-21.40.59:652][775]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.06-21.40.59:652][775]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.06-21.40.59:654][775]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.06-21.40.59:660][775]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.06-21.40.59:661][775]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.06-21.40.59:661][775]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.06-21.40.59:661][775]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.06-21.40.59:672][775]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.06-21.40.59:730][775]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.06-21.40.59:730][775]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.06-21.40.59:731][775]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.06-21.40.59:731][775]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.06-21.40.59:731][775]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.06-21.40.59:731][775]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.06-21.40.59:731][775]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.06-21.40.59:731][775]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.06-21.40.59:731][775]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.06-21.40.59:755][775]LogExit: Exiting.
+[2017.03.06-21.40.59:756][775]Log file closed, 03/07/17 08:40:59
+=======
+[2017.03.01-00.49.46:545][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.01-00.49.46:545][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.01-00.49.46:548][  0]LogInit: Computer: BL2TF42
+[2017.03.01-00.49.46:548][  0]LogInit: User: V201624468
+[2017.03.01-00.49.46:548][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.01-00.49.46:548][  0]LogInit: High frequency timer resolution =3.515624 MHz
+[2017.03.01-00.49.46:549][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.01-00.49.46:549][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.01-00.49.46:549][  0]LogMemory: Process Physical Memory: 255.27 MB used, 255.27 MB peak
+[2017.03.01-00.49.46:549][  0]LogMemory: Process Virtual Memory: 259.98 MB used, 259.98 MB peak
+[2017.03.01-00.49.46:549][  0]LogMemory: Physical Memory: 6075.17 MB used, 16298.88 MB total
+[2017.03.01-00.49.46:549][  0]LogMemory: Virtual Memory: 622.95 MB used, 134217728.00 MB total
+[2017.03.01-00.49.46:569][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2017.03.01-00.49.46:908][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.01-00.49.46:916][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R9 270' (Feature Level 11_0)
+[2017.03.01-00.49.46:916][  0]LogD3D11RHI:       2030/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.03.01-00.49.46:922][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.03.01-00.49.46:922][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.01-00.49.46:923][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.01-00.49.46:923][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.01-00.49.46:923][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.01-00.49.46:927][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.01-00.49.46:927][  0]LogD3D11RHI:     GPU DeviceId: 0x6811 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.01-00.49.46:927][  0]LogWindows: EnumDisplayDevices:
+[2017.03.01-00.49.46:927][  0]LogWindows:    0. 'AMD Radeon(TM) R9 270' (P:1 D:1)
+[2017.03.01-00.49.46:928][  0]LogWindows:    1. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.01-00.49.46:928][  0]LogWindows:    2. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.01-00.49.46:928][  0]LogWindows:    3. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.01-00.49.46:928][  0]LogWindows:    4. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.01-00.49.46:928][  0]LogWindows:    5. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.01-00.49.46:928][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.01-00.49.46:929][  0]LogWindows:    7. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.01-00.49.46:929][  0]LogWindows:    8. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.01-00.49.46:929][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.03.01-00.49.46:929][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R9 270
+[2017.03.01-00.49.46:929][  0]LogD3D11RHI:   Driver Version: Crimson 15.11 (internal:15.301.1701.0, unified:15.301.1701.0)
+[2017.03.01-00.49.46:929][  0]LogD3D11RHI:      Driver Date: 1-13-2016
+[2017.03.01-00.49.46:929][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.01-00.49.46:934][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.01-00.49.46:945][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.03.01-00.49.46:946][  0]LogShaderCompilers: Guid format shader working directory is -57 characters bigger than the processId version (../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Intermediate/Shaders/WorkingDirectory/11592/).
+[2017.03.01-00.49.46:946][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/V20162~1/AppData/Local/Temp/UnrealShaderWorkingDir/B005EC53429313E6969143901CE10AE0/'.
+[2017.03.01-00.49.46:946][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.01-00.49.47:718][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.01-00.49.47:725][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.01-00.49.47:733][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.01-00.49.47:740][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.01-00.49.47:740][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.01-00.49.47:801][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.01-00.49.47:857][  0]LogDerivedDataCache: Loaded boot cache 0.06s 62MB C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.03.01-00.49.47:857][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.03.01-00.49.47:858][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.01-00.49.47:858][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.01-00.49.47:858][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.01-00.49.47:858][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.01-00.49.47:872][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.01-00.49.47:884][  0]LogDerivedDataCache: Using Local data cache path C:/Users/v201624468/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.01-00.49.48:037][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.03.01-00.49.48:042][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.005075 seconds
+[2017.03.01-00.49.48:056][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.01-00.49.48:057][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.03.01-00.49.48:120][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.03.01-00.49.48:120][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.01-00.49.48:120][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.03.01-00.49.48:167][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.01-00.49.48:393][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: touchinput, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 938096206
+[2017.03.01-00.49.48:412][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.01-00.49.48:544][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.01-00.49.48:544][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.01-00.49.48:596][  0]LogMoviePlayer: Initializing movie player
+[2017.03.01-00.49.48:686][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment5/ProjectFiles/TouchInput/Content/Movies/Default_Startup.mp4
+[2017.03.01-00.49.48:796][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.01-00.49.48:816][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.01-00.49.48:899][  0]SourceControl: Info Source control is disabled
+[2017.03.01-00.49.48:900][  0]SourceControl: Info Source control is disabled
+[2017.03.01-00.49.48:921][  0]SourceControl: Info Source control is disabled
+[2017.03.01-00.49.49:058][  0]LogUObjectArray: 32656 objects as part of root set at end of initial load.
+[2017.03.01-00.49.49:058][  0]LogUObjectAllocator: 7245024 out of 0 bytes used by permanent object pool.
+[2017.03.01-00.49.49:058][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.01-00.49.49:122][  0]LogEngine: Initializing Engine...
+[2017.03.01-00.49.49:123][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.01-00.49.49:262][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-00.49.49:275][  0]LogInit: FAudioDevice initialized.
+[2017.03.01-00.49.49:282][  0]LogInit: Texture streaming: Enabled
+[2017.03.01-00.49.49:284][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2017.03.01-00.49.49:285][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/BaseColor.BaseColor for platform PCD3D_ES2, Default Material will be used in game.
+[2017.03.01-00.49.49:285][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
+[2017.03.01-00.49.49:313][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2017.03.01-00.49.49:313][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Specular.Specular for platform PCD3D_ES2, Default Material will be used in game.
+[2017.03.01-00.49.49:313][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
+[2017.03.01-00.49.49:343][  0]LogInit:Display: Game Engine Initialized.
+[2017.03.01-00.49.49:382][  0]LogInit:Display: Starting Game.
+[2017.03.01-00.49.49:382][  0]LogNet: Browse: /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap?Name=Player
+[2017.03.01-00.49.49:382][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap?Name=Player
+[2017.03.01-00.49.49:394][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.01-00.49.49:394][  0]LogMemory: Process Physical Memory: 631.14 MB used, 663.59 MB peak
+[2017.03.01-00.49.49:394][  0]LogMemory: Process Virtual Memory: 711.10 MB used, 711.24 MB peak
+[2017.03.01-00.49.49:394][  0]LogMemory: Physical Memory: 6385.13 MB used, 16298.88 MB total
+[2017.03.01-00.49.49:394][  0]LogMemory: Virtual Memory: 1335.54 MB used, 134217728.00 MB total
+[2017.03.01-00.49.49:394][  0]LogMemory: 
+[2017.03.01-00.49.49:394][  0]Allocator Stats for TBB: (not implemented)
+[2017.03.01-00.49.49:522][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.03.01-00.49.49:522][  0]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2017.03.01-00.49.49:524][  0]LogWorld: Bringing World /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.03.01-11.49.49
+[2017.03.01-00.49.49:525][  0]LogWorld: Bringing up level for play took: 0.001830
+[2017.03.01-00.49.49:526][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.49.49:526][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.01-00.49.49:526][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.49.49:526][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.01-00.49.49:526][  0]LogLoad: Took 0.144253 seconds to LoadMap(/Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPC2DSideScrollerExampleMap)
+[2017.03.01-00.49.49:764][  0]LogLoad: (Engine Initialization) Total time: 3.97 seconds
+[2017.03.01-00.49.49:764][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
+[2017.03.01-00.49.49:764][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.03.01-00.49.49:783][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.01-00.49.49:783][  0]LogOcInput: OculusInput pre-init called
+[2017.03.01-00.49.49:791][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2017.03.01-00.49.49:866][  1]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2017.03.01-00.49.50:416][ 35]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:432][ 36]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:448][ 37]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:464][ 38]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:480][ 39]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:496][ 40]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:512][ 41]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:528][ 42]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:544][ 43]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:561][ 44]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:577][ 45]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:593][ 46]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:609][ 47]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:625][ 48]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:641][ 49]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:658][ 50]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:674][ 51]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:690][ 52]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.50:706][ 53]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.52:770][181]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.52:787][182]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.52:802][183]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.52:819][184]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.52:835][185]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.52:851][186]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.52:867][187]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.52:884][188]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.52:899][189]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.52:916][190]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.52:932][191]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.52:948][192]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.52:964][193]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.52:980][194]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.52:996][195]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:012][196]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:028][197]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:045][198]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:061][199]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:077][200]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:093][201]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:109][202]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:125][203]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:141][204]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:157][205]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:174][206]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:190][207]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:206][208]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:222][209]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:238][210]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Left
+[2017.03.01-00.49.53:932][253]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.53:948][254]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.53:964][255]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.53:980][256]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.53:996][257]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:012][258]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:029][259]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:045][260]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:061][261]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:077][262]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:093][263]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:109][264]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:125][265]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:142][266]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:157][267]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:174][268]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:190][269]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:206][270]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:222][271]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:238][272]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:254][273]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:270][274]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:286][275]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:303][276]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:319][277]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:335][278]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:351][279]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:367][280]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:383][281]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:400][282]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:416][283]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:432][284]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:448][285]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:464][286]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:481][287]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:497][288]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:513][289]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:529][290]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:545][291]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.49.54:561][292]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] Right
+[2017.03.01-00.50.03:556][849]Closing by request
+[2017.03.01-00.50.03:556][849]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.03.01-00.50.03:557][850]LogMoviePlayer: Shutting down movie player
+[2017.03.01-00.50.04:163][850]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.01-00.50.04:173][850]LogExit: Preparing to exit.
+[2017.03.01-00.50.04:947][850]LogExit: Game engine shut down
+[2017.03.01-00.50.05:036][850]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.01-00.50.05:036][850]LogExit: Object subsystem successfully closed.
+[2017.03.01-00.50.05:051][850]LogD3D11RHI: Shutdown
+[2017.03.01-00.50.05:051][850]LogD3D11RHI: CleanupD3DDevice
+[2017.03.01-00.50.05:072][850]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.01-00.50.05:080][850]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (119)
+[2017.03.01-00.50.05:080][850]LogModuleManager: Shutting down and abandoning module SequenceRecorder (118)
+[2017.03.01-00.50.05:080][850]LogModuleManager: Shutting down and abandoning module AutomationController (117)
+[
+>>>>>>> origin/VONG,-Nathan-Shane
