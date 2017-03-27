@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-928EAC794AF11F5A44F9F9BB00B59ECB_0000</CrashGUID>
+<ProcessId>11936</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<SecondsSinceStart>188</SecondsSinceStart>
+<GameName>UE4-War_Torn_Lands</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.13.2-3172292+++UE4+Release-4.13</EngineVersion>
+<CommandLine>&quot;C:\Users\l201428515\Documents\Unreal Projects\WTL_3-16-17_C\War_Torn_Lands.uproject&quot;</CommandLine>
+<LanguageLCID>3081</LanguageLCID>
+<AppDefaultLocale>en_AU</AppDefaultLocale>
+<IsUE4Release>true</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Program Files/Epic Games/UE_4.13/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files/Epic Games/UE_4.13/</RootDir>
+<MachineId>2D7E80F84C9C4A559042A5A38FE0B6D7</MachineId>
+<EpicAccountId>731caa3e79b043fc815d237c0eb1057d</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Assertion failed: Index &gt;= 0 [File:d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\coreuobject\public\uobject\UObjectArray.h] [Line: 402] &nl;&nl;</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>AMD Radeon(TM) R9 270</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>17090568192</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>11194994688</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140735325765632</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>1085886464</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>1092812800</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>1324974080</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>1508667392</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+</FGenericCrashContext>
