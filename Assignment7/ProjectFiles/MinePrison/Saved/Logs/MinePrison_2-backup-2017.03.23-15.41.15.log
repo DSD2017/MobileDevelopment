@@ -1,0 +1,1203 @@
+﻿Log file open, 03/23/17 15:37:55
+LogInit:Display: Running engine for game: MinePrison
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1814487139) SRandInit(-1814487139).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.073269
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMinePrison_Map -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -windowed -messaging -SessionName="Play in Standalone Game" -featureleveles2 -faketouches 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.23-04.37.55:854][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.23-04.37.55:854][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.23-04.37.55:857][  0]LogInit: Computer: 6Q5PF42
+[2017.03.23-04.37.55:857][  0]LogInit: User: K201395940
+[2017.03.23-04.37.55:857][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.23-04.37.55:857][  0]LogInit: High frequency timer resolution =3.515643 MHz
+[2017.03.23-04.37.55:858][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.23-04.37.55:858][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.23-04.37.55:858][  0]LogMemory: Process Physical Memory: 256.64 MB used, 256.64 MB peak
+[2017.03.23-04.37.55:858][  0]LogMemory: Process Virtual Memory: 260.01 MB used, 260.01 MB peak
+[2017.03.23-04.37.55:858][  0]LogMemory: Physical Memory: 8136.52 MB used, 16298.84 MB total
+[2017.03.23-04.37.55:858][  0]LogMemory: Virtual Memory: 623.24 MB used, 134217728.00 MB total
+[2017.03.23-04.37.55:881][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2017.03.23-04.37.56:220][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.23-04.37.56:229][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R9 270' (Feature Level 11_0)
+[2017.03.23-04.37.56:229][  0]LogD3D11RHI:       2030/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.03.23-04.37.56:235][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.03.23-04.37.56:235][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.23-04.37.56:236][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.23-04.37.56:236][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.23-04.37.56:236][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.23-04.37.56:240][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.23-04.37.56:240][  0]LogD3D11RHI:     GPU DeviceId: 0x6811 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.23-04.37.56:240][  0]LogWindows: EnumDisplayDevices:
+[2017.03.23-04.37.56:240][  0]LogWindows:    0. 'AMD Radeon(TM) R9 270' (P:1 D:1)
+[2017.03.23-04.37.56:240][  0]LogWindows:    1. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.23-04.37.56:240][  0]LogWindows:    2. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.23-04.37.56:241][  0]LogWindows:    3. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.23-04.37.56:241][  0]LogWindows:    4. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.23-04.37.56:241][  0]LogWindows:    5. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.03.23-04.37.56:241][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.23-04.37.56:241][  0]LogWindows:    7. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.23-04.37.56:242][  0]LogWindows:    8. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.23-04.37.56:242][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.03.23-04.37.56:242][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R9 270
+[2017.03.23-04.37.56:242][  0]LogD3D11RHI:   Driver Version: Crimson 15.11 (internal:15.301.1701.0, unified:15.301.1701.0)
+[2017.03.23-04.37.56:242][  0]LogD3D11RHI:      Driver Date: 1-13-2016
+[2017.03.23-04.37.56:242][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.23-04.37.56:247][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.23-04.37.56:259][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.03.23-04.37.56:260][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/k201395940/Desktop/New Four/MinePrison/Intermediate/Shaders/WorkingDirectory/7020/).
+[2017.03.23-04.37.56:260][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/K20139~1/AppData/Local/Temp/UnrealShaderWorkingDir/4CA65E2344556F1CBCA64BA76A1F0B8D/'.
+[2017.03.23-04.37.56:260][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.23-04.37.57:048][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.23-04.37.57:055][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.23-04.37.57:062][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.23-04.37.57:069][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.23-04.37.57:069][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.23-04.37.57:131][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.23-04.37.57:187][  0]LogDerivedDataCache: Loaded boot cache 0.06s 62MB C:/Users/k201395940/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.03.23-04.37.57:187][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/k201395940/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.03.23-04.37.57:187][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/k201395940/Desktop/New Four/MinePrison/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.23-04.37.57:187][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.23-04.37.57:187][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/k201395940/Desktop/New Four/MinePrison/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.23-04.37.57:187][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.23-04.37.57:202][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.23-04.37.57:214][  0]LogDerivedDataCache: Using Local data cache path C:/Users/k201395940/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.23-04.37.57:365][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.03.23-04.37.57:369][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.003970 seconds
+[2017.03.23-04.37.57:383][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.23-04.37.57:383][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.03.23-04.37.57:446][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.03.23-04.37.57:446][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.23-04.37.57:446][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.03.23-04.37.57:494][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.23-04.37.57:712][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: mineprison, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1076408440
+[2017.03.23-04.37.57:730][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.23-04.37.57:856][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.23-04.37.57:856][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.23-04.37.57:911][  0]LogMoviePlayer: Initializing movie player
+[2017.03.23-04.37.58:019][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/k201395940/Desktop/New Four/MinePrison/Content/Movies/Default_Startup.mp4
+[2017.03.23-04.37.58:103][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.23-04.37.58:123][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.23-04.37.58:236][  0]SourceControl: Info Source control is disabled
+[2017.03.23-04.37.58:236][  0]SourceControl: Info Source control is disabled
+[2017.03.23-04.37.58:263][  0]SourceControl: Info Source control is disabled
+[2017.03.23-04.37.58:411][  0]LogUObjectArray: 32656 objects as part of root set at end of initial load.
+[2017.03.23-04.37.58:411][  0]LogUObjectAllocator: 7245024 out of 0 bytes used by permanent object pool.
+[2017.03.23-04.37.58:411][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.23-04.37.58:458][  0]LogEngine: Initializing Engine...
+[2017.03.23-04.37.58:459][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.23-04.37.58:569][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-04.37.58:582][  0]LogInit: FAudioDevice initialized.
+[2017.03.23-04.37.58:589][  0]LogInit: Texture streaming: Enabled
+[2017.03.23-04.37.58:590][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2017.03.23-04.37.58:591][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/BaseColor.BaseColor for platform PCD3D_ES2, Default Material will be used in game.
+[2017.03.23-04.37.58:591][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
+[2017.03.23-04.37.58:618][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2017.03.23-04.37.58:618][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Specular.Specular for platform PCD3D_ES2, Default Material will be used in game.
+[2017.03.23-04.37.58:618][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
+[2017.03.23-04.37.58:648][  0]LogInit:Display: Game Engine Initialized.
+[2017.03.23-04.37.58:687][  0]LogInit:Display: Starting Game.
+[2017.03.23-04.37.58:687][  0]LogNet: Browse: /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMinePrison_Map?Name=Player
+[2017.03.23-04.37.58:687][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMinePrison_Map?Name=Player
+[2017.03.23-04.37.58:700][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.23-04.37.58:700][  0]LogMemory: Process Physical Memory: 633.63 MB used, 664.09 MB peak
+[2017.03.23-04.37.58:700][  0]LogMemory: Process Virtual Memory: 719.76 MB used, 719.77 MB peak
+[2017.03.23-04.37.58:700][  0]LogMemory: Physical Memory: 8463.47 MB used, 16298.84 MB total
+[2017.03.23-04.37.58:700][  0]LogMemory: Virtual Memory: 1344.52 MB used, 134217728.00 MB total
+[2017.03.23-04.37.58:700][  0]LogMemory: 
+[2017.03.23-04.37.58:700][  0]Allocator Stats for TBB: (not implemented)
+[2017.03.23-04.37.59:698][  0]LogAIModule: Creating AISystem for world MinePrison_Map
+[2017.03.23-04.37.59:699][  0]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2017.03.23-04.37.59:762][  0]LogWorld: Bringing World /Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMinePrison_Map.MinePrison_Map up for play (max tick rate 0) at 2017.03.23-15.37.59
+[2017.03.23-04.37.59:770][  0]LogBlueprintUserMessages: [poison_barrel_569] 1
+[2017.03.23-04.37.59:770][  0]LogBlueprintUserMessages: [Push_Barrel_410] 1
+[2017.03.23-04.37.59:770][  0]LogBlueprintUserMessages: [poison_barrel2] 1
+[2017.03.23-04.37.59:770][  0]LogBlueprintUserMessages: [Push_Barrel3] 1
+[2017.03.23-04.37.59:770][  0]LogBlueprintUserMessages: [Push_Barrel3] 1
+[2017.03.23-04.37.59:770][  0]LogBlueprintUserMessages: [poison_barrel2] 1
+[2017.03.23-04.37.59:770][  0]LogBlueprintUserMessages: [Push_Barrel_410] 1
+[2017.03.23-04.37.59:770][  0]LogBlueprintUserMessages: [poison_barrel_569] 1
+[2017.03.23-04.37.59:771][  0]LogWorld: Bringing up level for play took: 0.071231
+[2017.03.23-04.37.59:771][  0]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.23-04.37.59:773][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.23-04.37.59:773][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.23-04.37.59:773][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.23-04.37.59:775][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.23-04.37.59:775][  0]LogLoad: Took 1.088062 seconds to LoadMap(/Temp/Autosaves/Game/2DSideScrollerBP/Maps/UEDPCMinePrison_Map)
+[2017.03.23-04.38.00:021][  0]LogLoad: (Engine Initialization) Total time: 4.94 seconds
+[2017.03.23-04.38.00:021][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.45 seconds
+[2017.03.23-04.38.00:021][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.23-04.38.00:021][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.23-04.38.00:038][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.23-04.38.00:038][  0]LogOcInput: OculusInput pre-init called
+[2017.03.23-04.38.00:054][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2017.03.23-04.38.00:143][  1]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2017.03.23-04.38.00:144][  1]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:144][  1]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:176][  2]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:176][  2]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:201][  3]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:201][  3]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:217][  4]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:217][  4]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:233][  5]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:233][  5]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:249][  6]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:250][  6]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:266][  7]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:266][  7]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:282][  8]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:282][  8]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:298][  9]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:298][  9]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:314][ 10]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:314][ 10]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:330][ 11]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:331][ 11]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:347][ 12]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:347][ 12]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:363][ 13]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:363][ 13]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:379][ 14]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:379][ 14]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:395][ 15]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:395][ 15]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:411][ 16]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:411][ 16]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:427][ 17]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:427][ 17]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:443][ 18]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:443][ 18]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:459][ 19]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:459][ 19]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:476][ 20]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:476][ 20]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:492][ 21]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:492][ 21]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:508][ 22]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:508][ 22]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:525][ 23]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:525][ 23]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:541][ 24]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:541][ 24]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:557][ 25]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:557][ 25]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:572][ 26]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:572][ 26]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:589][ 27]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:589][ 27]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:605][ 28]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:605][ 28]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:620][ 29]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:621][ 29]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:637][ 30]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:637][ 30]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:653][ 31]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:653][ 31]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:669][ 32]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:669][ 32]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:685][ 33]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:685][ 33]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:701][ 34]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:701][ 34]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:717][ 35]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:718][ 35]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:734][ 36]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:734][ 36]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:750][ 37]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:750][ 37]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:766][ 38]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:766][ 38]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:782][ 39]LogBlueprintUserMessages: [Push_Barrel2] 1
+[2017.03.23-04.38.00:782][ 39]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:782][ 39]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:798][ 40]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:798][ 40]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:814][ 41]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:814][ 41]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:831][ 42]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:831][ 42]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:847][ 43]LogBlueprintUserMessages: [Push_Barrel2] 1
+[2017.03.23-04.38.00:847][ 43]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:847][ 43]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:863][ 44]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:863][ 44]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:879][ 45]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:879][ 45]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:895][ 46]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:895][ 46]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:911][ 47]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:912][ 47]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:928][ 48]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:928][ 48]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:944][ 49]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:944][ 49]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:960][ 50]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:960][ 50]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:976][ 51]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:976][ 51]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.00:992][ 52]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.00:992][ 52]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:008][ 53]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:008][ 53]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:025][ 54]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:025][ 54]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:041][ 55]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:041][ 55]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:046][ 55]LogBlueprintUserMessages: [Push_Barrel3] 1
+[2017.03.23-04.38.01:046][ 55]LogBlueprintUserMessages: [poison_barrel2] 1
+[2017.03.23-04.38.01:046][ 55]LogBlueprintUserMessages: [Push_Barrel_410] 1
+[2017.03.23-04.38.01:046][ 55]LogBlueprintUserMessages: [poison_barrel_569] 1
+[2017.03.23-04.38.01:057][ 56]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:058][ 56]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:073][ 57]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:073][ 57]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:089][ 58]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:089][ 58]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:105][ 59]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:105][ 59]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:121][ 60]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:121][ 60]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:137][ 61]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:137][ 61]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:153][ 62]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:153][ 62]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:169][ 63]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:170][ 63]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:185][ 64]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:186][ 64]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:201][ 65]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:202][ 65]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:218][ 66]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:218][ 66]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:234][ 67]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:234][ 67]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:250][ 68]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:250][ 68]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:266][ 69]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:266][ 69]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:282][ 70]LogBlueprintUserMessages: [poison_barrel_569] 1
+[2017.03.23-04.38.01:282][ 70]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:282][ 70]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:298][ 71]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:299][ 71]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:314][ 72]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:315][ 72]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:330][ 73]LogBlueprintUserMessages: [poison_barrel_569] 1
+[2017.03.23-04.38.01:331][ 73]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:331][ 73]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:347][ 74]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:347][ 74]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:363][ 75]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:363][ 75]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:379][ 76]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:379][ 76]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:395][ 77]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:395][ 77]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:411][ 78]LogBlueprintUserMessages: [poison_barrel2] 21
+[2017.03.23-04.38.01:412][ 78]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:412][ 78]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:428][ 79]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:428][ 79]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:443][ 80]LogBlueprintUserMessages: [poison_barrel2] 21
+[2017.03.23-04.38.01:444][ 80]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:444][ 80]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:460][ 81]LogBlueprintUserMessages: [Push_Barrel2] 21
+[2017.03.23-04.38.01:460][ 81]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:460][ 81]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:476][ 82]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:476][ 82]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:492][ 83]LogBlueprintUserMessages: [Push_Barrel2] 21
+[2017.03.23-04.38.01:492][ 83]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:492][ 83]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:508][ 84]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:508][ 84]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:525][ 85]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:525][ 85]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:541][ 86]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:541][ 86]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:543][ 86]LogBlueprintUserMessages: [Push_Barrel3] 21
+[2017.03.23-04.38.01:543][ 86]LogBlueprintUserMessages: [poison_barrel_569] 21
+[2017.03.23-04.38.01:543][ 86]LogBlueprintUserMessages: [poison_barrel2] 21
+[2017.03.23-04.38.01:543][ 86]LogBlueprintUserMessages: [Push_Barrel_410] 21
+[2017.03.23-04.38.01:557][ 87]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:557][ 87]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:573][ 88]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:573][ 88]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:590][ 89]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:590][ 89]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:606][ 90]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:606][ 90]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:622][ 91]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:622][ 91]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:638][ 92]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:638][ 92]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:654][ 93]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:654][ 93]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:670][ 94]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:670][ 94]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:686][ 95]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:686][ 95]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:702][ 96]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:702][ 96]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:718][ 97]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:718][ 97]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:735][ 98]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:735][ 98]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:751][ 99]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:751][ 99]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:767][100]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:767][100]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:783][101]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:783][101]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:799][102]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:799][102]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:815][103]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:815][103]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:831][104]LogBlueprintUserMessages: [Push_Barrel_410] 1
+[2017.03.23-04.38.01:831][104]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:831][104]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:848][105]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:848][105]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:864][106]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:864][106]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:880][107]LogBlueprintUserMessages: [Push_Barrel_410] 1
+[2017.03.23-04.38.01:880][107]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:880][107]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:896][108]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:896][108]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:912][109]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:912][109]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:928][110]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:928][110]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:944][111]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:944][111]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:960][112]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:960][112]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:976][113]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:976][113]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.01:993][114]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.01:993][114]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:010][115]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:010][115]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:026][116]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:026][116]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:041][117]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:041][117]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:043][117]LogBlueprintUserMessages: [Push_Barrel3] 1
+[2017.03.23-04.38.02:043][117]LogBlueprintUserMessages: [poison_barrel2] 1
+[2017.03.23-04.38.02:043][117]LogBlueprintUserMessages: [Push_Barrel_410] 1
+[2017.03.23-04.38.02:043][117]LogBlueprintUserMessages: [poison_barrel_569] 1
+[2017.03.23-04.38.02:057][118]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:057][118]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:074][119]LogBlueprintUserMessages: [Push_Barrel_410] 21
+[2017.03.23-04.38.02:074][119]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:074][119]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:091][120]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:091][120]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:107][121]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:107][121]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:122][122]LogBlueprintUserMessages: [Push_Barrel_410] 21
+[2017.03.23-04.38.02:123][122]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:123][122]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:139][123]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:139][123]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:155][124]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:155][124]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:172][125]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:172][125]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:188][126]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:188][126]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:204][127]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:204][127]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:218][128]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:219][128]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:235][129]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:235][129]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:251][130]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:251][130]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:267][131]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:267][131]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:283][132]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:283][132]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:299][133]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:299][133]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:315][134]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:315][134]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:330][135]LogBlueprintUserMessages: [Push_Barrel3] 1
+[2017.03.23-04.38.02:331][135]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:331][135]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:347][136]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:347][136]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:363][137]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:364][137]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:380][138]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:380][138]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:396][139]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:396][139]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:412][140]LogBlueprintUserMessages: [Push_Barrel3] 21
+[2017.03.23-04.38.02:412][140]LogBlueprintUserMessages: [Push_Barrel3] 21
+[2017.03.23-04.38.02:412][140]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:412][140]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:428][141]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:428][141]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:444][142]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:445][142]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:461][143]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:461][143]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:478][144]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:478][144]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:494][145]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:494][145]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:510][146]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:510][146]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:526][147]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:526][147]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:541][148]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:541][148]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:542][148]LogBlueprintUserMessages: [Push_Barrel3] 21
+[2017.03.23-04.38.02:542][148]LogBlueprintUserMessages: [poison_barrel_569] 21
+[2017.03.23-04.38.02:542][148]LogBlueprintUserMessages: [poison_barrel2] 21
+[2017.03.23-04.38.02:542][148]LogBlueprintUserMessages: [Push_Barrel_410] 21
+[2017.03.23-04.38.02:557][149]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:557][149]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:573][150]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:573][150]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:589][151]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:589][151]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:605][152]LogBlueprintUserMessages: [poison_barrel2] 1
+[2017.03.23-04.38.02:605][152]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:605][152]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:621][153]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:621][153]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:638][154]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:638][154]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:653][155]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:653][155]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:669][156]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:669][156]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:686][157]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:686][157]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:702][158]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:702][158]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:718][159]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:718][159]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:734][160]LogBlueprintUserMessages: [Push_Barrel3] 1
+[2017.03.23-04.38.02:735][160]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:735][160]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:750][161]LogBlueprintUserMessages: [Push_Barrel3] 1
+[2017.03.23-04.38.02:750][161]LogBlueprintUserMessages: [Push_Barrel3] 1
+[2017.03.23-04.38.02:751][161]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:751][161]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:767][162]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:767][162]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:783][163]LogBlueprintUserMessages: [poison_barrel2] 1
+[2017.03.23-04.38.02:783][163]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:783][163]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:799][164]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:799][164]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:816][165]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:816][165]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:832][166]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:832][166]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:847][167]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:847][167]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:864][168]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:864][168]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:880][169]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:880][169]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:896][170]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:896][170]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:912][171]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:912][171]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:928][172]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:928][172]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:944][173]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:944][173]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:960][174]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:960][174]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:976][175]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:976][175]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.02:992][176]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.02:993][176]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:008][177]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:008][177]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:024][178]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:024][178]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:040][179]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:040][179]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:043][179]LogBlueprintUserMessages: [Push_Barrel3] 1
+[2017.03.23-04.38.03:043][179]LogBlueprintUserMessages: [poison_barrel2] 1
+[2017.03.23-04.38.03:043][179]LogBlueprintUserMessages: [Push_Barrel_410] 1
+[2017.03.23-04.38.03:043][179]LogBlueprintUserMessages: [poison_barrel_569] 1
+[2017.03.23-04.38.03:057][180]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:057][180]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:073][181]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:073][181]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:089][182]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:089][182]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:105][183]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:105][183]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:122][184]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:122][184]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:137][185]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:137][185]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:153][186]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:153][186]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:170][187]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:170][187]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:186][188]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:187][188]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:202][189]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:203][189]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:219][190]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:219][190]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:234][191]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:234][191]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:250][192]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:250][192]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:266][193]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:266][193]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:282][194]LogBlueprintUserMessages: [poison_barrel2] 21
+[2017.03.23-04.38.03:282][194]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:283][194]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:298][195]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:299][195]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:315][196]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:315][196]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:331][197]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:331][197]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:347][198]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:347][198]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:363][199]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:363][199]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:379][200]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:379][200]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:395][201]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:396][201]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:412][202]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:412][202]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:428][203]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:428][203]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:444][204]LogBlueprintUserMessages: [poison_barrel2] 21
+[2017.03.23-04.38.03:444][204]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:444][204]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:460][205]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:460][205]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:476][206]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:476][206]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:492][207]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:492][207]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:508][208]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:509][208]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:524][209]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:525][209]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:541][210]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:541][210]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:542][210]LogBlueprintUserMessages: [Push_Barrel3] 21
+[2017.03.23-04.38.03:542][210]LogBlueprintUserMessages: [poison_barrel_569] 21
+[2017.03.23-04.38.03:542][210]LogBlueprintUserMessages: [poison_barrel2] 21
+[2017.03.23-04.38.03:542][210]LogBlueprintUserMessages: [Push_Barrel_410] 21
+[2017.03.23-04.38.03:557][211]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:557][211]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:572][212]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:573][212]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:589][213]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:589][213]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:605][214]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:605][214]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:621][215]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:621][215]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:637][216]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:637][216]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:653][217]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:653][217]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:669][218]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:669][218]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:686][219]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:686][219]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:702][220]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:702][220]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:718][221]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:718][221]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:734][222]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:734][222]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:750][223]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:750][223]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:766][224]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:766][224]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:782][225]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:782][225]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:798][226]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:798][226]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:815][227]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:815][227]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:831][228]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:831][228]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:847][229]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:847][229]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:863][230]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:863][230]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:879][231]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:879][231]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:895][232]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:895][232]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:911][233]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:911][233]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:927][234]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:927][234]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:943][235]LogBlueprintUserMessages: [Push_Barrel_410] 1
+[2017.03.23-04.38.03:943][235]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:944][235]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:959][236]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:960][236]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:976][237]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:976][237]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.03:992][238]LogBlueprintUserMessages: [Push_Barrel_410] 1
+[2017.03.23-04.38.03:992][238]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.03:992][238]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:008][239]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:008][239]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:024][240]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:024][240]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:040][241]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:040][241]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:042][241]LogBlueprintUserMessages: [Push_Barrel3] 1
+[2017.03.23-04.38.04:042][241]LogBlueprintUserMessages: [poison_barrel2] 1
+[2017.03.23-04.38.04:042][241]LogBlueprintUserMessages: [Push_Barrel_410] 1
+[2017.03.23-04.38.04:042][241]LogBlueprintUserMessages: [poison_barrel_569] 1
+[2017.03.23-04.38.04:056][242]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:056][242]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:072][243]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:072][243]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:089][244]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:089][244]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:105][245]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:105][245]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:121][246]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:121][246]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:137][247]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:137][247]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:153][248]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:153][248]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:169][249]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:169][249]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:185][250]LogBlueprintUserMessages: [Push_Barrel_410] 21
+[2017.03.23-04.38.04:185][250]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:185][250]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:201][251]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:202][251]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:218][252]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:218][252]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:234][253]LogBlueprintUserMessages: [Push_Barrel_410] 21
+[2017.03.23-04.38.04:234][253]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:234][253]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:250][254]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:250][254]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:266][255]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:266][255]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:282][256]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:282][256]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:299][257]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:299][257]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:314][258]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:314][258]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:330][259]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:330][259]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:346][260]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:347][260]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:363][261]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:363][261]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:379][262]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:379][262]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:395][263]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:395][263]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:411][264]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:411][264]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:428][265]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:428][265]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:443][266]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:443][266]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:459][267]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:459][267]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:476][268]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:476][268]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:492][269]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:492][269]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:508][270]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:508][270]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:524][271]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:524][271]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:540][272]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:541][272]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:543][272]LogBlueprintUserMessages: [Push_Barrel3] 21
+[2017.03.23-04.38.04:543][272]LogBlueprintUserMessages: [poison_barrel_569] 21
+[2017.03.23-04.38.04:543][272]LogBlueprintUserMessages: [poison_barrel2] 21
+[2017.03.23-04.38.04:543][272]LogBlueprintUserMessages: [Push_Barrel_410] 21
+[2017.03.23-04.38.04:556][273]LogBlueprintUserMessages: [Push_Barrel2] 1
+[2017.03.23-04.38.04:556][273]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:556][273]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:573][274]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:573][274]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:589][275]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:589][275]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:604][276]LogBlueprintUserMessages: [Push_Barrel3] 1
+[2017.03.23-04.38.04:604][276]LogBlueprintUserMessages: [Push_Barrel2] 1
+[2017.03.23-04.38.04:605][276]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:605][276]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:620][277]LogBlueprintUserMessages: [Push_Barrel3] 1
+[2017.03.23-04.38.04:621][277]LogBlueprintUserMessages: [poison_barrel2] 1
+[2017.03.23-04.38.04:621][277]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:621][277]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:637][278]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:637][278]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:653][279]LogBlueprintUserMessages: [poison_barrel2] 1
+[2017.03.23-04.38.04:653][279]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:653][279]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:669][280]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:669][280]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:685][281]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:685][281]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:702][282]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:702][282]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:718][283]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:718][283]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:734][284]LogBlueprintUserMessages: [poison_barrel_569] 21
+[2017.03.23-04.38.04:734][284]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:734][284]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:750][285]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:750][285]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:766][286]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:766][286]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:782][287]LogBlueprintUserMessages: [poison_barrel_569] 21
+[2017.03.23-04.38.04:782][287]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:782][287]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:798][288]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:798][288]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:814][289]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:814][289]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:831][290]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:831][290]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:847][291]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:847][291]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:863][292]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:863][292]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:879][293]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:879][293]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:895][294]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:895][294]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:912][295]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:912][295]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:928][296]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:929][296]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:943][297]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:943][297]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:959][298]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:960][298]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:976][299]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:976][299]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.04:992][300]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.04:992][300]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:008][301]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:008][301]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:024][302]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:024][302]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:041][303]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:041][303]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:046][303]LogBlueprintUserMessages: [Push_Barrel3] 1
+[2017.03.23-04.38.05:046][303]LogBlueprintUserMessages: [poison_barrel2] 1
+[2017.03.23-04.38.05:046][303]LogBlueprintUserMessages: [Push_Barrel_410] 1
+[2017.03.23-04.38.05:046][303]LogBlueprintUserMessages: [poison_barrel_569] 1
+[2017.03.23-04.38.05:057][304]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:057][304]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:073][305]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:073][305]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:089][306]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:089][306]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:105][307]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:106][307]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:121][308]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:121][308]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:137][309]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:137][309]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:153][310]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:154][310]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:169][311]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:170][311]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:186][312]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:186][312]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:202][313]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:202][313]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:218][314]LogBlueprintUserMessages: [Push_Barrel2] 21
+[2017.03.23-04.38.05:218][314]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:218][314]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:234][315]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:234][315]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:250][316]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:250][316]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:266][317]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:267][317]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:282][318]LogBlueprintUserMessages: [Push_Barrel2] 21
+[2017.03.23-04.38.05:282][318]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:283][318]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:310][319]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:310][319]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:317][320]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:317][320]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:334][321]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:334][321]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:349][322]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:349][322]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:365][323]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:365][323]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:381][324]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:381][324]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:398][325]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:398][325]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:414][326]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:415][326]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:431][327]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:431][327]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:447][328]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:447][328]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:463][329]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:463][329]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:479][330]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:479][330]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:495][331]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:496][331]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:511][332]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:511][332]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:527][333]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:527][333]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:543][334]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:543][334]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:545][334]LogBlueprintUserMessages: [Push_Barrel3] 21
+[2017.03.23-04.38.05:545][334]LogBlueprintUserMessages: [poison_barrel_569] 21
+[2017.03.23-04.38.05:545][334]LogBlueprintUserMessages: [poison_barrel2] 21
+[2017.03.23-04.38.05:545][334]LogBlueprintUserMessages: [Push_Barrel_410] 21
+[2017.03.23-04.38.05:559][335]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:559][335]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:575][336]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:575][336]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:591][337]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:591][337]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:607][338]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:607][338]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:623][339]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:623][339]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:640][340]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:640][340]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:656][341]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:656][341]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:672][342]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:672][342]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:688][343]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:688][343]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:704][344]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:704][344]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:720][345]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:720][345]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:736][346]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:736][346]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:752][347]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:752][347]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:769][348]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:769][348]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:785][349]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:785][349]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:801][350]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:801][350]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:817][351]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:817][351]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:833][352]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:834][352]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:849][353]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:849][353]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:865][354]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:865][354]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:882][355]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:882][355]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:898][356]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:898][356]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:915][357]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:915][357]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:930][358]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:930][358]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:947][359]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:947][359]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:962][360]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:963][360]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:978][361]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:978][361]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.05:994][362]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.05:994][362]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.06:010][363]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.06:010][363]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.06:026][364]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.06:026][364]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.06:042][365]Closing by request
+[2017.03.23-04.38.06:042][365]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.03.23-04.38.06:043][365]LogBlueprintUserMessages: [poison_barrel2] t
+[2017.03.23-04.38.06:043][365]LogBlueprintUserMessages: [poison_barrel_569] t
+[2017.03.23-04.38.06:044][365]LogBlueprintUserMessages: [Push_Barrel3] 1
+[2017.03.23-04.38.06:044][365]LogBlueprintUserMessages: [poison_barrel2] 1
+[2017.03.23-04.38.06:044][365]LogBlueprintUserMessages: [Push_Barrel_410] 1
+[2017.03.23-04.38.06:044][365]LogBlueprintUserMessages: [poison_barrel_569] 1
+[2017.03.23-04.38.06:044][366]LogMoviePlayer: Shutting down movie player
+[2017.03.23-04.38.06:499][366]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.23-04.38.06:510][366]LogExit: Preparing to exit.
+[2017.03.23-04.38.07:273][366]LogExit: Game engine shut down
+[2017.03.23-04.38.07:391][366]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.23-04.38.07:391][366]LogExit: Object subsystem successfully closed.
+[2017.03.23-04.38.07:403][366]LogD3D11RHI: Shutdown
+[2017.03.23-04.38.07:403][366]LogD3D11RHI: CleanupD3DDevice
+[2017.03.23-04.38.07:432][366]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (119)
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module SequenceRecorder (118)
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module AutomationController (117)
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module AutomationWorker (116)
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module AITestSuite (114)
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module AIModule (113)
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (112)
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (111)
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module Media (110)
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (109)
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module CharacterAI (108)
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module SessionServices (107)
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (106)
+[2017.03.23-04.38.07:440][366]LogModuleManager: Shutting down and abandoning module Niagara (105)
+[2017.03.23-04.38.07:441][366]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (104)
+[2017.03.23-04.38.07:441][366]LogModuleManager: Shutting down and abandoning module PortalServices (103)
+[2017.03.23-04.38.07:441][366]LogModuleManager: Shutting down and abandoning module PortalRpc (102)
+[2017.03.23-04.38.07:441][366]LogModuleManager: Shutting down and abandoning module MessagingRpc (101)
+[2017.03.23-04.38.07:441][366]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2017.03.23-04.38.07:684][366]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module SteamVRController (97)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module SteamVR (96)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (95)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module OculusLibrary (94)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module OculusInput (93)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (92)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module CableComponent (91)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (90)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module HTML5Networking (88)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module DesktopPlatform (87)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (84)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module UObjectPlugin (83)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (82)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module SourceControl (81)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (80)
+[2017.03.23-04.38.07:685][366]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2017.03.23-04.38.07:785][366]LogModuleManager: Shutting down and abandoning module TcpMessaging (78)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (77)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module Paper2D (76)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (75)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module WmfMedia (74)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module MediaAssets (73)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (72)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (71)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module VREditor (70)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (69)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module PropertyEditor (68)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (67)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module FunctionalTesting (66)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (65)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module Sequencer (64)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (63)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module MessageLog (62)
+[2017.03.23-04.38.08:106][366]LogModuleManager: Shutting down and abandoning module AssetTools (61)
+[2017.03.23-04.38.08:107][366]LogModuleManager: Shutting down and abandoning module UMGEditor (60)
+[2017.03.23-04.38.08:107][366]LogModuleManager: Shutting down and abandoning module UMG (59)
+[2017.03.23-04.38.08:107][366]LogModuleManager: Shutting down and abandoning module SlateReflector (58)
+[2017.03.23-04.38.08:107][366]LogModuleManager: Shutting down and abandoning module Slate (57)
+[2017.03.23-04.38.08:107][366]LogModuleManager: Shutting down and abandoning module EditorStyle (56)
+[2017.03.23-04.38.08:108][366]LogModuleManager: Shutting down and abandoning module Messaging (55)
+[2017.03.23-04.38.08:108][366]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (54)
+[2017.03.23-04.38.08:108][366]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (53)
+[2017.03.23-04.38.08:108][366]LogModuleManager: Shutting down and abandoning module XAudio2 (52)
+[2017.03.23-04.38.08:108][366]LogModuleManager: Shutting down and abandoning module Networking (50)
+[2017.03.23-04.38.08:108][366]LogModuleManager: Shutting down and abandoning module Core (49)
+[2017.03.23-04.38.08:108][366]LogModuleManager: Shutting down and abandoning module KismetCompiler (48)
+[2017.03.23-04.38.08:108][366]LogModuleManager: Shutting down and abandoning module PhysXFormats (47)
+[2017.03.23-04.38.08:108][366]LogModuleManager: Shutting down and abandoning module MeshUtilities (46)
+[2017.03.23-04.38.08:108][366]LogModuleManager: Shutting down and abandoning module AssetRegistry (45)
+[2017.03.23-04.38.08:108][366]LogModuleManager: Shutting down and abandoning module DerivedDataCache (44)
+[2017.03.23-04.38.08:214][366]LogDerivedDataCache: Shutdown
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (43)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (36)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module ImageWrapper (35)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (34)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (33)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (32)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (31)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (30)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.03.23-04.38.08:214][366]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.23-04.38.08:214][366]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.23-04.38.08:224][366]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.23-04.38.08:225][366]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.23-04.38.08:225][366]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.23-04.38.08:225][366]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.23-04.38.08:225][366]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.23-04.38.08:225][366]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.23-04.38.08:225][366]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.23-04.38.08:225][366]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.23-04.38.08:225][366]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.23-04.38.08:225][366]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.23-04.38.08:225][366]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.23-04.38.08:225][366]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.23-04.38.08:225][366]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.23-04.38.08:225][366]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.23-04.38.08:225][366]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.23-04.38.08:226][366]LogExit: Exiting.
+[2017.03.23-04.38.08:228][366]Log file closed, 03/23/17 15:38:08
