@@ -1,9 +1,9 @@
-﻿Log file open, 03/30/17 15:26:04
+﻿Log file open, 04/18/17 12:19:59
 LogInit:Display: Running engine for game: War_Torn_Lands
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-117479765) SRandInit(-117479765).
+LogInit:Display: RandInit(-1813036045) SRandInit(-1813036045).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.072749
+LogStats: Stats thread started at 0.073704
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -36,6 +36,7 @@ LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic 
 LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
 LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
 LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Marketplace/Substance/Substance.uplugin
 LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
 LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
 LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
@@ -133,1593 +134,277 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.13/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.03.30-04.26.04:705][  0]LogInit: Selected Device Profile: [Windows]
-[2017.03.30-04.26.04:705][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.03.30-04.26.04:708][  0]LogInit: Computer: 7P5PF42
-[2017.03.30-04.26.04:708][  0]LogInit: User: V201624468
-[2017.03.30-04.26.04:708][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.03.30-04.26.04:708][  0]LogInit: High frequency timer resolution =3.515621 MHz
-[2017.03.30-04.26.04:708][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.03.30-04.26.04:708][  0]LogMemory: Platform Memory Stats for Windows
-[2017.03.30-04.26.04:708][  0]LogMemory: Process Physical Memory: 256.38 MB used, 256.38 MB peak
-[2017.03.30-04.26.04:708][  0]LogMemory: Process Virtual Memory: 260.03 MB used, 260.03 MB peak
-[2017.03.30-04.26.04:708][  0]LogMemory: Physical Memory: 7656.80 MB used, 16298.84 MB total
-[2017.03.30-04.26.04:708][  0]LogMemory: Virtual Memory: 623.22 MB used, 134217728.00 MB total
-[2017.03.30-04.26.04:731][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
-[2017.03.30-04.26.05:077][  0]LogD3D11RHI: D3D11 adapters:
-[2017.03.30-04.26.05:087][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R9 270' (Feature Level 11_0)
-[2017.03.30-04.26.05:087][  0]LogD3D11RHI:       2030/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2017.03.30-04.26.05:092][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.03.30-04.26.05:092][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.03.30-04.26.05:093][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.03.30-04.26.05:093][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.03.30-04.26.05:093][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.03.30-04.26.05:097][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.03.30-04.26.05:097][  0]LogD3D11RHI:     GPU DeviceId: 0x6811 (for the marketing name, search the web for "GPU Device Id")
-[2017.03.30-04.26.05:097][  0]LogWindows: EnumDisplayDevices:
-[2017.03.30-04.26.05:098][  0]LogWindows:    0. 'AMD Radeon(TM) R9 270' (P:1 D:1)
-[2017.03.30-04.26.05:098][  0]LogWindows:    1. 'AMD Radeon(TM) R9 270' (P:0 D:0)
-[2017.03.30-04.26.05:098][  0]LogWindows:    2. 'AMD Radeon(TM) R9 270' (P:0 D:0)
-[2017.03.30-04.26.05:098][  0]LogWindows:    3. 'AMD Radeon(TM) R9 270' (P:0 D:0)
-[2017.03.30-04.26.05:098][  0]LogWindows:    4. 'AMD Radeon(TM) R9 270' (P:0 D:0)
-[2017.03.30-04.26.05:099][  0]LogWindows:    5. 'AMD Radeon(TM) R9 270' (P:0 D:0)
-[2017.03.30-04.26.05:099][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.03.30-04.26.05:099][  0]LogWindows:    7. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.03.30-04.26.05:099][  0]LogWindows:    8. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.03.30-04.26.05:099][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
-[2017.03.30-04.26.05:099][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R9 270
-[2017.03.30-04.26.05:099][  0]LogD3D11RHI:   Driver Version: Crimson 15.11 (internal:15.301.1701.0, unified:15.301.1701.0)
-[2017.03.30-04.26.05:099][  0]LogD3D11RHI:      Driver Date: 1-13-2016
-[2017.03.30-04.26.05:099][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.03.30-04.26.05:104][  0]LogD3D11RHI: Async texture creation enabled
-[2017.03.30-04.26.05:115][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.03.30-04.26.05:116][  0]LogShaderCompilers: Guid format shader working directory is -60 characters bigger than the processId version (../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment7/ProjectFiles/War-Torn Lands/Intermediate/Shaders/WorkingDirectory/9584/).
-[2017.03.30-04.26.05:116][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/V20162~1/AppData/Local/Temp/UnrealShaderWorkingDir/9470B35F45A1596A66C7D88C9671FACE/'.
-[2017.03.30-04.26.05:116][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.03.30-04.26.05:892][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.03.30-04.26.05:899][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.03.30-04.26.05:906][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.03.30-04.26.05:913][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.03.30-04.26.05:913][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.03.30-04.26.05:972][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.03.30-04.26.06:032][  0]LogDerivedDataCache: Loaded boot cache 0.06s 62MB C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2017.03.30-04.26.06:032][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2017.03.30-04.26.06:032][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment7/ProjectFiles/War-Torn Lands/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.03.30-04.26.06:032][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.03.30-04.26.06:032][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment7/ProjectFiles/War-Torn Lands/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.03.30-04.26.06:032][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.03.30-04.26.06:046][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.03.30-04.26.06:058][  0]LogDerivedDataCache: Using Local data cache path C:/Users/v201624468/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.03.30-04.26.06:245][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
-[2017.03.30-04.26.06:248][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.003500 seconds
-[2017.03.30-04.26.06:264][  0]LogInit: Selected Device Profile: [Windows]
-[2017.03.30-04.26.06:265][  0]LogContentStreaming: Texture pool size is 1000.00 MB
-[2017.03.30-04.26.06:498][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2017.03.30-04.26.06:498][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.03.30-04.26.06:498][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.03.30-04.26.06:556][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.03.30-04.26.07:503][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: war_torn_lands, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1144901164
-[2017.03.30-04.26.07:556][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.03.30-04.26.07:991][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.03.30-04.26.07:991][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.03.30-04.26.08:048][  0]LogMoviePlayer: Initializing movie player
-[2017.03.30-04.26.08:161][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment7/ProjectFiles/War-Torn Lands/Content/Movies/Default_Startup.mp4
-[2017.03.30-04.26.08:311][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.03.30-04.26.08:336][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.03.30-04.26.08:423][  0]SourceControl: Info Source control is disabled
-[2017.03.30-04.26.08:423][  0]SourceControl: Info Source control is disabled
-[2017.03.30-04.26.08:435][  0]SourceControl: Info Source control is disabled
-[2017.03.30-04.26.08:573][  0]LogUObjectArray: 32656 objects as part of root set at end of initial load.
-[2017.03.30-04.26.08:573][  0]LogUObjectAllocator: 7245032 out of 0 bytes used by permanent object pool.
-[2017.03.30-04.26.08:573][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.03.30-04.26.08:689][  0]LogEngine: Initializing Engine...
-[2017.03.30-04.26.08:690][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.03.30-04.26.09:138][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.03.30-04.26.09:170][  0]LogInit: FAudioDevice initialized.
-[2017.03.30-04.26.09:179][  0]LogInit: Texture streaming: Enabled
-[2017.03.30-04.26.09:181][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
-[2017.03.30-04.26.09:182][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/BaseColor.BaseColor for platform PCD3D_ES2, Default Material will be used in game.
-[2017.03.30-04.26.09:182][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
-[2017.03.30-04.26.09:402][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
-[2017.03.30-04.26.09:404][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Specular.Specular for platform PCD3D_ES2, Default Material will be used in game.
-[2017.03.30-04.26.09:404][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
-[2017.03.30-04.26.09:580][  0]LogInit:Display: Game Engine Initialized.
-[2017.03.30-04.26.09:657][  0]LogInit:Display: Starting Game.
-[2017.03.30-04.26.09:657][  0]LogNet: Browse: /Temp/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL?Name=Player
-[2017.03.30-04.26.09:658][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL?Name=Player
-[2017.03.30-04.26.09:671][  0]LogMemory: Platform Memory Stats for Windows
-[2017.03.30-04.26.09:671][  0]LogMemory: Process Physical Memory: 631.36 MB used, 667.76 MB peak
-[2017.03.30-04.26.09:671][  0]LogMemory: Process Virtual Memory: 718.76 MB used, 718.77 MB peak
-[2017.03.30-04.26.09:671][  0]LogMemory: Physical Memory: 7947.78 MB used, 16298.84 MB total
-[2017.03.30-04.26.09:671][  0]LogMemory: Virtual Memory: 1344.93 MB used, 134217728.00 MB total
-[2017.03.30-04.26.09:671][  0]LogMemory: 
-[2017.03.30-04.26.09:671][  0]Allocator Stats for TBB: (not implemented)
-[2017.03.30-04.26.09:963][  0]LogAIModule: Creating AISystem for world Menu_WTL
-[2017.03.30-04.26.09:963][  0]LogWorld: Game class is 'Menu_GameMode_WTL_C'
-[2017.03.30-04.26.09:965][  0]LogWorld: Bringing World /Temp/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.Menu_WTL up for play (max tick rate 0) at 2017.03.30-15.26.09
-[2017.03.30-04.26.09:966][  0]LogWorld: Bringing up level for play took: 0.001328
-[2017.03.30-04.26.09:968][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.03.30-04.26.09:968][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.03.30-04.26.09:968][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2017.03.30-04.26.09:971][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.03.30-04.26.09:971][  0]LogLoad: Took 0.313457 seconds to LoadMap(/Temp/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL)
-[2017.03.30-04.26.10:220][  0]LogLoad: (Engine Initialization) Total time: 6.36 seconds
-[2017.03.30-04.26.10:220][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
-[2017.03.30-04.26.10:220][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.03.30-04.26.10:220][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.03.30-04.26.10:237][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.03.30-04.26.10:237][  0]LogOcInput: OculusInput pre-init called
-[2017.03.30-04.26.10:262][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
-[2017.03.30-04.26.10:368][  1]LogRenderer: Reallocating scene render targets to support 1600x900 (Frame:2).
-[2017.03.30-04.26.19:157][532]LogPackageName: SearchForPackageOnDisk took   0.081s to resolve Grasslands_Level_1_WTL.umap.
-[2017.03.30-04.26.19:174][532]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
-[2017.03.30-04.26.19:174][532]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.03.30-04.26.19:253][532]LogPackageName: SearchForPackageOnDisk took   0.078s to resolve Grasslands_Level_1_WTL.umap.
-[2017.03.30-04.26.19:253][532]LogNet: Browse: /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL
-[2017.03.30-04.26.19:253][532]LogLoad: LoadMap: /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL
-[2017.03.30-04.26.19:288][532]LogMemory: Platform Memory Stats for Windows
-[2017.03.30-04.26.19:288][532]LogMemory: Process Physical Memory: 675.07 MB used, 688.99 MB peak
-[2017.03.30-04.26.19:288][532]LogMemory: Process Virtual Memory: 761.72 MB used, 786.31 MB peak
-[2017.03.30-04.26.19:288][532]LogMemory: Physical Memory: 7977.23 MB used, 16298.84 MB total
-[2017.03.30-04.26.19:288][532]LogMemory: Virtual Memory: 1394.20 MB used, 134217728.00 MB total
-[2017.03.30-04.26.19:288][532]LogMemory: 
-[2017.03.30-04.26.19:288][532]Allocator Stats for TBB: (not implemented)
-[2017.03.30-04.26.19:896][532]LogAIModule: Creating AISystem for world Grasslands_Level_1_WTL
-[2017.03.30-04.26.19:896][532]LogWorld: Game class is 'GameMode_WTL_C'
-[2017.03.30-04.26.20:051][532]LogWorld: Bringing World /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL up for play (max tick rate 0) at 2017.03.30-15.26.20
-[2017.03.30-04.26.20:053][532]LogWorld: Bringing up level for play took: 0.154765
-[2017.03.30-04.26.20:053][532]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.03.30-04.26.20:053][532]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.03.30-04.26.20:053][532]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2017.03.30-04.26.20:057][532]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.03.30-04.26.20:058][532]LogLoad: Took 0.804985 seconds to LoadMap(/Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL)
-[2017.03.30-04.26.34:795][443]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:02E2
-[2017.03.30-04.26.34:795][443]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveHit
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:803][444]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.34:803][444]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:803][444]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.34:803][444]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:819][445]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.34:819][445]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:819][445]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.34:819][445]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:835][446]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.34:835][446]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:835][446]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.34:835][446]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:851][447]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.34:851][447]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:851][447]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.34:851][447]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:867][448]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.34:867][448]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:867][448]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.34:867][448]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:883][449]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.34:883][449]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:883][449]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.34:883][449]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:900][450]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.34:900][450]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:900][450]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.34:900][450]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:916][451]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.34:916][451]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.34:916][451]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.34:916][451]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:148][713]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:02E2
-[2017.03.30-04.26.39:148][713]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveHit
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:158][714]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.39:158][714]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:158][714]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.39:158][714]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:174][715]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.39:174][715]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:174][715]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.39:174][715]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:190][716]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.39:190][716]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:190][716]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.39:190][716]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:206][717]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.39:206][717]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:206][717]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.39:206][717]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:222][718]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.39:222][718]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:222][718]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.39:222][718]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:238][719]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.39:238][719]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:238][719]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.39:238][719]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:254][720]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.39:254][720]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:254][720]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.39:254][720]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:271][721]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.39:271][721]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.39:271][721]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_1
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.39:271][721]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:822][561]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.52:822][561]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:822][561]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.52:822][561]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:838][562]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.52:838][562]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:838][562]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.52:838][562]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:854][563]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.52:854][563]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:854][563]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.52:854][563]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:870][564]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.52:870][564]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:870][564]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.52:870][564]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:886][565]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.52:886][565]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:886][565]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.52:886][565]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:902][566]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.52:902][566]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:902][566]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.52:902][566]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:918][567]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.52:918][567]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:918][567]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.52:918][567]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:935][568]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.52:935][568]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:935][568]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.26.52:935][568]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.26.52:951][569]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_2
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.26.52:951][569]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:512][ 99]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.01:512][ 99]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:512][ 99]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.01:512][ 99]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:528][100]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.01:528][100]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:528][100]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.01:528][100]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:544][101]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.01:544][101]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:544][101]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.01:544][101]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:560][102]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.01:560][102]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:560][102]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.01:560][102]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:576][103]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.01:576][103]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:576][103]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.01:576][103]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:592][104]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.01:592][104]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:592][104]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.01:592][104]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:609][105]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.01:609][105]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:609][105]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.01:609][105]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:625][106]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.01:625][106]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:625][106]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.01:625][106]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.01:641][107]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_3
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.01:641][107]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:528][596]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.09:528][596]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:528][596]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.09:528][596]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:544][597]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.09:544][597]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:544][597]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.09:544][597]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:560][598]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.09:560][598]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:560][598]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.09:560][598]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:577][599]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.09:577][599]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:577][599]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.09:577][599]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:593][600]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.09:593][600]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:593][600]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.09:593][600]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:609][601]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.09:609][601]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:609][601]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.09:609][601]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:625][602]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.09:625][602]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:625][602]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.09:625][602]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:641][603]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.09:641][603]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:641][603]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.09:641][603]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.09:657][604]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_4
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.09:657][604]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:389][143]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.18:389][143]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:389][143]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.18:389][143]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:405][144]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.18:406][144]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:406][144]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.18:406][144]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:422][145]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.18:422][145]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:422][145]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.18:422][145]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:438][146]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.18:438][146]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:438][146]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.18:438][146]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:454][147]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.18:454][147]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:454][147]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.18:454][147]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:470][148]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.18:470][148]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:470][148]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.18:470][148]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:486][149]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.18:486][149]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:486][149]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.18:486][149]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:502][150]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.18:502][150]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:502][150]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.18:502][150]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.18:519][151]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_5
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.18:519][151]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:639][467]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.23:639][467]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:639][467]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.23:639][467]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:655][468]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.23:655][468]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:655][468]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.23:655][468]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:671][469]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.23:671][469]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:671][469]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.23:671][469]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:688][470]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.23:688][470]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:688][470]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.23:688][470]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:703][471]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.23:703][471]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:703][471]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.23:703][471]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:719][472]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.23:720][472]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:720][472]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.23:720][472]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:736][473]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.23:736][473]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:736][473]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.23:736][473]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:752][474]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.23:752][474]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:752][474]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.23:752][474]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.23:768][475]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	BigBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.BigBomb_BP_C_0
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.23:768][475]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:724][906]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.30:724][906]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:725][906]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.30:725][906]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:741][907]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.30:741][907]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:741][907]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.30:741][907]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:756][908]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.30:756][908]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:757][908]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.30:757][908]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:772][909]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.30:772][909]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:772][909]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.30:772][909]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:788][910]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.30:788][910]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:788][910]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.30:788][910]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:805][911]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.30:805][911]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:805][911]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.30:805][911]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:821][912]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.30:821][912]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:821][912]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.30:821][912]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:837][913]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.30:837][913]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:837][913]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.30:837][913]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.30:853][914]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_6
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.30:853][914]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.36:966][293]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.36:966][293]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.36:966][293]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.36:966][293]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.36:982][294]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.36:982][294]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.36:982][294]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.36:982][294]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.36:998][295]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.36:998][295]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.36:998][295]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.36:998][295]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.37:014][296]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.37:014][296]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.37:014][296]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.37:014][296]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.37:030][297]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.37:030][297]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.37:030][297]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.37:030][297]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.37:047][298]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.37:047][298]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.37:047][298]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.37:047][298]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.37:063][299]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.37:063][299]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.37:063][299]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.37:063][299]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.37:079][300]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.37:079][300]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.37:079][300]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.37:079][300]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.37:095][301]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_7
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.37:095][301]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.40:983][542]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.40:983][542]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.40:983][542]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.40:983][542]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.40:998][543]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.40:998][543]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.40:998][543]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.40:999][543]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.41:014][544]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.41:014][544]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.41:014][544]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.41:014][544]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.41:031][545]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.41:031][545]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.41:031][545]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.41:031][545]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.41:046][546]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.41:046][546]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.41:046][546]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.41:046][546]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.41:063][547]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.41:063][547]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.41:063][547]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.41:063][547]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.41:079][548]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.41:079][548]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.41:079][548]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.41:079][548]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.41:095][549]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.41:095][549]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.41:095][549]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.41:095][549]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.41:111][550]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_8
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.41:111][550]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:772][ 25]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.48:772][ 25]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:772][ 25]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.48:772][ 25]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:788][ 26]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.48:788][ 26]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:788][ 26]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.48:788][ 26]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:805][ 27]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.48:805][ 27]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:805][ 27]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.48:805][ 27]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:821][ 28]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.48:821][ 28]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:821][ 28]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.48:821][ 28]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:837][ 29]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.48:837][ 29]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:837][ 29]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.48:837][ 29]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:853][ 30]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.48:853][ 30]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:853][ 30]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.48:853][ 30]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:869][ 31]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.48:869][ 31]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:869][ 31]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.48:869][ 31]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:885][ 32]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.48:885][ 32]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:885][ 32]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.48:885][ 32]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.48:901][ 33]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_9
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.48:901][ 33]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:676][577]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.57:676][577]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:676][577]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.57:676][577]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:692][578]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.57:692][578]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:692][578]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.57:692][578]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:708][579]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.57:708][579]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:708][579]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.57:708][579]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:724][580]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.57:724][580]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:724][580]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.57:724][580]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:740][581]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.57:740][581]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:740][581]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.57:740][581]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:756][582]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.57:756][582]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:756][582]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.57:756][582]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:773][583]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.57:773][583]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:773][583]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.57:773][583]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:789][584]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.57:789][584]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:789][584]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:0579
-[2017.03.30-04.27.57:789][584]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.27.57:805][585]LogScript:Warning: Attempted to access Bomb via property Bomb, but Bomb is pending kill
-	StandardBomb_BP_C /Game/War_Torn_Lands/Levels/Grasslands_Level_1_WTL.Grasslands_Level_1_WTL:PersistentLevel.StandardBomb_BP_C_10
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP:04CE
-[2017.03.30-04.27.57:805][585]LogScript:Warning: Script call stack:
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ReceiveTick
-	Function /Game/War_Torn_Lands/Bomb/Base_Bomb_BP.Base_Bomb_BP_C:ExecuteUbergraph_Base_Bomb_BP
-
-[2017.03.30-04.28.10:946][399]Closing by request
-[2017.03.30-04.28.10:946][399]LogWindows: FPlatformMisc::RequestExit(0)
-[2017.03.30-04.28.10:948][400]LogMoviePlayer: Shutting down movie player
-[2017.03.30-04.28.11:785][400]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.03.30-04.28.11:795][400]LogExit: Preparing to exit.
-[2017.03.30-04.28.12:513][400]LogExit: Game engine shut down
-[2017.03.30-04.28.12:611][400]LogObj: Freed 0b from 0 cluster array pools.
-[2017.03.30-04.28.12:611][400]LogExit: Object subsystem successfully closed.
-[2017.03.30-04.28.12:622][400]LogD3D11RHI: Shutdown
-[2017.03.30-04.28.12:622][400]LogD3D11RHI: CleanupD3DDevice
-[2017.03.30-04.28.12:654][400]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.03.30-04.28.12:662][400]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (119)
-[2017.03.30-04.28.12:662][400]LogModuleManager: Shutting down and abandoning module SequenceRecorder (118)
-[2017.03.30-04.28.12:663][400]LogModuleManager: Shutting down and abandoning module AutomationController (117)
-[2017.03.30-04.28.12:663][400]LogModuleManager: Shutting down and abandoning module AutomationWorker (116)
-[2017.03.30-04.28.12:663][400]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
-[2017.03.30-04.28.12:663][400]LogModuleManager: Shutting down and abandoning module AITestSuite (114)
-[2017.03.30-04.28.12:663][400]LogModuleManager: Shutting down and abandoning module AIModule (113)
-[2017.03.30-04.28.12:663][400]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (112)
-[2017.03.30-04.28.12:663][400]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (111)
-[2017.03.30-04.28.12:663][400]LogModuleManager: Shutting down and abandoning module Media (110)
-[2017.03.30-04.28.12:663][400]LogModuleManager: Shutting down and abandoning module 
+[2017.04.18-02.20.00:011][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.18-02.20.00:011][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.18-02.20.00:015][  0]LogInit: Computer: 7P5PF42
+[2017.04.18-02.20.00:015][  0]LogInit: User: V201624468
+[2017.04.18-02.20.00:015][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.18-02.20.00:015][  0]LogInit: High frequency timer resolution =3.515621 MHz
+[2017.04.18-02.20.00:015][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.18-02.20.00:015][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.18-02.20.00:015][  0]LogMemory: Process Physical Memory: 256.20 MB used, 256.20 MB peak
+[2017.04.18-02.20.00:015][  0]LogMemory: Process Virtual Memory: 260.00 MB used, 260.00 MB peak
+[2017.04.18-02.20.00:015][  0]LogMemory: Physical Memory: 6970.01 MB used, 16298.84 MB total
+[2017.04.18-02.20.00:015][  0]LogMemory: Virtual Memory: 623.22 MB used, 134217728.00 MB total
+[2017.04.18-02.20.00:037][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2017.04.18-02.20.00:376][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.18-02.20.00:385][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R9 270' (Feature Level 11_0)
+[2017.04.18-02.20.00:385][  0]LogD3D11RHI:       2030/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.04.18-02.20.00:390][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.04.18-02.20.00:390][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.18-02.20.00:392][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.18-02.20.00:392][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.18-02.20.00:392][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.18-02.20.00:395][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.18-02.20.00:395][  0]LogD3D11RHI:     GPU DeviceId: 0x6811 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.18-02.20.00:395][  0]LogWindows: EnumDisplayDevices:
+[2017.04.18-02.20.00:395][  0]LogWindows:    0. 'AMD Radeon(TM) R9 270' (P:1 D:1)
+[2017.04.18-02.20.00:396][  0]LogWindows:    1. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.04.18-02.20.00:396][  0]LogWindows:    2. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.04.18-02.20.00:396][  0]LogWindows:    3. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.04.18-02.20.00:396][  0]LogWindows:    4. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.04.18-02.20.00:396][  0]LogWindows:    5. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.04.18-02.20.00:397][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.18-02.20.00:397][  0]LogWindows:    7. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.18-02.20.00:397][  0]LogWindows:    8. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.18-02.20.00:397][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.04.18-02.20.00:397][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R9 270
+[2017.04.18-02.20.00:397][  0]LogD3D11RHI:   Driver Version: Crimson 15.11 (internal:15.301.1701.0, unified:15.301.1701.0)
+[2017.04.18-02.20.00:397][  0]LogD3D11RHI:      Driver Date: 1-13-2016
+[2017.04.18-02.20.00:397][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.18-02.20.00:402][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.18-02.20.00:412][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.04.18-02.20.00:413][  0]LogShaderCompilers: Guid format shader working directory is -60 characters bigger than the processId version (../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment7/ProjectFiles/War-Torn Lands/Intermediate/Shaders/WorkingDirectory/8100/).
+[2017.04.18-02.20.00:413][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/V20162~1/AppData/Local/Temp/UnrealShaderWorkingDir/4730124546ED375ABF2FD28A8494CC42/'.
+[2017.04.18-02.20.00:413][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.18-02.20.01:199][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.18-02.20.01:206][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.18-02.20.01:213][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.18-02.20.01:220][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.18-02.20.01:220][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.18-02.20.01:281][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.18-02.20.01:334][  0]LogDerivedDataCache: Loaded boot cache 0.05s 62MB C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.04.18-02.20.01:334][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.04.18-02.20.01:335][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment7/ProjectFiles/War-Torn Lands/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.18-02.20.01:335][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.18-02.20.01:335][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment7/ProjectFiles/War-Torn Lands/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.18-02.20.01:335][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.18-02.20.01:348][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.18-02.20.01:360][  0]LogDerivedDataCache: Using Local data cache path C:/Users/v201624468/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.18-02.20.01:500][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.04.18-02.20.01:504][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.003401 seconds
+[2017.04.18-02.20.01:518][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.18-02.20.01:519][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.04.18-02.20.01:581][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.04.18-02.20.01:581][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.18-02.20.01:581][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.04.18-02.20.01:628][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.18-02.20.01:854][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: war_torn_lands, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1144901164
+[2017.04.18-02.20.01:871][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.18-02.20.01:996][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.18-02.20.01:996][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.18-02.20.02:050][  0]LogMoviePlayer: Initializing movie player
+[2017.04.18-02.20.02:168][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/v201624468/Documents/GitHub/MobileDevelopment/Assignment7/ProjectFiles/War-Torn Lands/Content/Movies/Default_Startup.mp4
+[2017.04.18-02.20.02:273][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.04.18-02.20.02:282][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.18-02.20.02:301][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.18-02.20.02:394][  0]SourceControl: Info Source control is disabled
+[2017.04.18-02.20.02:394][  0]SourceControl: Info Source control is disabled
+[2017.04.18-02.20.02:411][  0]SourceControl: Info Source control is disabled
+[2017.04.18-02.20.02:542][  0]LogUObjectArray: 32799 objects as part of root set at end of initial load.
+[2017.04.18-02.20.02:542][  0]LogUObjectAllocator: 7270504 out of 0 bytes used by permanent object pool.
+[2017.04.18-02.20.02:542][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.18-02.20.02:588][  0]LogEngine: Initializing Engine...
+[2017.04.18-02.20.02:589][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.18-02.20.02:701][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.18-02.20.02:715][  0]LogInit: FAudioDevice initialized.
+[2017.04.18-02.20.02:722][  0]LogInit: Texture streaming: Enabled
+[2017.04.18-02.20.02:724][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2017.04.18-02.20.02:724][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/BaseColor.BaseColor for platform PCD3D_ES2, Default Material will be used in game.
+[2017.04.18-02.20.02:724][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
+[2017.04.18-02.20.02:752][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2017.04.18-02.20.02:752][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Specular.Specular for platform PCD3D_ES2, Default Material will be used in game.
+[2017.04.18-02.20.02:752][  0]LogMaterial:Warning: 	(Node FeatureLevelSwitch) Feature Level switch missing default input
+[2017.04.18-02.20.02:782][  0]LogInit:Display: Game Engine Initialized.
+[2017.04.18-02.20.02:822][  0]LogInit:Display: Starting Game.
+[2017.04.18-02.20.02:822][  0]LogNet: Browse: /Temp/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL?Name=Player
+[2017.04.18-02.20.02:822][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL?Name=Player
+[2017.04.18-02.20.02:835][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.18-02.20.02:835][  0]LogMemory: Process Physical Memory: 632.99 MB used, 663.71 MB peak
+[2017.04.18-02.20.02:835][  0]LogMemory: Process Virtual Memory: 710.39 MB used, 710.65 MB peak
+[2017.04.18-02.20.02:835][  0]LogMemory: Physical Memory: 7300.93 MB used, 16298.84 MB total
+[2017.04.18-02.20.02:835][  0]LogMemory: Virtual Memory: 1338.59 MB used, 134217728.00 MB total
+[2017.04.18-02.20.02:835][  0]LogMemory: 
+[2017.04.18-02.20.02:835][  0]Allocator Stats for TBB: (not implemented)
+[2017.04.18-02.20.03:112][  0]LogAIModule: Creating AISystem for world Menu_WTL
+[2017.04.18-02.20.03:112][  0]LogWorld: Game class is 'Menu_GameMode_WTL_C'
+[2017.04.18-02.20.03:114][  0]LogWorld: Bringing World /Temp/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.Menu_WTL up for play (max tick rate 0) at 2017.04.18-12.20.03
+[2017.04.18-02.20.03:115][  0]LogWorld: Bringing up level for play took: 0.001235
+[2017.04.18-02.20.03:117][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.18-02.20.03:117][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.18-02.20.03:117][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.18-02.20.03:118][  0]LogBlueprintUserMessages: [None] ERROR: WTL_Player_C_0 - Cant find GM
+[2017.04.18-02.20.03:119][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.18-02.20.03:119][  0]LogLoad: Took 0.296797 seconds to LoadMap(/Temp/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL)
+[2017.04.18-02.20.03:352][  0]LogLoad: (Engine Initialization) Total time: 4.16 seconds
+[2017.04.18-02.20.03:352][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.04.18-02.20.03:352][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.18-02.20.03:352][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.18-02.20.03:370][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.18-02.20.03:370][  0]LogOcInput: OculusInput pre-init called
+[2017.04.18-02.20.03:377][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2017.04.18-02.20.03:469][  1]LogRenderer: Reallocating scene render targets to support 1600x900 (Frame:2).
+[2017.04.18-02.20.05:647][123]LogPackageName: SearchForPackageOnDisk took   0.085s to resolve Grasslands_Lvl_1_WTL.umap.
+[2017.04.18-02.20.05:648][123]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.04.18-02.20.05:648][123]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.04.18-02.20.05:730][123]LogPackageName: SearchForPackageOnDisk took   0.082s to resolve Grasslands_Lvl_1_WTL.umap.
+[2017.04.18-02.20.05:730][123]LogNet: Browse: /Game/War_Torn_Lands/Levels/Grasslands_Lvl_1_WTL
+[2017.04.18-02.20.05:730][123]LogLoad: LoadMap: /Game/War_Torn_Lands/Levels/Grasslands_Lvl_1_WTL
+[2017.04.18-02.20.05:752][123]LogMemory: Platform Memory Stats for Windows
+[2017.04.18-02.20.05:752][123]LogMemory: Process Physical Memory: 707.12 MB used, 707.12 MB peak
+[2017.04.18-02.20.05:752][123]LogMemory: Process Virtual Memory: 778.96 MB used, 779.76 MB peak
+[2017.04.18-02.20.05:752][123]LogMemory: Physical Memory: 7362.81 MB used, 16298.84 MB total
+[2017.04.18-02.20.05:752][123]LogMemory: Virtual Memory: 1410.67 MB used, 134217728.00 MB total
+[2017.04.18-02.20.05:752][123]LogMemory: 
+[2017.04.18-02.20.05:752][123]Allocator Stats for TBB: (not implemented)
+[2017.04.18-02.20.06:111][123]LogAIModule: Creating AISystem for world Grasslands_Lvl_1_WTL
+[2017.04.18-02.20.06:111][123]LogWorld: Game class is 'GameMode_WTL_C'
+[2017.04.18-02.20.06:243][123]LogWorld: Bringing World /Game/War_Torn_Lands/Levels/Grasslands_Lvl_1_WTL.Grasslands_Lvl_1_WTL up for play (max tick rate 0) at 2017.04.18-12.20.06
+[2017.04.18-02.20.06:245][123]LogWorld: Bringing up level for play took: 0.131976
+[2017.04.18-02.20.06:245][123]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.18-02.20.06:245][123]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.18-02.20.06:245][123]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.18-02.20.06:248][123]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.18-02.20.06:249][123]LogLoad: Took 0.518210 seconds to LoadMap(/Game/War_Torn_Lands/Levels/Grasslands_Lvl_1_WTL)
+[2017.04.18-02.20.34:563][877]Closing by request
+[2017.04.18-02.20.34:563][877]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.04.18-02.20.34:564][878]LogMoviePlayer: Shutting down movie player
+[2017.04.18-02.20.34:647][878]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.18-02.20.34:656][878]LogExit: Preparing to exit.
+[2017.04.18-02.20.35:450][878]LogExit: Game engine shut down
+[2017.04.18-02.20.35:549][878]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.18-02.20.35:549][878]LogExit: Object subsystem successfully closed.
+[2017.04.18-02.20.35:561][878]LogD3D11RHI: Shutdown
+[2017.04.18-02.20.35:561][878]LogD3D11RHI: CleanupD3DDevice
+[2017.04.18-02.20.35:591][878]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (120)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module SequenceRecorder (119)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module AutomationController (118)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module AutomationWorker (117)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module GameplayDebugger (116)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module AITestSuite (115)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (113)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (112)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module Media (111)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (110)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module CharacterAI (109)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module SessionServices (108)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (107)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module Niagara (106)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module PortalServices (104)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module PortalRpc (103)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module MessagingRpc (102)
+[2017.04.18-02.20.35:600][878]LogModuleManager: Shutting down and abandoning module ProfilerService (101)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module TaskGraph (100)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module SlateRemote (99)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module SteamVRController (98)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module SteamVR (97)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (96)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module OculusLibrary (95)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module OculusInput (94)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (91)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module HTML5Networking (89)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module DesktopPlatform (88)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (85)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module UObjectPlugin (84)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (83)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module SourceControl (82)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (81)
+[2017.04.18-02.20.35:849][878]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2017.04.18-02.20.35:950][878]LogModuleManager: Shutting down and abandoning module TcpMessaging (79)
+[2017.04.18-02.20.36:299][878]LogModuleManager: Shutting down and abandoning module SubstanceCore (78)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (77)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module Paper2D (76)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (75)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module WmfMedia (74)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module MediaAssets (73)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (72)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (71)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module VREditor (70)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (69)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module PropertyEditor (68)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (67)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module FunctionalTesting (66)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (65)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module Sequencer (64)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (63)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module MessageLog (62)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module AssetTools (61)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module UMGEditor (60)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module UMG (59)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module SlateReflector (58)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module Slate (57)
+[2017.04.18-02.20.36:300][878]LogModuleManager: Shutting down and abandoning module EditorStyle (56)
+[2017.04.18-02.20.36:302][878]LogModuleManager: Shutting down and abandoning module Messaging (55)
+[2017.04.18-02.20.36:302][878]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (54)
+[2017.04.18-02.20.36:302][878]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (53)
+[2017.04.18-02.20.36:302][878]LogModuleManager: Shutting down and abandoning module XAudio2 (52)
+[2017.04.18-02.20.36:302][878]LogModuleManager: Shutting down and abandoning module Networking (50)
+[2017.04.18-02.20.36:302][878]LogModuleManager: Shutting down and abandoning module Core (49)
+[2017.04.18-02.20.36:302][878]LogModuleManager: Shutting down and abandoning module KismetCompiler (48)
+[2017.04.18-02.20.36:302][878]LogModuleManager: Shutting down and abandoning module PhysXFormats (47)
+[2017.04.18-02.20.36:302][878]LogModuleManager: Shutting down and abandoning module MeshUtilities (46)
+[2017.04.18-02.20.36:302][878]LogModuleManager: Shutting down and abandoning module AssetRegistry (45)
+[2017.04.18-02.20.36:302][878]LogModuleManager: Shutting down and abandoning module DerivedDataCache (44)
+[2017.04.18-02.20.36:375][878]LogDerivedDataCache: Shutdown
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (43)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (36)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module ImageWrapper (35)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (34)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (33)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (32)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (31)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (30)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.04.18-02.20.36:375][878]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.18-02.20.36:375][878]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.18-02.20.36:396][878]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.18-02.20.36:397][878]LogExit: Exiting.
+[2017.04.18-02.20.36:398][878]Log file closed, 04/18/17 12:20:36
