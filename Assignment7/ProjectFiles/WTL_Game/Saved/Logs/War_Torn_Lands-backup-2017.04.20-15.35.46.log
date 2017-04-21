@@ -1,0 +1,1119 @@
+﻿Log file open, 04/19/17 09:17:49
+LogInit:Display: Running engine for game: War_Torn_Lands
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1055720870) SRandInit(1055720871).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.105841
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.18-23.17.50:168][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.18-23.17.50:168][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.18-23.17.50:204][  0]LogInit: Computer: BL2TF42
+[2017.04.18-23.17.50:204][  0]LogInit: User: V201624468
+[2017.04.18-23.17.50:204][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.18-23.17.50:204][  0]LogInit: High frequency timer resolution =3.515644 MHz
+[2017.04.18-23.17.50:204][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.18-23.17.50:204][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.18-23.17.50:204][  0]LogMemory: Process Physical Memory: 259.22 MB used, 259.22 MB peak
+[2017.04.18-23.17.50:204][  0]LogMemory: Process Virtual Memory: 260.29 MB used, 260.29 MB peak
+[2017.04.18-23.17.50:204][  0]LogMemory: Physical Memory: 4350.45 MB used, 16298.88 MB total
+[2017.04.18-23.17.50:204][  0]LogMemory: Virtual Memory: 649.27 MB used, 134217728.00 MB total
+[2017.04.18-23.17.50:279][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2017.04.18-23.17.52:297][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.18-23.17.52:318][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R9 270' (Feature Level 11_0)
+[2017.04.18-23.17.52:318][  0]LogD3D11RHI:       2030/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.04.18-23.17.52:333][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.04.18-23.17.52:333][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.18-23.17.52:337][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.18-23.17.52:337][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.18-23.17.52:337][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.18-23.17.52:342][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.18-23.17.52:342][  0]LogD3D11RHI:     GPU DeviceId: 0x6811 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.18-23.17.52:342][  0]LogWindows: EnumDisplayDevices:
+[2017.04.18-23.17.52:342][  0]LogWindows:    0. 'AMD Radeon(TM) R9 270' (P:1 D:1)
+[2017.04.18-23.17.52:343][  0]LogWindows:    1. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.04.18-23.17.52:343][  0]LogWindows:    2. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.04.18-23.17.52:343][  0]LogWindows:    3. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.04.18-23.17.52:344][  0]LogWindows:    4. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.04.18-23.17.52:344][  0]LogWindows:    5. 'AMD Radeon(TM) R9 270' (P:0 D:0)
+[2017.04.18-23.17.52:344][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.18-23.17.52:345][  0]LogWindows:    7. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.18-23.17.52:345][  0]LogWindows:    8. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.18-23.17.52:345][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.04.18-23.17.52:345][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R9 270
+[2017.04.18-23.17.52:345][  0]LogD3D11RHI:   Driver Version: Crimson 15.11 (internal:15.301.1701.0, unified:15.301.1701.0)
+[2017.04.18-23.17.52:345][  0]LogD3D11RHI:      Driver Date: 1-13-2016
+[2017.04.18-23.17.52:345][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.18-23.17.52:354][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.18-23.17.52:370][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.04.18-23.17.52:371][  0]LogShaderCompilers: Guid format shader working directory is -62 characters bigger than the processId version (F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Intermediate/Shaders/WorkingDirectory/7916/).
+[2017.04.18-23.17.52:371][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/V20162~1/AppData/Local/Temp/UnrealShaderWorkingDir/9878853D460972162191279192A7B4B2/'.
+[2017.04.18-23.17.52:371][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.18-23.17.53:670][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.18-23.17.53:676][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.18-23.17.53:683][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.18-23.17.53:690][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.18-23.17.53:696][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.18-23.17.53:710][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.18-23.17.53:715][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.18-23.17.53:721][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.18-23.17.53:726][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.18-23.17.53:731][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.18-23.17.53:736][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.18-23.17.53:747][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.18-23.17.53:747][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.18-23.17.53:748][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.18-23.17.53:776][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.18-23.17.53:781][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.18-23.17.53:787][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.18-23.17.53:794][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.18-23.17.53:799][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.18-23.17.53:811][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.18-23.17.53:811][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.18-23.17.53:890][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.18-23.17.54:528][  0]LogDerivedDataCache: Loaded boot cache 0.64s 62MB C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.04.18-23.17.54:528][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.04.18-23.17.54:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.18-23.17.54:529][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.18-23.17.54:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.18-23.17.54:529][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.18-23.17.54:574][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.18-23.17.54:586][  0]LogDerivedDataCache: Using Local data cache path C:/Users/v201624468/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.18-23.17.54:827][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.18-23.17.54:829][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.18-23.17.54:932][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.04.18-23.17.54:932][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.18-23.17.54:932][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.04.18-23.17.55:002][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.18-23.17.55:320][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: war_torn_lands, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1144901164
+[2017.04.18-23.17.55:357][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.04.18-23.17.55:936][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.577185 seconds
+[2017.04.18-23.17.55:951][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.04.18-23.17.55:951][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2017.04.18-23.17.55:952][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.18-23.17.55:970][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.18-23.17.56:279][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.18-23.17.56:279][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.18-23.18.18:886][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.18-23.18.18:907][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.18-23.18.19:267][  0]SourceControl: Info Source control is disabled
+[2017.04.18-23.18.19:366][  0]SourceControl: Info Source control is disabled
+[2017.04.18-23.18.19:375][  0]SourceControl: Info Source control is disabled
+[2017.04.18-23.18.19:384][  0]SourceControl: Info Source control is disabled
+[2017.04.18-23.18.20:279][  0]LogEngine: Initializing Engine...
+[2017.04.18-23.18.20:279][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.18-23.18.20:394][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.18-23.18.20:402][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.18-23.18.20:429][  0]LogInit: FAudioDevice initialized.
+[2017.04.18-23.18.20:456][  0]LogDerivedDataCache: Saved boot cache 0.03s 62MB C:/Users/v201624468/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.04.18-23.18.20:461][  0]LogInit: Texture streaming: Enabled
+[2017.04.18-23.18.20:482][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.18-23.18.20:521][  0]LogInit: Transaction tracking system initialized
+[2017.04.18-23.18.20:540][  0]BlueprintLog: New page: Editor Load
+[2017.04.18-23.18.20:633][  0]LocalizationService: Info Localization service is disabled
+[2017.04.18-23.18.21:662][  0]LogConsoleResponse:Display: 
+[2017.04.18-23.18.23:416][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.18-23.18.23:416][  0]LogCook:Display: Mobile HDR setting 0
+[2017.04.18-23.18.23:986][  0]LogFileCache: Scanning file cache for directory 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/' took 0.02s
+[2017.04.18-23.18.23:986][  0]SourceControl: Info Source control is disabled
+[2017.04.18-23.18.24:056][  0]LightingResults: New page: Lighting Build
+[2017.04.18-23.18.24:059][  0]MapCheck: New page: Map Check
+[2017.04.18-23.18.24:059][  0]LightingResults: New page: Lighting Build
+[2017.04.18-23.18.25:550][  0]LogAIModule: Creating AISystem for world Menu_WTL
+[2017.04.18-23.18.25:552][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.18-23.18.25:553][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.18-23.18.25:600][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.832ms to complete.
+[2017.04.18-23.18.25:600][  0]LogFileHelpers: Loading map 'Menu_WTL' took 1.614
+[2017.04.18-23.18.25:700][  0]LogCollectionManager: Loaded 0 collections in 0.001240 seconds
+[2017.04.18-23.18.25:738][  0]LogFileCache: Scanning file cache for directory 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Collections/' took 0.01s
+[2017.04.18-23.18.25:738][  0]LogFileCache: Scanning file cache for directory 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/Developers/V201624468/Collections/' took 0.01s
+[2017.04.18-23.18.25:738][  0]LogFileCache: Scanning file cache for directory 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/Collections/' took 0.01s
+[2017.04.18-23.18.25:738][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.18-23.18.25:745][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2141 classes and 415 folders.
+[2017.04.18-23.18.25:748][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.18-23.18.25:748][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.18-23.18.25:749][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2017.04.18-23.18.25:752][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.04.18-23.18.26:702][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.04.18-23.18.26:711][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.04.18-23.18.26:812][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.18-23.18.26:819][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.18-23.18.26:847][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.18-23.18.26:848][  0]LogLoad: (Engine Initialization) Total time: 86.27 seconds
+[2017.04.18-23.18.26:848][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.23 seconds
+[2017.04.18-23.18.26:848][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.18-23.18.26:848][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.18-23.18.26:857][  0]LogOcInput: OculusInput pre-init called
+[2017.04.18-23.18.26:890][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.18-23.18.27:136][  0]LogRenderer: Reallocating scene render targets to support 776x448 (Frame:2).
+[2017.04.18-23.18.27:329][  2]LogAssetRegistry: Asset discovery search completed in 31.9953 seconds
+[2017.04.18-23.18.27:329][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.04.18-23.18.27:329][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.04.18-23.18.43:732][934]LogSavePackage: Save=50.17ms
+[2017.04.18-23.18.43:733][934]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL6DF2C73C47DF6D8B267D07B3D432B8A7.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.18-23.18.43:734][934]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.18-23.18.43:739][934]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.18-23.21.16:548][575]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.04.18-23.22.35:843][896]LogSavePackage: Save=2.05ms
+[2017.04.18-23.22.35:843][896]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/DataTable_Bomb_DataB5DD05D64AA4E88A596E5E9A4173B0F9.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/DataTables/DataTable_Bomb_Data.uasset'
+[2017.04.18-23.22.35:847][896]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/DataTables/DataTable_Bomb_Data.uasset
+[2017.04.18-23.22.58:841][474]BlueprintLog: New page: Compile GameMode_WTL
+[2017.04.18-23.23.03:426][695]LogSavePackage: Save=68.63ms
+[2017.04.18-23.23.03:426][695]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL1D8C2E3045EF78EB7878839F0AAC4298.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.18-23.23.03:427][695]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.18-23.23.03:430][695]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.18-23.23.40:230][408]BlueprintLog: New page: Compile GameMode_WTL
+[2017.04.18-23.23.51:384][514]LogSavePackage: Save=104.15ms
+[2017.04.18-23.23.51:384][514]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/GameMode_WTL6EEDC4974D4CA8C5F79385B487B493BD.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/GameMode_WTL.uasset'
+[2017.04.18-23.23.51:387][514]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/GameMode_WTL.uasset
+[2017.04.18-23.23.51:510][514]LogSavePackage: Save=65.55ms
+[2017.04.18-23.23.51:510][514]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL3FDEE4D541A05C202B874096F748AB79.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.18-23.23.51:512][514]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.18-23.23.51:514][514]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.18-23.24.40:582][149]LogSavePackage: Save=68.92ms
+[2017.04.18-23.24.40:582][149]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL35B41A3F4F34EA7DF44CA4B3A53427F2.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.18-23.24.40:583][149]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.18-23.24.40:586][149]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.18-23.27.50:633][ 24]LogTexture:Display: Building textures: BlueprintInterface_64x (BGRA8)
+[2017.04.18-23.30.55:333][432]LogSavePackage: Save=75.67ms
+[2017.04.18-23.30.55:333][432]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL4AB994984F7E56D7FEF9E690DB483C17.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.18-23.30.55:334][432]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.18-23.30.55:336][432]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.18-23.31.35:403][921]BlueprintLog: New page: Compile WTL_HUD
+[2017.04.18-23.31.40:518][125]LogSavePackage: Save=101.80ms
+[2017.04.18-23.31.40:519][125]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_HUDAE1F6AF9430A7EF2F2BB00952E04AC4C.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset'
+[2017.04.18-23.31.40:522][125]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset
+[2017.04.18-23.31.40:649][125]LogSavePackage: Save=68.05ms
+[2017.04.18-23.31.40:649][125]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL1D243EBF4E55F43505E14F9728723027.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.18-23.31.40:650][125]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.18-23.31.40:676][125]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.18-23.32.36:448][508]LogAIModule: Creating AISystem for world Grasslands_Lvl_1_WTL
+[2017.04.18-23.32.36:699][508]LightingResults: New page: Lighting Build
+[2017.04.18-23.32.36:699][508]LoadErrors: New page: Loading map: Grasslands_Lvl_1_WTL.umap
+[2017.04.18-23.32.36:700][508]MapCheck: New page: Map Check
+[2017.04.18-23.32.36:700][508]LightingResults: New page: Lighting Build
+[2017.04.18-23.32.36:958][508]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.18-23.32.37:006][508]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.18-23.32.37:058][508]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.087ms to complete.
+[2017.04.18-23.32.37:058][508]LogFileHelpers: Loading map 'Grasslands_Lvl_1_WTL' took 0.360
+[2017.04.18-23.32.40:792][938]LogEditorViewport: Clicking on Actor (LMB): Cannon_C (Cannon)
+[2017.04.18-23.32.44:195][326]LogEditorViewport: Clicking on Actor (LMB): Cannon_C (Cannon2)
+[2017.04.18-23.32.59:656][731]BlueprintLog: New page: Compile WTL_HUD
+[2017.04.18-23.33.03:747][820]LogSavePackage: Save=76.26ms
+[2017.04.18-23.33.03:747][820]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_HUD2E0E24124C99CA2A29AE02BF647DC106.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset'
+[2017.04.18-23.33.03:749][820]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset
+[2017.04.18-23.33.04:193][820]LogSavePackage: Save=333.72ms
+[2017.04.18-23.33.04:193][820]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCGrasslands_Lvl_1_WTL2AE9130448FAD75492BDA2986CABF3DE.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCGrasslands_Lvl_1_WTL.umap'
+[2017.04.18-23.33.04:195][820]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCGrasslands_Lvl_1_WTL.umap
+[2017.04.18-23.33.04:197][820]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.18-23.37.09:541][515]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.051 s
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: 
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: Ensure condition failed: TabBeingDraggedPtr.IsValid() [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Runtime\Slate\Private\Framework\Docking\SDockingTabWell.cpp] [Line: 375]
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: 
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: Stack: 
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: USER32.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: USER32.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor.exe
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor.exe
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor.exe
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor.exe
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: UE4Editor.exe
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: KERNEL32.DLL
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: ntdll.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: ntdll.dll
+[2017.04.18-23.37.09:541][515]LogOutputDevice:Error: 
+[2017.04.18-23.37.09:541][515]LogStats:                SubmitErrorReport -  0.000 s
+[2017.04.18-23.37.16:329][515]LogStats:                    SendNewReport -  6.788 s
+[2017.04.18-23.37.16:329][515]LogStats:             FDebug::EnsureFailed -  6.839 s
+[2017.04.18-23.38.06:400][  7]LogSavePackage: Save=2.69ms
+[2017.04.18-23.38.06:400][  7]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/DataTable_Bomb_DataA9A528484B34FBCF519B978B1D563E9E.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/DataTables/DataTable_Bomb_Data.uasset'
+[2017.04.18-23.38.06:404][  7]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/DataTables/DataTable_Bomb_Data.uasset
+[2017.04.18-23.38.22:621][651]LogSavePackage: Save=299.81ms
+[2017.04.18-23.38.22:621][651]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCGrasslands_Lvl_1_WTLCE6AAB19492DD86AE909B7AAFF19B320.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCGrasslands_Lvl_1_WTL.umap'
+[2017.04.18-23.38.22:622][651]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCGrasslands_Lvl_1_WTL.umap
+[2017.04.18-23.38.22:625][651]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.18-23.43.40:512][ 78]LogTexture:Display: Building textures: Level_Background (AutoDXT)
+[2017.04.18-23.43.58:957][232]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.18-23.44.27:662][292]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/War_Torn_Lands/Levels/Grasslands_Lvl_1_WTL' took 0.032
+[2017.04.18-23.44.27:668][292]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect] ([1] browsable assets)...
+[2017.04.18-23.44.27:668][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect]
+[2017.04.18-23.44.27:780][292]LogSavePackage: Save=49.87ms
+[2017.04.18-23.44.27:780][292]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_LevelSelect_Auto1FEEABBF54F19EEF17D7877B669B9B962.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect_Auto1.uasset'
+[2017.04.18-23.44.27:783][292]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect_Auto1.uasset
+[2017.04.18-23.44.27:783][292]LogFileHelpers: Auto-saving content packages took 0.118
+[2017.04.18-23.45.54:413][477]LogTexture:Display: Building textures: Button (BGRA8)
+[2017.04.18-23.47.47:132][ 55]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.18-23.52.39:320][184]LogEditorTransaction: Undo Move Widget
+[2017.04.18-23.52.59:220][363]LogEditorTransaction: Undo Move Widget
+[2017.04.18-23.53.04:669][653]LogEditorTransaction: Undo Move Widget
+[2017.04.18-23.53.05:015][669]LogEditorTransaction: Undo Move Widget
+[2017.04.18-23.54.28:981][403]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/War_Torn_Lands/Levels/Grasslands_Lvl_1_WTL' took 0.030
+[2017.04.18-23.54.28:983][403]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect] ([1] browsable assets)...
+[2017.04.18-23.54.28:983][403]OBJ SavePackage: Finished generating thumbnails for package [/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect]
+[2017.04.18-23.54.29:055][403]LogSavePackage: Save=6.35ms
+[2017.04.18-23.54.29:055][403]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_LevelSelect_Auto2D2CBC7BA4EDFC8B1A90C1C8AEDD7B00D.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect_Auto2.uasset'
+[2017.04.18-23.54.29:056][403]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect_Auto2.uasset
+[2017.04.18-23.54.29:056][403]LogFileHelpers: Auto-saving content packages took 0.073
+[2017.04.19-00.10.29:094][385]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-00.11.33:372][194]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/War_Torn_Lands/Levels/Grasslands_Lvl_1_WTL' took 0.027
+[2017.04.19-00.11.33:375][194]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect] ([1] browsable assets)...
+[2017.04.19-00.11.33:375][194]OBJ SavePackage: Finished generating thumbnails for package [/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect]
+[2017.04.19-00.11.33:484][194]LogSavePackage: Save=19.62ms
+[2017.04.19-00.11.33:484][194]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_LevelSelect_Auto36D6976044C447348AFB5DC9CB27A95A5.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect_Auto3.uasset'
+[2017.04.19-00.11.33:485][194]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect_Auto3.uasset
+[2017.04.19-00.11.33:485][194]LogFileHelpers: Auto-saving content packages took 0.111
+[2017.04.19-00.11.53:629][600]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_6.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_5.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_4.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_1.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.WTL_LevelSelect:WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD_C:WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/War_Torn_Lands/Widgets/Menu/WTL_Menu.WTL_Menu:WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_0.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_22.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/War_Torn_Lands/Widgets/Menu/WTL_Menu.WTL_Menu_C:WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_2.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_3.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_WTL_LevelSelect_C_12:WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_17.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_7.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_8.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_9.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_10.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_11.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_12.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_13.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_14.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_15.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_16.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_WTL_LevelSelect_C_28:WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:WTL_HUD_C_8.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_18.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_19.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_20.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_21.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_WTL_LevelSelect_C_45:WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.WTL_LevelSelect_C:WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_24.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_29.WidgetTree.CanvasPanel_0
+[2017.04.19-00.29.53:783][349]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (Overlay /Engine/UMG/Editor/Transient.Lvl1_Overlay).  Import failed...
+[2017.04.19-00.29.53:783][349]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2017.04.19-00.31.37:490][563]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-00.32.41:639][248]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (colored_land_Sprite3)
+[2017.04.19-00.33.33:462][ 93]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (colored_grass_Sprite)
+[2017.04.19-00.35.26:508][785]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-00.36.19:614][369]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/War_Torn_Lands/Levels/Grasslands_Lvl_1_WTL' took 0.036
+[2017.04.19-00.36.19:616][369]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect] ([1] browsable assets)...
+[2017.04.19-00.36.19:616][369]OBJ SavePackage: Finished generating thumbnails for package [/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect]
+[2017.04.19-00.36.19:695][369]LogSavePackage: Save=10.90ms
+[2017.04.19-00.36.19:695][369]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_LevelSelect_Auto478D0532E48B62450CD62DCA77EC450F7.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect_Auto4.uasset'
+[2017.04.19-00.36.19:697][369]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect_Auto4.uasset
+[2017.04.19-00.36.19:697][369]LogFileHelpers: Auto-saving content packages took 0.082
+[2017.04.19-00.37.44:253][525]BlueprintLog: New page: Compile WTL_Menu
+[2017.04.19-00.39.37:340][987]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-00.40.34:686][668]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-00.41.09:045][992]LogSavePackage: Save=21.85ms
+[2017.04.19-00.41.09:045][992]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_LevelSelect71816DCD4D08EF50BB169CB3067EC869.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset'
+[2017.04.19-00.41.09:048][992]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset
+[2017.04.19-00.41.09:125][992]LogSavePackage: Save=32.43ms
+[2017.04.19-00.41.09:125][992]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_MenuDB4724704084F21CE15630A7A6F0F4AD.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/Menu/WTL_Menu.uasset'
+[2017.04.19-00.41.09:128][992]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/Menu/WTL_Menu.uasset
+[2017.04.19-00.41.09:790][ 55]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-00.41.44:214][368]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-00.42.23:462][159]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-00.44.14:352][786]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-00.45.03:785][328]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-00.45.12:783][120]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-00.45.46:675][255]LogSavePackage: Save=17.85ms
+[2017.04.19-00.45.46:675][255]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_LevelSelect91ACF9D34129A20300F34F931D47A4D4.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset'
+[2017.04.19-00.45.46:678][255]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset
+[2017.04.19-00.45.47:781][362]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-00.46.05:131][885]LogSavePackage: Save=298.66ms
+[2017.04.19-00.46.05:131][885]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCGrasslands_Lvl_1_WTL0783E6104B35A47DC305EDBD15037160.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCGrasslands_Lvl_1_WTL.umap'
+[2017.04.19-00.46.05:133][885]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCGrasslands_Lvl_1_WTL.umap
+[2017.04.19-00.46.05:136][885]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-00.46.20:587][529]LogAIModule: Creating AISystem for world Menu_WTL
+[2017.04.19-00.46.20:606][529]LightingResults: New page: Lighting Build
+[2017.04.19-00.46.20:608][529]LoadErrors: New page: Loading map: Menu_WTL.umap
+[2017.04.19-00.46.20:614][529]MapCheck: New page: Map Check
+[2017.04.19-00.46.20:614][529]LightingResults: New page: Lighting Build
+[2017.04.19-00.46.20:642][529]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.19-00.46.20:661][529]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.19-00.46.20:708][529]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.004ms to complete.
+[2017.04.19-00.46.20:708][529]LogFileHelpers: Loading map 'Menu_WTL' took 0.102
+[2017.04.19-00.46.23:525][840]LogSavePackage: Save=75.16ms
+[2017.04.19-00.46.23:525][840]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTLF73B0C0A4F49726946768A94B535B371.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-00.46.23:526][840]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-00.46.23:530][840]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-00.47.13:352][308]LogTexture:Display: Building textures: icon_Editor_Preferences_General_40x (BGRA8)
+[2017.04.19-00.47.13:371][308]LogTexture:Display: Building textures: icon_ShowSkeletalMeshes_40x (BGRA8)
+[2017.04.19-00.47.13:373][308]LogTexture:Display: Building textures: Landscape (BGRA8)
+[2017.04.19-00.47.13:375][308]LogTexture:Display: Building textures: Foliage (BGRA8)
+[2017.04.19-00.47.13:390][308]LogTexture:Display: Building textures: CameraActor_64x (BGRA8)
+[2017.04.19-00.47.13:396][308]LogTexture:Display: Building textures: BlueprintMacroLibrary_64x (BGRA8)
+[2017.04.19-00.47.13:520][308]LogTexture:Display: Building textures: IOS (BGRA8)
+[2017.04.19-00.47.13:533][308]LogTexture:Display: Building textures: android_Icon (BGRA8)
+[2017.04.19-00.47.17:086][697]LogSavePackage: Save=75.27ms
+[2017.04.19-00.47.17:086][697]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL7A65963745149414CB98AA8641263AA7.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-00.47.17:087][697]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-00.47.17:091][697]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-00.48.14:262][782]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-00.48.50:890][779]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-00.48.55:304][977]LogSavePackage: Save=18.43ms
+[2017.04.19-00.48.55:304][977]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_LevelSelect64134BF044538BD7B3B0F79714C34016.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset'
+[2017.04.19-00.48.55:307][977]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset
+[2017.04.19-00.48.55:449][977]LogSavePackage: Save=76.08ms
+[2017.04.19-00.48.55:449][977]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTLBC3C839C4BA7CE075528FFBD959F68E3.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-00.48.55:450][977]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-00.48.55:453][977]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-00.49.14:572][186]LogSavePackage: Save=75.36ms
+[2017.04.19-00.49.14:572][186]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL1A6EC356490459F4854BCFB69298176A.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-00.49.14:573][186]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-00.49.14:577][186]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-00.49.32:634][702]LogAIModule: Creating AISystem for world Grasslands_Lvl_2_WTL
+[2017.04.19-00.49.32:832][702]LightingResults: New page: Lighting Build
+[2017.04.19-00.49.32:833][702]LoadErrors: New page: Loading map: Grasslands_Lvl_2_WTL.umap
+[2017.04.19-00.49.32:833][702]MapCheck: New page: Map Check
+[2017.04.19-00.49.32:833][702]LightingResults: New page: Lighting Build
+[2017.04.19-00.49.33:042][702]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.19-00.49.33:104][702]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.19-00.49.33:190][702]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.222ms to complete.
+[2017.04.19-00.49.33:190][702]LogFileHelpers: Loading map 'Grasslands_Lvl_2_WTL' took 0.358
+[2017.04.19-00.49.40:321][537]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.04.19-00.49.42:857][837]LogLinker:Warning: Can't find file '/Game/War-TornLandsContent/GameMode_WTL'
+[2017.04.19-00.49.42:858][837]LogLinker:Warning: Can't find file '/Game/War-TornLandsContent/GameMode_WTL'
+[2017.04.19-00.49.42:858][837]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/War-TornLandsContent/GameMode_WTL.GameMode_WTL_C'
+[2017.04.19-00.49.42:858][837]LogLinker:Warning: Can't find file '/Game/War-TornLandsContent/GameMode_WTL'
+[2017.04.19-00.49.42:858][837]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/War-TornLandsContent/GameMode_WTL.GameMode_WTL_C'
+[2017.04.19-00.49.44:124][954]LogLinker:Warning: Can't find file '/Game/War-TornLandsContent/GameMode_WTL'
+[2017.04.19-00.49.44:124][954]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/War-TornLandsContent/GameMode_WTL.GameMode_WTL_C'
+[2017.04.19-00.49.44:124][954]LogLinker:Warning: Can't find file '/Game/War-TornLandsContent/GameMode_WTL'
+[2017.04.19-00.49.44:124][954]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/War-TornLandsContent/GameMode_WTL.GameMode_WTL_C'
+[2017.04.19-00.49.44:124][954]LogTextFormatter:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} Class".
+[2017.04.19-00.49.45:487][114]LogTextFormatter:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} parent class".
+[2017.04.19-00.49.45:496][114]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.19-00.49.46:668][245]LogTextFormatter:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} class".
+[2017.04.19-00.49.52:074][809]LogSavePackage: Save=411.40ms
+[2017.04.19-00.49.52:074][809]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCGrasslands_Lvl_2_WTL007751524291FFC16922D1A174277B4B.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCGrasslands_Lvl_2_WTL.umap'
+[2017.04.19-00.49.52:075][809]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCGrasslands_Lvl_2_WTL.umap
+[2017.04.19-00.49.52:079][809]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-00.50.22:358][888]LogAIModule: Creating AISystem for world Menu_WTL
+[2017.04.19-00.50.22:377][888]LightingResults: New page: Lighting Build
+[2017.04.19-00.50.22:378][888]LoadErrors: New page: Loading map: Menu_WTL.umap
+[2017.04.19-00.50.22:383][888]MapCheck: New page: Map Check
+[2017.04.19-00.50.22:383][888]LightingResults: New page: Lighting Build
+[2017.04.19-00.50.22:408][888]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.19-00.50.22:471][888]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.19-00.50.22:571][888]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 98.544ms to complete.
+[2017.04.19-00.50.22:571][888]LogFileHelpers: Loading map 'Menu_WTL' took 0.194
+[2017.04.19-00.50.46:288][933]LogSavePackage: Save=21.96ms
+[2017.04.19-00.50.46:289][933]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_LevelSelect1DD200BF4046F3DDFE7973A9C081E61E.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset'
+[2017.04.19-00.50.46:291][933]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset
+[2017.04.19-00.50.46:434][933]LogSavePackage: Save=74.06ms
+[2017.04.19-00.50.46:434][933]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTLA2FC4793444524AD6B4215877CCDDF9B.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-00.50.46:435][933]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-00.50.46:438][933]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-00.51.51:699][653]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.WTL_LevelSelect:WidgetTree.CanvasPanel_0
+[2017.04.19-00.51.51:699][653]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD_C:WidgetTree.CanvasPanel_0
+[2017.04.19-00.51.51:699][653]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/War_Torn_Lands/Widgets/Menu/WTL_Menu.WTL_Menu:WidgetTree.CanvasPanel_0
+[2017.04.19-00.51.51:699][653]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:WTL_HUD_C_36.WidgetTree.CanvasPanel_0
+[2017.04.19-00.51.51:699][653]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.WTL_LevelSelect_C:WidgetTree.CanvasPanel_0
+[2017.04.19-00.51.51:699][653]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_6.WidgetTree.CanvasPanel_0
+[2017.04.19-00.51.51:699][653]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_8.WidgetTree.CanvasPanel_0
+[2017.04.19-00.51.51:699][653]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_9:WTL_Menu_C_17.WidgetTree.CanvasPanel_0
+[2017.04.19-00.51.51:699][653]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:WTL_LevelSelect_C_7.WidgetTree.CanvasPanel_0
+[2017.04.19-00.51.51:699][653]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/War_Torn_Lands/Widgets/Menu/WTL_Menu.WTL_Menu_C:WidgetTree.CanvasPanel_0
+[2017.04.19-00.51.51:699][653]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/War_Torn_Lands/Widgets/HUD/WTL_HUD.WTL_HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (Overlay /Engine/UMG/Editor/Transient.Lvl1_Overlay).  Import failed...
+[2017.04.19-00.51.51:699][653]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2017.04.19-01.00.23:351][951]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/War_Torn_Lands/Levels/Menu_WTL' took 0.043
+[2017.04.19-01.00.23:354][951]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect] ([1] browsable assets)...
+[2017.04.19-01.00.23:354][951]OBJ SavePackage: Finished generating thumbnails for package [/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect]
+[2017.04.19-01.00.23:451][951]LogSavePackage: Save=33.52ms
+[2017.04.19-01.00.23:451][951]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_LevelSelect_Auto5444120054817D1B344BA539B04992FFE.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect_Auto5.uasset'
+[2017.04.19-01.00.23:452][951]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect_Auto5.uasset
+[2017.04.19-01.00.23:452][951]LogFileHelpers: Auto-saving content packages took 0.099
+[2017.04.19-01.02.27:061][458]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Mobile games devemoplment/War-Torn Lands/Title/Back Button.png)
+[2017.04.19-01.02.27:074][458]LogTexture:Display: Building textures: Back_Button (BGRA8)
+[2017.04.19-01.02.29:179][696]LogSavePackage: Save=18.44ms
+[2017.04.19-01.02.29:179][696]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_LevelSelectB65619D94C01355F99831CABF5FD0C2B.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset'
+[2017.04.19-01.02.29:182][696]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset
+[2017.04.19-01.02.29:193][696]LogSavePackage: Save=2.95ms
+[2017.04.19-01.02.29:193][696]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Back_ButtonC3287DA14F514CAFA4B360860B59E76D.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/Textures/Back_Button.uasset'
+[2017.04.19-01.02.29:195][696]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/Textures/Back_Button.uasset
+[2017.04.19-01.03.36:069][323]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-01.06.58:957][208]LogEditorTransaction: Undo Move Widget
+[2017.04.19-01.07.35:805][351]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-01.08.18:168][391]LogBlueprint:Warning: [Compiler ] Warning Pasted node  K2Node_ComponentBoundEvent_3   conflicted with  K2Node_ComponentBoundEvent_348  and was replaced as a Custom Event!
+[2017.04.19-01.08.18:188][391]BlueprintEditorCompileResults:Warning: Warning Pasted node  K2Node_ComponentBoundEvent_3   conflicted with  K2Node_ComponentBoundEvent_348  and was replaced as a Custom Event!
+[2017.04.19-01.08.43:086][ 68]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-01.08.46:415][201]LogSavePackage: Save=92.96ms
+[2017.04.19-01.08.46:415][201]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_LevelSelect35C022104106E57DDA71318D9E1E14C5.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset'
+[2017.04.19-01.08.46:421][201]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset
+[2017.04.19-01.08.46:590][201]LogSavePackage: Save=78.60ms
+[2017.04.19-01.08.46:590][201]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTLC92BA1314F052FD66FD924A88DFD9679.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-01.08.46:592][201]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-01.08.46:596][201]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-01.09.42:047][974]BlueprintLog: New page: Compile WTL_Menu
+[2017.04.19-01.09.47:360][165]LogSavePackage: Save=16.14ms
+[2017.04.19-01.09.47:360][165]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_Menu929B6E8540271DFFE85EDF8ADE05A607.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/Menu/WTL_Menu.uasset'
+[2017.04.19-01.09.47:363][165]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/Menu/WTL_Menu.uasset
+[2017.04.19-01.09.47:508][165]LogSavePackage: Save=75.96ms
+[2017.04.19-01.09.47:508][165]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTLA370B3E34DCD660448536E873855C646.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-01.09.47:509][165]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-01.09.47:512][165]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-01.09.59:864][400]LogSavePackage: Save=79.58ms
+[2017.04.19-01.09.59:864][400]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL7C9761074B5CEAECDFF6B6B0C64DC1BD.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-01.09.59:865][400]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-01.09.59:870][400]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-01.11.41:146][783]LogSavePackage: Save=78.77ms
+[2017.04.19-01.11.41:147][783]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL0D76522445C769C46AAF1684BA0597DF.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-01.11.41:148][783]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-01.11.41:151][783]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-01.15.43:804][631]BlueprintLog: New page: Compile WTL_HUD
+[2017.04.19-01.16.29:354][673]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/War_Torn_Lands/Levels/Menu_WTL' took 0.030
+[2017.04.19-01.16.29:357][673]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/War_Torn_Lands/Widgets/HUD/WTL_HUD] ([1] browsable assets)...
+[2017.04.19-01.16.29:357][673]OBJ SavePackage: Finished generating thumbnails for package [/Game/War_Torn_Lands/Widgets/HUD/WTL_HUD]
+[2017.04.19-01.16.29:487][673]LogSavePackage: Save=63.65ms
+[2017.04.19-01.16.29:487][673]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_HUD_Auto6BE176A13410D3F1202D86A9E95C3C594.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_HUD_Auto6.uasset'
+[2017.04.19-01.16.29:488][673]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_HUD_Auto6.uasset
+[2017.04.19-01.16.29:488][673]LogFileHelpers: Auto-saving content packages took 0.133
+[2017.04.19-01.27.04:119][374]LogSavePackage: Save=59.44ms
+[2017.04.19-01.27.04:119][374]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_HUD6D006EBA43B925900DE71D9E9CD05413.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset'
+[2017.04.19-01.27.04:121][374]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset
+[2017.04.19-01.27.04:272][374]LogSavePackage: Save=82.86ms
+[2017.04.19-01.27.04:272][374]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL5FB766A846ECD7BD08DE228AFBDFE80C.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-01.27.04:274][374]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-01.27.04:277][374]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-01.31.07:994][377]LogSavePackage: Save=81.28ms
+[2017.04.19-01.31.07:994][377]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL0F809F08457EBD741776248994EB22E6.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-01.31.07:995][377]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-01.31.07:999][377]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-01.32.50:221][772]LogSavePackage: Save=58.35ms
+[2017.04.19-01.32.50:221][772]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_HUD039330054D8EC152541AF6890FE86ED6.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset'
+[2017.04.19-01.32.50:224][772]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset
+[2017.04.19-01.32.50:231][772]LogSavePackage: Save=3.59ms
+[2017.04.19-01.32.50:231][772]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_PauseHUDB817A86747BE58E39AA291B63E11906D.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.uasset'
+[2017.04.19-01.32.50:234][772]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.uasset
+[2017.04.19-01.40.40:090][681]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Mobile games devemoplment/War-Torn Lands/Title/Stone Button.png)
+[2017.04.19-01.40.40:092][681]LogTexture:Display: Building textures: Stone_Button (BGRA8)
+[2017.04.19-01.42.47:128][ 63]BlueprintLog: New page: Compile WTL_HUD
+[2017.04.19-01.43.22:227][761]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.213 s
+[2017.04.19-01.43.22:227][761]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.19-01.43.22:227][761]LogOutputDevice:Error: 
+[2017.04.19-01.43.22:227][761]LogOutputDevice:Error: Ensure condition failed: !PreviewSlateWidgetWeak.IsValid() [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Editor\UMGEditor\Private\WidgetBlueprintEditor.cpp] [Line: 764]
+[2017.04.19-01.43.22:227][761]LogOutputDevice:Error: 
+[2017.04.19-01.43.22:227][761]LogOutputDevice:Error: Stack: 
+[2017.04.19-01.43.22:227][761]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.19-01.43.22:227][761]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.19-01.43.22:227][761]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-UMGEditor.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-UMGEditor.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Kismet.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Kismet.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Engine.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-UnrealEd.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-UMGEditor.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-UMGEditor.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-UMGEditor.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-UMGEditor.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-UMGEditor.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-UMGEditor.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-UMGEditor.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-UMGEditor.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-UMGEditor.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-UMGEditor.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-UMGEditor.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: USER32.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: USER32.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor.exe
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor.exe
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor.exe
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor.exe
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: UE4Editor.exe
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: KERNEL32.DLL
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: ntdll.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: ntdll.dll
+[2017.04.19-01.43.22:228][761]LogOutputDevice:Error: 
+[2017.04.19-01.43.22:229][761]LogStats:                SubmitErrorReport -  0.000 s
+[2017.04.19-01.43.23:404][761]LogStats:                    SendNewReport -  1.175 s
+[2017.04.19-01.43.23:404][761]LogStats:             FDebug::EnsureFailed -  1.390 s
+[2017.04.19-01.43.23:415][761]LogBlueprint:Warning: [Compiler ] Warning Leak Detected!  CanvasPanel_0 ( CanvasPanel ) still has living Slate widgets, it or the parent widget is keeping them in memory.  Release all Slate resources in ReleaseSlateResources().
+[2017.04.19-01.44.38:607][914]LogEditorTransaction: Undo Move Widget
+[2017.04.19-01.44.48:719][482]LogSavePackage: Save=96.05ms
+[2017.04.19-01.44.48:719][482]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_HUD97511A4843B715B6297C8CAF31B2E232.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset'
+[2017.04.19-01.44.48:723][482]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset
+[2017.04.19-01.44.48:832][482]LogSavePackage: Save=24.49ms
+[2017.04.19-01.44.48:832][482]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_PauseHUDF977B92F4C8C295F1646688C95725D5B.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.uasset'
+[2017.04.19-01.44.48:835][482]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.uasset
+[2017.04.19-01.44.48:903][482]LogSavePackage: Save=19.30ms
+[2017.04.19-01.44.48:903][482]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Stone_Button78A0DBDA4BDAD7B6490C158531DAE834.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/Textures/Stone_Button.uasset'
+[2017.04.19-01.44.48:910][482]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/Textures/Stone_Button.uasset
+[2017.04.19-01.44.50:224][569]Cmd: TRANSACTION UNDO
+[2017.04.19-01.44.50:224][569]LogEditorTransaction: Undo Move Widget
+[2017.04.19-01.45.25:498][926]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.19-01.46.19:437][616]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-01.47.24:367][873]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-01.47.26:866][ 16]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-01.48.10:951][842]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-01.49.22:788][717]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-01.49.58:019][104]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/War_Torn_Lands/Levels/Menu_WTL' took 0.027
+[2017.04.19-01.49.58:021][104]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD] ([1] browsable assets)...
+[2017.04.19-01.49.58:021][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD]
+[2017.04.19-01.49.58:089][104]LogSavePackage: Save=13.71ms
+[2017.04.19-01.49.58:089][104]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_PauseHUD_Auto7186543A240F332B06D78CF984B204C4A.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD_Auto7.uasset'
+[2017.04.19-01.49.58:090][104]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD_Auto7.uasset
+[2017.04.19-01.49.58:090][104]LogFileHelpers: Auto-saving content packages took 0.070
+[2017.04.19-01.52.47:824][992]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.19-01.53.08:030][859]BlueprintLog: New page: Compile WTL_HUD
+[2017.04.19-01.53.58:989][515]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-01.54.49:604][339]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-01.55.11:562][827]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-01.55.36:366][689]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-01.56.29:492][495]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-01.56.32:154][686]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-01.56.35:816][ 70]LogSavePackage: Save=49.34ms
+[2017.04.19-01.56.35:816][ 70]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_LevelSelect242D96C84753085FA317FFBF17E7ECE7.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset'
+[2017.04.19-01.56.35:820][ 70]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset
+[2017.04.19-01.56.35:928][ 70]LogSavePackage: Save=63.83ms
+[2017.04.19-01.56.35:928][ 70]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_HUDEF9297DC487E00CE4D54FDB53D27C9E1.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset'
+[2017.04.19-01.56.35:931][ 70]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset
+[2017.04.19-01.56.35:985][ 70]LogSavePackage: Save=11.87ms
+[2017.04.19-01.56.35:985][ 70]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_PauseHUDB4A990714449FAD166DAF9A31291E9B9.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.uasset'
+[2017.04.19-01.56.35:988][ 70]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.uasset
+[2017.04.19-01.59.18:935][443]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-01.59.54:588][731]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-02.00.00:639][240]LogSavePackage: Save=12.41ms
+[2017.04.19-02.00.00:639][240]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_PauseHUDBC90DFA1418CE24EF5EF11BCA5BC6690.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.uasset'
+[2017.04.19-02.00.00:642][240]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.uasset
+[2017.04.19-02.00.00:696][240]LogSavePackage: Save=24.29ms
+[2017.04.19-02.00.00:696][240]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_Menu76593D354BBCBB5F4A5088989D55DB7E.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/Menu/WTL_Menu.uasset'
+[2017.04.19-02.00.00:698][240]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/Menu/WTL_Menu.uasset
+[2017.04.19-02.00.00:909][240]LogSavePackage: Save=158.87ms
+[2017.04.19-02.00.00:910][240]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL82FDDF59414F1B84120CFA97B048754A.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-02.00.00:913][240]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-02.00.00:940][240]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-02.00.36:495][259]LogEditorTransaction: Undo Delete current selection
+[2017.04.19-02.00.38:200][395]LogEditorTransaction: Undo Move Node
+[2017.04.19-02.00.53:711][768]BlueprintLog: New page: Compile WTL_HUD
+[2017.04.19-02.02.35:352][872]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-02.02.38:073][917]LogSavePackage: Save=58.80ms
+[2017.04.19-02.02.38:073][917]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_HUD8BEADF124F70C1C9E3EECF8D32274869.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset'
+[2017.04.19-02.02.38:076][917]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset
+[2017.04.19-02.02.38:116][917]LogSavePackage: Save=13.55ms
+[2017.04.19-02.02.38:116][917]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_PauseHUD00171BF345E6B4C6EAEAB7A5441283F7.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.uasset'
+[2017.04.19-02.02.38:119][917]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.uasset
+[2017.04.19-02.02.38:254][917]LogSavePackage: Save=81.50ms
+[2017.04.19-02.02.38:254][917]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL1FF701174EF4593EDC9940A8EF053097.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-02.02.38:255][917]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-02.02.38:258][917]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-02.05.53:815][987]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-02.05.53:821][987]LogBlueprint:Warning: [Compiler WTL_PauseHUD] Warning Variable HUD_ref is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2017.04.19-02.05.53:839][987]LogBlueprint:Error: [Compiler WTL_PauseHUD] Error The type of  Object  is undetermined.  Connect something to  K2Node_DynamicCast_1  to imply a specific type.
+[2017.04.19-02.05.53:846][987]LogBlueprint:Error: [Compiler WTL_PauseHUD] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2017.04.19-02.05.54:614][987]BlueprintEditorCompileResults:Warning: Warning Variable HUD_ref is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2017.04.19-02.05.54:614][987]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  K2Node_DynamicCast_1  to imply a specific type.
+[2017.04.19-02.05.54:614][987]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2017.04.19-02.05.54:614][987]LogBlueprint:Warning: [Compiler WTL_PauseHUD] Warning [0134.10] Compile of WTL_PauseHUD failed. 2 Fatal Issue(s) 1 Warning(s) [in 799 ms] (/Game/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.WTL_PauseHUD)
+[2017.04.19-02.06.02:051][770]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-02.06.02:058][770]LogBlueprint:Warning: [Compiler WTL_PauseHUD] Warning Variable HUD_ref is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2017.04.19-02.06.02:150][770]BlueprintEditorCompileResults:Warning: Warning Variable HUD_ref is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2017.04.19-02.06.02:150][770]LogBlueprint:Warning: [Compiler WTL_PauseHUD] Warning [0141.63] Compile of WTL_PauseHUD successful, but with 1 Warning(s) [in 98 ms] (/Game/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.WTL_PauseHUD)
+[2017.04.19-02.06.08:138][399]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-02.06.17:129][241]BlueprintLog: New page: Compile WTL_HUD
+[2017.04.19-02.06.36:317][176]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-02.06.44:049][771]LogSavePackage: Save=61.36ms
+[2017.04.19-02.06.44:049][771]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_HUDA609902E449418A5CA90C0941A66EBB0.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset'
+[2017.04.19-02.06.44:051][771]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset
+[2017.04.19-02.06.44:092][771]LogSavePackage: Save=14.05ms
+[2017.04.19-02.06.44:092][771]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_PauseHUD199E8F494A4AA2852B1CAABFC16B950D.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.uasset'
+[2017.04.19-02.06.44:094][771]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.uasset
+[2017.04.19-02.06.44:235][771]LogSavePackage: Save=80.61ms
+[2017.04.19-02.06.44:235][771]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL0653FE0B4DD4F93F34B57A83FA41A10B.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-02.06.44:236][771]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-02.06.44:240][771]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-02.08.44:026][347]LogSavePackage: Save=82.83ms
+[2017.04.19-02.08.44:026][347]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTLEFC12AC545921DAFB38FB6A713AFD054.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-02.08.44:027][347]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-02.08.44:031][347]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-02.11.16:807][ 83]BlueprintLog: New page: Compile WTL_HUD
+[2017.04.19-02.11.18:783][213]LogSavePackage: Save=83.99ms
+[2017.04.19-02.11.18:783][213]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_HUDACCCE22F4F1CE41D20F7BB99A0559E2D.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset'
+[2017.04.19-02.11.18:786][213]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset
+[2017.04.19-02.11.23:738][699]LogSavePackage: Save=80.82ms
+[2017.04.19-02.11.23:738][699]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL0CFB25F242D52CB0804910853C42B547.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-02.11.23:739][699]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-02.11.23:743][699]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-02.12.41:685][350]BlueprintLog: New page: Compile WTL_HUD
+[2017.04.19-02.12.47:873][882]BlueprintLog: New page: Compile WTL_HUD
+[2017.04.19-02.12.50:447][948]LogSavePackage: Save=60.30ms
+[2017.04.19-02.12.50:447][948]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_HUD5D5791AB4D889561F431C8A597AFCA1F.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset'
+[2017.04.19-02.12.50:451][948]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_HUD.uasset
+[2017.04.19-02.12.50:590][948]LogSavePackage: Save=83.64ms
+[2017.04.19-02.12.50:590][948]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTLC37CFD4E4F109BFD7989589FB970610F.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-02.12.50:607][948]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-02.12.50:611][948]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-02.14.10:824][269]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-02.14.24:102][767]BlueprintLog: New page: Compile WTL_PauseHUD
+[2017.04.19-02.14.27:609][953]LogSavePackage: Save=16.18ms
+[2017.04.19-02.14.27:609][953]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_PauseHUDFB801C3847D00531FA4C7F99E470A2F6.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.uasset'
+[2017.04.19-02.14.27:612][953]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_PauseHUD.uasset
+[2017.04.19-02.14.27:748][953]LogSavePackage: Save=83.90ms
+[2017.04.19-02.14.27:748][953]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL9EDEB15A437536F8A5CB3EB746C0DB7C.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-02.14.27:750][953]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-02.14.27:754][953]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-02.17.06:729][498]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/War_Torn_Lands/Levels/Menu_WTL' took 0.044
+[2017.04.19-02.17.06:731][498]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/War_Torn_Lands/Widgets/Menu/WTL_Menu] ([1] browsable assets)...
+[2017.04.19-02.17.06:731][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/War_Torn_Lands/Widgets/Menu/WTL_Menu]
+[2017.04.19-02.17.06:790][498]LogSavePackage: Save=17.08ms
+[2017.04.19-02.17.06:790][498]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_Menu_Auto8BB412F50411930370A1657AA0FA2BA96.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/Menu/WTL_Menu_Auto8.uasset'
+[2017.04.19-02.17.06:791][498]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/Menu/WTL_Menu_Auto8.uasset
+[2017.04.19-02.17.06:791][498]LogFileHelpers: Auto-saving content packages took 0.061
+[2017.04.19-02.22.45:613][592]BlueprintLog: New page: Compile WTL_Menu
+[2017.04.19-02.25.03:400][638]BlueprintLog: New page: Compile WTL_Menu
+[2017.04.19-02.25.09:678][ 95]LogSavePackage: Save=28.17ms
+[2017.04.19-02.25.09:678][ 95]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_MenuB923D0214D698E6AFD2F3CB7111F818E.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/Menu/WTL_Menu.uasset'
+[2017.04.19-02.25.09:680][ 95]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/Menu/WTL_Menu.uasset
+[2017.04.19-02.25.09:818][ 95]LogSavePackage: Save=83.18ms
+[2017.04.19-02.25.09:818][ 95]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/UEDPCMenu_WTL5889D93F448C6D3506FA6F9B6669EDA1.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap'
+[2017.04.19-02.25.09:820][ 95]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Levels/UEDPCMenu_WTL.umap
+[2017.04.19-02.25.09:823][ 95]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.19-02.28.51:100][835]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-02.29.32:636][507]Cmd: TRANSACTION UNDO
+[2017.04.19-02.29.32:636][507]LogEditorTransaction: Undo Set Float Key Value
+[2017.04.19-02.32.15:539][196]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-02.34.02:928][257]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/War_Torn_Lands/Levels/Menu_WTL' took 0.051
+[2017.04.19-02.34.02:931][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect] ([1] browsable assets)...
+[2017.04.19-02.34.02:931][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect]
+[2017.04.19-02.34.03:074][257]LogSavePackage: Save=96.16ms
+[2017.04.19-02.34.03:074][257]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_LevelSelect_Auto99EC7EF924142BB0540061495AE8A4D6C.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect_Auto9.uasset'
+[2017.04.19-02.34.03:075][257]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect_Auto9.uasset
+[2017.04.19-02.34.03:076][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/War_Torn_Lands/Widgets/Menu/WTL_Menu] ([1] browsable assets)...
+[2017.04.19-02.34.03:076][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/War_Torn_Lands/Widgets/Menu/WTL_Menu]
+[2017.04.19-02.34.03:123][257]LogSavePackage: Save=20.52ms
+[2017.04.19-02.34.03:123][257]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_Menu_Auto929B304844C9E5948E27D27979E6D675C.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/Menu/WTL_Menu_Auto9.uasset'
+[2017.04.19-02.34.03:124][257]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Autosaves/Game/War_Torn_Lands/Widgets/Menu/WTL_Menu_Auto9.uasset
+[2017.04.19-02.34.03:124][257]LogFileHelpers: Auto-saving content packages took 0.195
+[2017.04.19-02.34.53:565][693]LogEditorTransaction: Undo Delete Node
+[2017.04.19-02.37.16:263][166]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-02.37.18:171][226]LogSavePackage: Save=24.73ms
+[2017.04.19-02.37.18:171][226]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_LevelSelect648535A544DCE1EF870528B2969DEF61.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset'
+[2017.04.19-02.37.18:174][226]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/HUD/WTL_LevelSelect.uasset
+[2017.04.19-02.37.18:220][226]LogSavePackage: Save=19.91ms
+[2017.04.19-02.37.18:220][226]LogSavePackage: Moving 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/WTL_Menu0C999BED4B092E5D1B565C874F975149.tmp' to 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/Menu/WTL_Menu.uasset'
+[2017.04.19-02.37.18:223][226]LogSavePackage:Display: Finished SavePackage F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/War_Torn_Lands/Widgets/Menu/WTL_Menu.uasset
+[2017.04.19-02.37.29:055][885]BlueprintLog: New page: Compile WTL_LevelSelect
+[2017.04.19-02.37.33:877][317]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.19-02.37.34:086][318]Cmd: QUIT_EDITOR
+[2017.04.19-02.37.34:145][318]LogExit: Preparing to exit.
+[2017.04.19-02.37.34:770][318]LogExit: Editor shut down
+[2017.04.19-02.37.34:771][318]LogExit: Transaction tracking system shut down
+[2017.04.19-02.37.34:913][318]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.19-02.37.34:913][318]LogExit: Object subsystem successfully closed.
+[2017.04.19-02.37.34:925][318]LogD3D11RHI: Shutdown
+[2017.04.19-02.37.34:925][318]LogD3D11RHI: CleanupD3DDevice
+[2017.04.19-02.37.35:026][318]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.19-02.37.35:040][318]LogModuleManager: Shutting down and abandoning module TextureEditor (238)
+[2017.04.19-02.37.35:040][318]LogModuleManager: Shutting down and abandoning module SequencerWidgets (237)
+[2017.04.19-02.37.35:040][318]LogModuleManager: Shutting down and abandoning module DataTableEditor (236)
+[2017.04.19-02.37.35:040][318]LogModuleManager: Shutting down and abandoning module BlueprintGraph (235)
+[2017.04.19-02.37.35:040][318]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (234)
+[2017.04.19-02.37.35:040][318]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
+[2017.04.19-02.37.35:040][318]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
+[2017.04.19-02.37.35:040][318]LogModuleManager: Shutting down and abandoning module SceneOutliner (231)
+[2017.04.19-02.37.35:040][318]LogModuleManager: Shutting down and abandoning module WidgetCarousel (230)
+[2017.04.19-02.37.35:040][318]LogModuleManager: Shutting down and abandoning module AddContentDialog (229)
+[2017.04.19-02.37.35:040][318]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.13/FeaturePacks/' was aborted.
+[2017.04.19-02.37.35:043][318]LogModuleManager: Shutting down and abandoning module GameplayTags (228)
+[2017.04.19-02.37.35:043][318]LogModuleManager: Shutting down and abandoning module EditorWidgets (227)
+[2017.04.19-02.37.35:043][318]LogModuleManager: Shutting down and abandoning module CollectionManager (226)
+[2017.04.19-02.37.35:043][318]LogDirectoryWatcher: A directory notification for 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/Collections/' was aborted.
+[2017.04.19-02.37.35:043][318]LogDirectoryWatcher: A directory notification for 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/Developers/V201624468/Collections/' was aborted.
+[2017.04.19-02.37.35:043][318]LogDirectoryWatcher: A directory notification for 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Saved/Collections/' was aborted.
+[2017.04.19-02.37.35:044][318]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
+[2017.04.19-02.37.35:044][318]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
+[2017.04.19-02.37.35:044][318]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
+[2017.04.19-02.37.35:044][318]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
+[2017.04.19-02.37.35:044][318]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
+[2017.04.19-02.37.35:044][318]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
+[2017.04.19-02.37.35:044][318]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
+[2017.04.19-02.37.35:044][318]LogModuleManager: Shutting down and abandoning module BspMode (218)
+[2017.04.19-02.37.35:044][318]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
+[2017.04.19-02.37.35:044][318]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
+[2017.04.19-02.37.35:044][318]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
+[2017.04.19-02.37.35:044][318]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
+[2017.04.19-02.37.35:044][318]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module Media (206)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module SessionServices (201)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
+[2017.04.19-02.37.35:045][318]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
+[2017.04.19-02.37.35:046][318]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
+[2017.04.19-02.37.35:046][318]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
+[2017.04.19-02.37.35:046][318]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
+[2017.04.19-02.37.35:046][318]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
+[2017.04.19-02.37.35:046][318]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
+[2017.04.19-02.37.35:046][318]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
+[2017.04.19-02.37.35:603][318]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
+[2017.04.19-02.37.35:603][318]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
+[2017.04.19-02.37.35:603][318]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
+[2017.04.19-02.37.35:603][318]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
+[2017.04.19-02.37.35:603][318]LogModuleManager: Shutting down and abandoning module MergeActors (187)
+[2017.04.19-02.37.35:603][318]LogModuleManager: Shutting down and abandoning module SizeMap (186)
+[2017.04.19-02.37.35:603][318]LogModuleManager: Shutting down and abandoning module TreeMap (185)
+[2017.04.19-02.37.35:603][318]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
+[2017.04.19-02.37.35:603][318]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
+[2017.04.19-02.37.35:603][318]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
+[2017.04.19-02.37.35:603][318]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
+[2017.04.19-02.37.35:604][318]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
+[2017.04.19-02.37.35:604][318]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
+[2017.04.19-02.37.35:604][318]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
+[2017.04.19-02.37.35:604][318]LogModuleManager: Shutting down and abandoning module XmlParser (177)
+[2017.04.19-02.37.35:604][318]LogModuleManager: Shutting down and abandoning module Blutility (176)
+[2017.04.19-02.37.35:604][318]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
+[2017.04.19-02.37.35:604][318]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
+[2017.04.19-02.37.35:604][318]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
+[2017.04.19-02.37.35:605][318]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
+[2017.04.19-02.37.35:605][318]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
+[2017.04.19-02.37.35:605][318]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
+[2017.04.19-02.37.35:605][318]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
+[2017.04.19-02.37.35:605][318]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
+[2017.04.19-02.37.35:605][318]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
+[2017.04.19-02.37.35:605][318]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
+[2017.04.19-02.37.35:658][318]LogModuleManager: Shutting down and abandoning module AutomationController (165)
+[2017.04.19-02.37.35:658][318]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
+[2017.04.19-02.37.35:658][318]LogModuleManager: Shutting down and abandoning module Layers (163)
+[2017.04.19-02.37.35:658][318]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
+[2017.04.19-02.37.35:658][318]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
+[2017.04.19-02.37.35:658][318]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
+[2017.04.19-02.37.35:659][318]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
+[2017.04.19-02.37.35:659][318]LogModuleManager: Shutting down and abandoning module Persona (158)
+[2017.04.19-02.37.35:659][318]LogModuleManager: Shutting down and abandoning module Kismet (157)
+[2017.04.19-02.37.35:688][318]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
+[2017.04.19-02.37.35:688][318]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
+[2017.04.19-02.37.35:692][318]LogModuleManager: Shutting down and abandoning module Toolbox (154)
+[2017.04.19-02.37.35:692][318]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
+[2017.04.19-02.37.35:692][318]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
+[2017.04.19-02.37.35:692][318]LogModuleManager: Shutting down and abandoning module OutputLog (151)
+[2017.04.19-02.37.35:692][318]LogModuleManager: Shutting down and abandoning module GammaUI (150)
+[2017.04.19-02.37.35:692][318]LogModuleManager: Shutting down and abandoning module Documentation (149)
+[2017.04.19-02.37.35:693][318]LogModuleManager: Shutting down and abandoning module Niagara (148)
+[2017.04.19-02.37.35:693][318]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
+[2017.04.19-02.37.35:693][318]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
+[2017.04.19-02.37.35:693][318]LogModuleManager: Shutting down and abandoning module PortalServices (145)
+[2017.04.19-02.37.35:693][318]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
+[2017.04.19-02.37.35:693][318]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
+[2017.04.19-02.37.35:693][318]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
+[2017.04.19-02.37.35:693][318]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
+[2017.04.19-02.37.35:693][318]LogModuleManager: Shutting down and abandoning module AIModule (140)
+[2017.04.19-02.37.35:693][318]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module SteamVR (135)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module OculusInput (131)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module CableComponent (129)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
+[2017.04.19-02.37.35:727][318]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
+[2017.04.19-02.37.35:728][318]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2017.04.19-02.37.35:728][318]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2017.04.19-02.37.35:728][318]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2017.04.19-02.37.35:728][318]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2017.04.19-02.37.35:728][318]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
+[2017.04.19-02.37.35:728][318]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2017.04.19-02.37.35:728][318]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2017.04.19-02.37.35:728][318]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2017.04.19-02.37.35:728][318]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2017.04.19-02.37.35:728][318]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2017.04.19-02.37.35:728][318]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2017.04.19-02.37.35:728][318]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2017.04.19-02.37.35:728][318]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2017.04.19-02.37.35:728][318]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2017.04.19-02.37.35:729][318]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2017.04.19-02.37.35:729][318]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2017.04.19-02.37.35:729][318]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2017.04.19-02.37.35:729][318]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
+[2017.04.19-02.37.35:729][318]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2017.04.19-02.37.35:729][318]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2017.04.19-02.37.35:730][318]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2017.04.19-02.37.35:730][318]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2017.04.19-02.37.35:732][318]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2017.04.19-02.37.35:735][318]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2017.04.19-02.37.35:735][318]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2017.04.19-02.37.35:836][318]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2017.04.19-02.37.35:936][318]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2017.04.19-02.37.35:936][318]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2017.04.19-02.37.35:936][318]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2017.04.19-02.37.35:936][318]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2017.04.19-02.37.35:936][318]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2017.04.19-02.37.35:936][318]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2017.04.19-02.37.35:936][318]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2017.04.19-02.37.35:936][318]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2017.04.19-02.37.35:937][318]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2017.04.19-02.37.35:937][318]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2017.04.19-02.37.35:937][318]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2017.04.19-02.37.35:937][318]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2017.04.19-02.37.35:937][318]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2017.04.19-02.37.35:937][318]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2017.04.19-02.37.35:937][318]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2017.04.19-02.37.35:937][318]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2017.04.19-02.37.35:937][318]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2017.04.19-02.37.35:937][318]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2017.04.19-02.37.35:937][318]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2017.04.19-02.37.35:937][318]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2017.04.19-02.37.35:937][318]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2017.04.19-02.37.35:937][318]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2017.04.19-02.37.35:946][318]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2017.04.19-02.37.35:946][318]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2017.04.19-02.37.35:946][318]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2017.04.19-02.37.35:946][318]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2017.04.19-02.37.35:946][318]LogModuleManager: Shutting down and abandoning module Core (67)
+[2017.04.19-02.37.35:946][318]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2017.04.19-02.37.35:946][318]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.19-02.37.35:947][318]LogDirectoryWatcher: A directory notification for 'F:/TAFE/Diploma Software Development + Digital and Interactive games/Term1/Unreal/War Torn Lands/War-Torn Lands/Content/' was aborted.
+[2017.04.19-02.37.35:947][318]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.19-02.37.35:949][318]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2017.04.19-02.37.36:294][318]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2017.04.19-02.37.36:294][318]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2017.04.19-02.37.36:294][318]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2017.04.19-02.37.36:294][318]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2017.04.19-02.37.36:303][318]LogDerivedDataCache: Shutdown
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2017.04.19-02.37.36:304][318]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.04.19-02.37.36:305][318]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2017.04.19-02.37.36:306][318]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2017.04.19-02.37.36:306][318]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2017.04.19-02.37.36:306][318]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.04.19-02.37.36:306][318]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.19-02.37.36:306][318]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.04.19-02.37.36:306][318]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.19-02.37.36:306][318]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3AD7E647-45E3-515B-A90F-A197DEB21A60%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=26e91fbd4eeec560bd82839e3fe19b30%7Cf990d63dc7d94edf9e58a18dd6ad3ebc%7Cafb3fe20-b555-4c9e-a7fb-c2a7117f5c28&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.19-02.37.36:333][318]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.04.19-02.37.36:333][318]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.19-02.37.36:333][318]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.19-02.37.36:333][318]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.19-02.37.36:333][318]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.19-02.37.36:340][318]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.19-02.37.36:340][318]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.19-02.37.36:340][318]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.19-02.37.36:340][318]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.19-02.37.36:340][318]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.19-02.37.36:340][318]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.19-02.37.36:340][318]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.19-02.37.36:341][318]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.19-02.37.36:341][318]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.19-02.37.36:341][318]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.19-02.37.36:343][318]LogExit: Exiting.
+[2017.04.19-02.37.36:367][318]Log file closed, 04/19/17 12:37:36
